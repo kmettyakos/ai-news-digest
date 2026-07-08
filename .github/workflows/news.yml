@@ -32,3 +32,8 @@ jobs:
             git add news.json
             git commit -m "Update news.json" || echo "No changes"
             git push
+      - name: Generate AI summary
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python ai_summary.py
