@@ -35,3 +35,9 @@ for i, news in enumerate(all_news, 1):
     print(f"{i}. {news['title']}")
     print(news["link"])
     print()
+    import json
+
+with open("news.json", "w", encoding="utf-8") as f:
+    json.dump(all_news, f, ensure_ascii=False, indent=2)
+
+print("\nMentve: news.json")
