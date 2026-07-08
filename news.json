@@ -1,33 +1,39 @@
 [
   {
+    "title": "America’s cheapest new EV is smaller than a ping-pong table and tops out at 19mph",
+    "source": "The Verge",
+    "language": "en",
+    "link": "https://www.theverge.com/transportation/962753/fiat-topolino-ev-us-price-specs-micromobiilty"
+  },
+  {
+    "title": "Cockroaches will learn to fear my SwitchBot Bot Rechargeable",
+    "source": "The Verge",
+    "language": "en",
+    "link": "https://www.theverge.com/gadgets/962163/switchbot-bot-rechargeable-hands-on-review"
+  },
+  {
+    "title": "If Microsoft sold off Xbox, who would even buy it?",
+    "source": "The Verge",
+    "language": "en",
+    "link": "https://www.theverge.com/games/962837/microsoft-xbox-spin-off-sell-divest-layoffs-asha-sharma"
+  },
+  {
+    "title": "Twelve South’s AirFly Pro is a great travel companion, and it&#8217;s on sale for $40",
+    "source": "The Verge",
+    "language": "en",
+    "link": "https://www.theverge.com/gadgets/962910/twelve-south-airfly-pro-summer-travel-gadgets-deal-sale"
+  },
+  {
     "title": "ChatGPT’s upgraded voice mode is better at shutting up",
     "source": "The Verge",
     "language": "en",
     "link": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live"
   },
   {
-    "title": "This jumping $800 robot camera dog filled me with joy",
-    "source": "The Verge",
+    "title": "Why this CEO thinks video games make better training data than the internet",
+    "source": "TechCrunch",
     "language": "en",
-    "link": "https://www.theverge.com/gadgets/962538/mondo-robotics-beni-robot-dog-preview"
-  },
-  {
-    "title": "The whole Pixel line could get more expensive this year",
-    "source": "The Verge",
-    "language": "en",
-    "link": "https://www.theverge.com/tech/962781/google-pixel-11-lineup-price-increase"
-  },
-  {
-    "title": "Gaming laptops are too expensive right now, but this one’s a good value",
-    "source": "The Verge",
-    "language": "en",
-    "link": "https://www.theverge.com/gadgets/962754/msi-gaming-laptop-ethernet-switch-pc-steam-game-deal-sale"
-  },
-  {
-    "title": "Fi&#8217;s Starlink-enabled pet tracker found my dog when LTE couldn&#8217;t",
-    "source": "The Verge",
-    "language": "en",
-    "link": "https://www.theverge.com/tech/962224/fi-ultra-dog-tracker-starlink-t-satellite-specs-price-release-date"
+    "link": "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/"
   },
   {
     "title": "Meta wants its AI glasses to seem less creepy. Its AI strategy says otherwise.",
@@ -52,12 +58,6 @@
     "source": "TechCrunch",
     "language": "en",
     "link": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/"
-  },
-  {
-    "title": "Another massive data breach exposed millions of driver’s license numbers",
-    "source": "TechCrunch",
-    "language": "en",
-    "link": "https://techcrunch.com/2026/07/08/another-massive-data-breach-exposed-millions-of-drivers-license-numbers/"
   },
   {
     "title": "EmTech AI 2026: The Rise of the AI Platform",
@@ -120,34 +120,34 @@
     "link": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/"
   },
   {
+    "title": "Grok 4.5",
+    "source": "Hacker News",
+    "language": "en",
+    "link": "https://x.ai/news/grok-4-5"
+  },
+  {
+    "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
+    "source": "Hacker News",
+    "language": "en",
+    "link": "https://microsoft.github.io/flint-chart/#/"
+  },
+  {
+    "title": "PlayStation can delete all your digital games after 3 years of inactivity (EU)",
+    "source": "Hacker News",
+    "language": "en",
+    "link": "https://www.flatpanelshd.com/news.php?subaction=showfull&id=1783340582"
+  },
+  {
+    "title": "What Do We Know About the Microplastics Inside Us?",
+    "source": "Hacker News",
+    "language": "en",
+    "link": "https://e360.yale.edu/features/cassandra-rauert-interview"
+  },
+  {
     "title": "GPT‑Live",
     "source": "Hacker News",
     "language": "en",
     "link": "https://openai.com/index/introducing-gpt-live/"
-  },
-  {
-    "title": "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence",
-    "source": "Hacker News",
-    "language": "en",
-    "link": "https://cognition.com/blog/swe-1-7"
-  },
-  {
-    "title": "Biohacker seeking immortality afflicted with incurable 'stomach eating' disease",
-    "source": "Hacker News",
-    "language": "en",
-    "link": "https://www.lifesitenews.com/news/biohacker-seeking-immortality-afflicted-with-incurable-stomach-eating-disease/"
-  },
-  {
-    "title": "Show HN: Kastor – Terraform-style specs for AI agents",
-    "source": "Hacker News",
-    "language": "en",
-    "link": "https://github.com/weirdGuy/kastor"
-  },
-  {
-    "title": "Chatto is now Open Source",
-    "source": "Hacker News",
-    "language": "en",
-    "link": "https://www.hmans.dev/blog/chatto-is-open-source"
   },
   {
     "title": "Nukes in space? Orbital detector could sniff out warheads",
@@ -210,18 +210,6 @@
     "link": "https://www.science.org/content/article/uranus-and-neptune-may-not-be-ice-giants-after-all"
   },
   {
-    "title": "Our fertility window could be extended by making ovaries softer",
-    "source": "New Scientist",
-    "language": "en",
-    "link": "https://www.newscientist.com/article/2533507-our-fertility-window-could-be-extended-by-making-ovaries-softer/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home"
-  },
-  {
-    "title": "Occam’s razor has lost its edge. Can we sharpen our search for truth?",
-    "source": "New Scientist",
-    "language": "en",
-    "link": "https://www.newscientist.com/article/2531862-occams-razor-has-lost-its-edge-can-we-sharpen-our-search-for-truth/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home"
-  },
-  {
     "title": "Why Schrödinger's 1944 classic What Is Life? still feels prescient",
     "source": "New Scientist",
     "language": "en",
@@ -238,6 +226,18 @@
     "source": "New Scientist",
     "language": "en",
     "link": "https://www.newscientist.com/article/2533166-the-allergy-culprit-histamine-also-boosts-our-memory/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home"
+  },
+  {
+    "title": "Salt batteries are about to shake up EVs and grid storage",
+    "source": "New Scientist",
+    "language": "en",
+    "link": "https://www.newscientist.com/article/2532997-salt-batteries-are-about-to-shake-up-evs-and-grid-storage/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home"
+  },
+  {
+    "title": "How extreme heat affects the body – and the best ways to cope",
+    "source": "New Scientist",
+    "language": "en",
+    "link": "https://www.newscientist.com/article/2533216-how-extreme-heat-affects-the-body-and-the-best-ways-to-cope/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home"
   },
   {
     "title": "New weight loss pill beats oral Ozempic in major trial",
@@ -270,6 +270,18 @@
     "link": "https://www.sciencedaily.com/releases/2026/07/260704232642.htm"
   },
   {
+    "title": "Itt már bármi megtörténhet – semmi sem garantálja, hogy Messiék a vb-döntőig mennek",
+    "source": "Telex",
+    "language": "hu",
+    "link": "https://telex.hu/sport/2026/07/08/foci-vb-negyeddonto-erosorrend-franciaorszag-argentina-anglia-spanyolorszag-marokko-norvegia"
+  },
+  {
+    "title": "Elárasztották a Szilícium-völgyet a zombiunikornisok",
+    "source": "Telex",
+    "language": "hu",
+    "link": "https://telex.hu/gazdasag/2026/07/08/startup-szilicium-volgy-kockazati-tokealapok-befektetes-leertekelodes"
+  },
+  {
     "title": "Van beton",
     "source": "Telex",
     "language": "hu",
@@ -288,16 +300,28 @@
     "link": "https://telex.hu/gazdasag/2026/07/08/karman-andras-penzugyminiszterium-koltsegvetes-hiany"
   },
   {
-    "title": "Reagált Pósfai Gábor belügyminiszter Szakács István megafonos propagandista szerda reggeli előállítására",
-    "source": "Telex",
+    "title": "A hétvégén mutatkozik be a Red Bull elképesztő hiperautója",
+    "source": "HVG",
     "language": "hu",
-    "link": "https://telex.hu/belfold/2026/07/08/szakacs-istvan-eloallitas-posfai-gabor-belugyminiszter-reagalt"
+    "link": "https://hvg.hu/cegauto/20260708_a-hetvegen-mutatkozik-be-a-red-bull-elkepeszto-hiperautoja"
   },
   {
-    "title": "Közel 900 kígyó használta ki a tájfun okozta árvizet, és lépett meg Kínában",
-    "source": "Telex",
+    "title": "Németh Balázs szerint a közmédia nem a Fideszt segítette, hanem patrióta volt",
+    "source": "HVG",
     "language": "hu",
-    "link": "https://telex.hu/kulfold/2026/07/08/kozel-900-kigyo-hasznalta-ki-a-tajfun-okozta-arvizet-es-lepett-meg-kinaban"
+    "link": "https://hvg.hu/itthon/20260708_nemeth-balazs-kozmedia-fidesz-patriota"
+  },
+  {
+    "title": "Találtak egy közös pontot a 100 évet élő emberekben, és nem az étrend az",
+    "source": "HVG",
+    "language": "hu",
+    "link": "https://hvg.hu/tudomany/20260708_hosszu-elet-titka-idos-ember-szemelyiseg-viselkedes-pszichologia"
+  },
+  {
+    "title": "A volt budapesti rendőrfőkapitányt a munka alól is felmentik jövő januártól",
+    "source": "HVG",
+    "language": "hu",
+    "link": "https://hvg.hu/itthon/20260708_szijjarto-peter-kilenc-nagykovet-visszahivas"
   },
   {
     "title": "Életfogytiglanra ítélték a német orvost, aki legalább 15 betegét ölte meg",
@@ -306,28 +330,16 @@
     "link": "https://hvg.hu/vilag/20260708_nemetorszag-orvos-gyilkossag-itelet-eletfogytiglani-borton"
   },
   {
-    "title": "Benzinnel lelocsolta és felgyújtotta barátnőjét – 13 év fegyházat kapott",
-    "source": "HVG",
+    "title": "Brazília ellen brillírozott, Anglia ellen eladhatja magát a klub nélkül álló kapus",
+    "source": "24.hu",
     "language": "hu",
-    "link": "https://hvg.hu/itthon/20260708_benzin-felgyujtotta-baratnojet-itelotabla"
+    "link": "https://24.hu/sport/foci/2026/07/08/foci-vb-2026-norveg-valogatott-orjan-nyland/"
   },
   {
-    "title": "„Jó lesz majd, ha börtönben ül az összes” – a Katona Rekviemjében Szirtes Ági szerepét is aktualizálni kellett a Tisza-győzelem után",
-    "source": "HVG",
+    "title": "Megkérdezték Németh Balázst, elfogult volt-e a közmédia eddig – furán válaszolt a fideszes",
+    "source": "24.hu",
     "language": "hu",
-    "link": "https://hvg.hu/360/20260708_hvg-szirtes-agi-szineszno-katona-jozsef-szinhaz-rekviem-interju"
-  },
-  {
-    "title": "Káprázatos képeket adott ki a NASA egy 11 millió fényévre lévő galaxisról",
-    "source": "HVG",
-    "language": "hu",
-    "link": "https://hvg.hu/tudomany/20260708_james-webb-urteleszkop-foto-centaurus-a-galaxis-reszletesseg"
-  },
-  {
-    "title": "Megtalálták a Pakisztán mellett lezuhant repülőgép roncsait",
-    "source": "HVG",
-    "language": "hu",
-    "link": "https://hvg.hu/vilag/20260708_pakisztan-lezuhant-repulogep-roncs"
+    "link": "https://24.hu/belfold/2026/07/08/nemeth-balazs-kozmedia-fidesz-propaganda/"
   },
   {
     "title": "Magyar Péter: Bemutatkoztunk Donald Trumppal, sőt, még gratulált is",
@@ -346,18 +358,6 @@
     "source": "24.hu",
     "language": "hu",
     "link": "https://24.hu/belfold/2026/07/08/szakacs-istvan-terror-rendorseg-belugyminiszterium/"
-  },
-  {
-    "title": "Török Gábor: Magyar Péter távolléte mutatta meg, hogy többféle Tisza van",
-    "source": "24.hu",
-    "language": "hu",
-    "link": "https://24.hu/belfold/2026/07/08/podcast-torokules-torok-gabor-tisza-alkotmanymodositas/"
-  },
-  {
-    "title": "Drámai adat a bezárásokról: továbbra is zuhan a kocsmák száma Magyarországon",
-    "source": "24.hu",
-    "language": "hu",
-    "link": "https://24.hu/belfold/2026/07/08/bezaras-kocsma-cukraszda-vendeglatas-2026/"
   },
   {
     "title": "Trump says ceasefire is 'over' after US and Iran trade strikes",
@@ -450,34 +450,34 @@
     "link": "https://www.theguardian.com/world/2026/jul/04/el-obeid-aid-workers-sudan-war-drone-strikes"
   },
   {
-    "title": "Trump szerint vége az Iránnal kötött megállapodásnak - Száguld az olaj, ütik a tőzsdéket",
-    "source": "Portfolio",
-    "language": "hu",
-    "link": "https://www.portfolio.hu/uzlet/20260708/trump-szerint-vege-az-irannal-kotott-megallapodasnak-szaguld-az-olaj-utik-a-tozsdeket-848240"
-  },
-  {
-    "title": "Megszólalt az államtitkár: gyorsan felszámolnák az alapítványi modellt a tudományos szférában",
-    "source": "Portfolio",
-    "language": "hu",
-    "link": "https://www.portfolio.hu/gazdasag/20260708/megszolalt-az-allamtitkar-gyorsan-felszamolnak-az-alapitvanyi-modellt-a-tudomanyos-szferaban-848448"
-  },
-  {
-    "title": "Megszólalt a válságkezelésért felelős biztos: súlyos következményei vannak a hőhullámnak",
-    "source": "Portfolio",
-    "language": "hu",
-    "link": "https://www.portfolio.hu/global/20260708/megszolalt-a-valsagkezelesert-felelos-biztos-sulyos-kovetkezmenyei-vannak-a-hohullamnak-848450"
-  },
-  {
     "title": "Megszólalt Kármán András, kiderült, mekkora valójában a hiány - Azonnal reagál a forint",
     "source": "Portfolio",
     "language": "hu",
     "link": "https://www.portfolio.hu/deviza/20260708/megszolalt-karman-andras-kiderult-mekkora-valojaban-a-hiany-azonnal-reagal-a-forint-848264"
   },
   {
-    "title": "Kongatja a vészharangot az ENSZ: rengetegen szenvednek, azonnali segítség kell",
+    "title": "Trump szerint vége az Iránnal kötött megállapodásnak - Száguld az olaj, ütik a tőzsdéket",
     "source": "Portfolio",
     "language": "hu",
-    "link": "https://www.portfolio.hu/global/20260708/kongatja-a-veszharangot-az-ensz-rengetegen-szenvednek-azonnali-segitseg-kell-848444"
+    "link": "https://www.portfolio.hu/uzlet/20260708/trump-szerint-vege-az-irannal-kotott-megallapodasnak-szaguld-az-olaj-utik-a-tozsdeket-848240"
+  },
+  {
+    "title": "Kijött a várva várt jegyzőkönyv - Erre figyelnek most a befektetők",
+    "source": "Portfolio",
+    "language": "hu",
+    "link": "https://www.portfolio.hu/befektetes/20260708/kijott-a-varva-vart-jegyzokonyv-erre-figyelnek-most-a-befektetok-848456"
+  },
+  {
+    "title": "Kimondta Trump, mi lesz a közel-keleti konfliktus sorsa",
+    "source": "Portfolio",
+    "language": "hu",
+    "link": "https://www.portfolio.hu/global/20260708/kimondta-trump-mi-lesz-a-kozel-keleti-konfliktus-sorsa-848452"
+  },
+  {
+    "title": "Megszólalt az államtitkár: gyorsan felszámolnák az alapítványi modellt a tudományos szférában",
+    "source": "Portfolio",
+    "language": "hu",
+    "link": "https://www.portfolio.hu/gazdasag/20260708/megszolalt-az-allamtitkar-gyorsan-felszamolnak-az-alapitvanyi-modellt-a-tudomanyos-szferaban-848448"
   },
   {
     "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
