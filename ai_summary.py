@@ -1,17 +1,17 @@
 import json
 import os
-from google import genai
+from openai import OpenAI
 
-# Gemini kliens létrehozása
-client = genai.Client(
-    api_key=os.environ["GEMINI_API_KEY"]
+
+client = OpenAI(
+    api_key=os.environ["OPENAI_API_KEY"]
 )
 
-# Hírek betöltése
+
 with open("news.json", "r", encoding="utf-8") as f:
     news = json.load(f)
 
-# Csak a legfrissebb 60 hírt küldjük az AI-nak
+
 news_text = ""
 
 for item in news[:60]:
@@ -23,6 +23,7 @@ Link: {item.get('link', '')}
 
 """
 
+
 prompt = f"""
 Te egy személyes reggeli hírszerkesztő AI vagy.
 
@@ -31,9 +32,9 @@ Készíts egy 5 perc alatt elolvasható Morning Briefing-et.
 SZABÁLYOK:
 
 - Válaszd ki a 10 legfontosabb hírt.
-- Szűrd ki az ismétlődő híreket.
+- Szűrd ki az ismétlődéseket.
 - Ne használj kattintásvadász híreket.
-- Legyen fókusz:
+- Fókusz:
   - mesterséges intelligencia
   - technológia
   - tudomány
@@ -43,13 +44,9 @@ SZABÁLYOK:
 
 NYELVI SZABÁLY:
 
-- Ha a "Nyelv" mező értéke "hu":
-  → magyarul írj.
-
-- Ha a "Nyelv" mező értéke "en":
-  → angolul írj.
-
-- Ne fordítsd át más nyelvre.
+- Magyar források esetén magyarul írj.
+- Angol források esetén angolul írj.
+- Ne fordítsd át a híreket más nyelvre.
 
 FORMÁTUM:
 
@@ -68,11 +65,13 @@ Miért fontos:
 Forrás:
 (link)
 
+
 A végén:
 
 # 📌 Mai trendek
 
 3-5 pontban írd le a legfontosabb folyamatokat.
+
 
 Hírek:
 
@@ -80,18 +79,28 @@ Hírek:
 """
 
 
-# AI hívás
-response = client.models.generate_content(
-    model="gemini-2.0-flash",
-    contents=prompt
+response = client.chat.completions.create(
+    model="gpt-4.1-mini",
+    messages=[
+        {
+            "role": "system",
+            "content": "You are a professional news editor."
+        },
+        {
+            "role": "user",
+            "content": prompt
+        }
+    ],
+    temperature=0.3
 )
 
-summary = response.text
+
+summary = response.choices[0].message.content
 
 
-# Mentés
 with open("summary.txt", "w", encoding="utf-8") as f:
     f.write(summary)
+
 
 print(summary)
 print("\nMentve: summary.txt")
