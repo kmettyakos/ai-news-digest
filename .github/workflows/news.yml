@@ -2,6 +2,7 @@ name: News collector
 
 on:
   workflow_dispatch:
+
 permissions:
   contents: write
 
@@ -22,18 +23,20 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Run script
+      - name: Run news collector
         run: |
           python main.py
-      - name: Save news.json
-        run: |
-            git config --global user.name "github-actions"
-            git config --global user.email "github-actions@github.com"
-            git add news.json
-            git commit -m "Update news.json" || echo "No changes"
-            git push
+
       - name: Generate AI summary
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           python ai_summary.py
+
+      - name: Save files
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add news.json summary.txt
+          git commit -m "Update news and AI summary" || echo "No changes"
+          git push
