@@ -2,6 +2,8 @@ name: News collector
 
 on:
   workflow_dispatch:
+permissions:
+  contents: write
 
 jobs:
   collect-news:
