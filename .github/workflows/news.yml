@@ -40,3 +40,15 @@ jobs:
           git add news.json summary.txt
           git commit -m "Update news and AI summary" || echo "No changes"
           git push
+        - name: Generate website
+    run: |
+      python generate_html.py
+
+
+      - name: Save website
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add index.html
+          git commit -m "Update website" || echo "No changes"
+          git push
