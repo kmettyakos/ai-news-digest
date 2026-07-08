@@ -1,342 +1,512 @@
 [
   {
     "title": "This jumping $800 robot camera dog filled me with joy",
-    "link": "https://www.theverge.com/gadgets/962538/mondo-robotics-beni-robot-dog-preview"
+    "link": "https://www.theverge.com/gadgets/962538/mondo-robotics-beni-robot-dog-preview",
+    "source": "The Verge",
+    "language": "en"
   },
   {
     "title": "The whole Pixel line could get more expensive this year",
-    "link": "https://www.theverge.com/tech/962781/google-pixel-11-lineup-price-increase"
+    "link": "https://www.theverge.com/tech/962781/google-pixel-11-lineup-price-increase",
+    "source": "The Verge",
+    "language": "en"
   },
   {
     "title": "Gaming laptops are too expensive right now, but this one’s a good value",
-    "link": "https://www.theverge.com/gadgets/962754/msi-gaming-laptop-ethernet-switch-pc-steam-game-deal-sale"
+    "link": "https://www.theverge.com/gadgets/962754/msi-gaming-laptop-ethernet-switch-pc-steam-game-deal-sale",
+    "source": "The Verge",
+    "language": "en"
   },
   {
     "title": "Fi&#8217;s Starlink-enabled pet tracker found my dog when LTE couldn&#8217;t",
-    "link": "https://www.theverge.com/tech/962224/fi-ultra-dog-tracker-starlink-t-satellite-specs-price-release-date"
+    "link": "https://www.theverge.com/tech/962224/fi-ultra-dog-tracker-starlink-t-satellite-specs-price-release-date",
+    "source": "The Verge",
+    "language": "en"
   },
   {
     "title": "The Steam Machine fits my TV, my desk, and my life",
-    "link": "https://www.theverge.com/games/962561/valve-steam-machine-tv-desk-life"
+    "link": "https://www.theverge.com/games/962561/valve-steam-machine-tv-desk-life",
+    "source": "The Verge",
+    "language": "en"
   },
   {
     "title": "Crypto VC firm Paradigm raises $1.2B to invest in ‘technical frontier’ startups",
-    "link": "https://techcrunch.com/2026/07/08/crypto-vc-firm-paradigm-raises-1-2b-to-invest-in-technical-frontier-startups/"
+    "link": "https://techcrunch.com/2026/07/08/crypto-vc-firm-paradigm-raises-1-2b-to-invest-in-technical-frontier-startups/",
+    "source": "TechCrunch",
+    "language": "en"
   },
   {
     "title": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents",
-    "link": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/"
+    "link": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/",
+    "source": "TechCrunch",
+    "language": "en"
   },
   {
     "title": "Another massive data breach exposed millions of driver’s license numbers",
-    "link": "https://techcrunch.com/2026/07/08/another-massive-data-breach-exposed-millions-of-drivers-license-numbers/"
+    "link": "https://techcrunch.com/2026/07/08/another-massive-data-breach-exposed-millions-of-drivers-license-numbers/",
+    "source": "TechCrunch",
+    "language": "en"
   },
   {
     "title": "These AI startups are growing  revenue at faster and faster rates",
-    "link": "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/"
+    "link": "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/",
+    "source": "TechCrunch",
+    "language": "en"
   },
   {
     "title": "Solo GP Ashley Smith announces second $25M fund to back startups in AI, security and more",
-    "link": "https://techcrunch.com/2026/07/08/solo-gp-ashley-smith-announces-25m-close-of-second-fund/"
+    "link": "https://techcrunch.com/2026/07/08/solo-gp-ashley-smith-announces-25m-close-of-second-fund/",
+    "source": "TechCrunch",
+    "language": "en"
+  },
+  {
+    "title": "EmTech AI 2026: The Rise of the AI Platform",
+    "link": "https://www.technologyreview.com/2026/07/08/1140223/emtech-ai-2026-the-rise-of-the-ai-platform/",
+    "source": "MIT Technology Review",
+    "language": "en"
   },
   {
     "title": "The Download: worms fight pollution, and geoengineering faces reality",
-    "link": "https://www.technologyreview.com/2026/07/08/1140216/the-download-worms-manure-pollution-geoengineering-reality-check/"
+    "link": "https://www.technologyreview.com/2026/07/08/1140216/the-download-worms-manure-pollution-geoengineering-reality-check/",
+    "source": "MIT Technology Review",
+    "language": "en"
   },
   {
     "title": "The Download: your stake in OpenAI, and the Treasury’s AI warning",
-    "link": "https://www.technologyreview.com/2026/07/07/1140197/the-download-your-openai-stake-treasury-ai-warning/"
+    "link": "https://www.technologyreview.com/2026/07/07/1140197/the-download-your-openai-stake-treasury-ai-warning/",
+    "source": "MIT Technology Review",
+    "language": "en"
   },
   {
     "title": "The foundational elements of AI architecture that IT leaders need to scale",
-    "link": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/"
+    "link": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
+    "source": "MIT Technology Review",
+    "language": "en"
   },
   {
     "title": "Why worms (and microbes) are catching on as a manure pollution solution",
-    "link": "https://www.technologyreview.com/2026/07/07/1140142/why-worms-and-microbes-are-catching-on-as-a-manure-pollution-solution/"
-  },
-  {
-    "title": "Your family’s $300 stake in OpenAI",
-    "link": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/"
+    "link": "https://www.technologyreview.com/2026/07/07/1140142/why-worms-and-microbes-are-catching-on-as-a-manure-pollution-solution/",
+    "source": "MIT Technology Review",
+    "language": "en"
   },
   {
     "title": "Two teens learn the hard way not to do toy gun drive-bys from a Waymo",
-    "link": "https://arstechnica.com/cars/2026/07/two-teens-learn-the-hard-way-not-to-do-toy-gun-drivebys-from-a-waymo/"
+    "link": "https://arstechnica.com/cars/2026/07/two-teens-learn-the-hard-way-not-to-do-toy-gun-drivebys-from-a-waymo/",
+    "source": "Ars Technica",
+    "language": "en"
   },
   {
     "title": "Ocean rift zone saw spreading happen in a sudden burst",
-    "link": "https://arstechnica.com/science/2026/07/newly-installed-monitoring-system-watched-the-seafloor-spread/"
+    "link": "https://arstechnica.com/science/2026/07/newly-installed-monitoring-system-watched-the-seafloor-spread/",
+    "source": "Ars Technica",
+    "language": "en"
   },
   {
     "title": "US rare earths flow to Asia as domestic demand is slow to emerge",
-    "link": "https://arstechnica.com/science/2026/07/us-rare-earths-flow-to-asia-as-domestic-demand-is-slow-to-emerge/"
+    "link": "https://arstechnica.com/science/2026/07/us-rare-earths-flow-to-asia-as-domestic-demand-is-slow-to-emerge/",
+    "source": "Ars Technica",
+    "language": "en"
   },
   {
     "title": "Blue Origin, for the first time, is expected to raise private capital",
-    "link": "https://arstechnica.com/space/2026/07/blue-origin-for-the-first-time-is-expected-to-raise-private-capital/"
+    "link": "https://arstechnica.com/space/2026/07/blue-origin-for-the-first-time-is-expected-to-raise-private-capital/",
+    "source": "Ars Technica",
+    "language": "en"
   },
   {
     "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
-    "link": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/"
+    "link": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/",
+    "source": "Ars Technica",
+    "language": "en"
+  },
+  {
+    "title": "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence",
+    "link": "https://cognition.com/blog/swe-1-7",
+    "source": "Hacker News",
+    "language": "en"
   },
   {
     "title": "Show HN: Kastor – Terraform-style specs for AI agents",
-    "link": "https://github.com/weirdGuy/kastor"
+    "link": "https://github.com/weirdGuy/kastor",
+    "source": "Hacker News",
+    "language": "en"
   },
   {
     "title": "Chatto is now Open Source",
-    "link": "https://www.hmans.dev/blog/chatto-is-open-source"
+    "link": "https://www.hmans.dev/blog/chatto-is-open-source",
+    "source": "Hacker News",
+    "language": "en"
   },
   {
     "title": "Mistral's Robostral Navigate: a state of the art robotics navigation model",
-    "link": "https://mistral.ai/news/robostral-navigate/"
+    "link": "https://mistral.ai/news/robostral-navigate/",
+    "source": "Hacker News",
+    "language": "en"
   },
   {
     "title": "OpenBSD has a use-after-free allowing local privilege escalation to root",
-    "link": "https://nvd.nist.gov/vuln/detail/cve-2026-57589"
-  },
-  {
-    "title": "Cloudflare Meerkat - Globally distributed consensus",
-    "link": "https://blog.cloudflare.com/meerkat-introduction/"
+    "link": "https://nvd.nist.gov/vuln/detail/cve-2026-57589",
+    "source": "Hacker News",
+    "language": "en"
   },
   {
     "title": "Nukes in space? Orbital detector could sniff out warheads",
-    "link": "https://www.nature.com/articles/d41586-026-02141-z"
+    "link": "https://www.nature.com/articles/d41586-026-02141-z",
+    "source": "Nature",
+    "language": "en"
   },
   {
     "title": "Observation of Floquet rotational super-radiance",
-    "link": "https://www.nature.com/articles/s41586-026-10725-y"
+    "link": "https://www.nature.com/articles/s41586-026-10725-y",
+    "source": "Nature",
+    "language": "en"
   },
   {
     "title": "In vivo feasibility study of humanoid robots in surgery",
-    "link": "https://www.nature.com/articles/s41586-026-10796-x"
+    "link": "https://www.nature.com/articles/s41586-026-10796-x",
+    "source": "Nature",
+    "language": "en"
   },
   {
     "title": "Single-phase gradient-solvation-electrolyte-stabilized Li metal batteries",
-    "link": "https://www.nature.com/articles/s41586-026-10732-z"
+    "link": "https://www.nature.com/articles/s41586-026-10732-z",
+    "source": "Nature",
+    "language": "en"
   },
   {
     "title": "Non-genotoxic transplantation and in vivo selection through epitope editing",
-    "link": "https://www.nature.com/articles/s41586-026-10737-8"
+    "link": "https://www.nature.com/articles/s41586-026-10737-8",
+    "source": "Nature",
+    "language": "en"
   },
   {
     "title": "Detection schemes could deter putting nuclear warheads in space",
-    "link": "https://www.science.org/content/article/detection-schemes-could-deter-putting-nuclear-warheads-space"
+    "link": "https://www.science.org/content/article/detection-schemes-could-deter-putting-nuclear-warheads-space",
+    "source": "Science",
+    "language": "en"
   },
   {
     "title": "Chatbots can help perpetuate stigma around certain health conditions",
-    "link": "https://www.science.org/content/article/chatbots-can-help-perpetuate-stigma-around-certain-health-conditions"
+    "link": "https://www.science.org/content/article/chatbots-can-help-perpetuate-stigma-around-certain-health-conditions",
+    "source": "Science",
+    "language": "en"
   },
   {
     "title": "As flu virus threatens its unique bird species, New Zealand pins hopes on a vaccine",
-    "link": "https://www.science.org/content/article/flu-virus-threatens-its-unique-bird-species-new-zealand-pins-hopes-vaccine"
+    "link": "https://www.science.org/content/article/flu-virus-threatens-its-unique-bird-species-new-zealand-pins-hopes-vaccine",
+    "source": "Science",
+    "language": "en"
   },
   {
     "title": "Uranus and Neptune may not be ‘ice giants’ after all",
-    "link": "https://www.science.org/content/article/uranus-and-neptune-may-not-be-ice-giants-after-all"
+    "link": "https://www.science.org/content/article/uranus-and-neptune-may-not-be-ice-giants-after-all",
+    "source": "Science",
+    "language": "en"
   },
   {
     "title": "British ‘First Fleet’ brought smallpox to Australia—and may have killed millions",
-    "link": "https://www.science.org/content/article/british-first-fleet-brought-smallpox-australia-and-may-have-killed-millions"
+    "link": "https://www.science.org/content/article/british-first-fleet-brought-smallpox-australia-and-may-have-killed-millions",
+    "source": "Science",
+    "language": "en"
   },
   {
     "title": "Why Schrödinger's 1944 classic What Is Life? still feels prescient",
-    "link": "https://www.newscientist.com/article/2533430-why-schrodingers-1944-classic-what-is-life-still-feels-prescient/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home"
+    "link": "https://www.newscientist.com/article/2533430-why-schrodingers-1944-classic-what-is-life-still-feels-prescient/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+    "source": "New Scientist",
+    "language": "en"
   },
   {
     "title": "Lambs born via IVF using highly immature eggs in major breakthrough",
-    "link": "https://www.newscientist.com/article/2533441-lambs-born-via-ivf-using-highly-immature-eggs-in-major-breakthrough/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home"
+    "link": "https://www.newscientist.com/article/2533441-lambs-born-via-ivf-using-highly-immature-eggs-in-major-breakthrough/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+    "source": "New Scientist",
+    "language": "en"
   },
   {
     "title": "The allergy culprit histamine also boosts our memory",
-    "link": "https://www.newscientist.com/article/2533166-the-allergy-culprit-histamine-also-boosts-our-memory/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home"
+    "link": "https://www.newscientist.com/article/2533166-the-allergy-culprit-histamine-also-boosts-our-memory/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+    "source": "New Scientist",
+    "language": "en"
   },
   {
     "title": "Salt batteries are about to shake up EVs and grid storage",
-    "link": "https://www.newscientist.com/article/2532997-salt-batteries-are-about-to-shake-up-evs-and-grid-storage/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home"
+    "link": "https://www.newscientist.com/article/2532997-salt-batteries-are-about-to-shake-up-evs-and-grid-storage/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+    "source": "New Scientist",
+    "language": "en"
   },
   {
     "title": "How extreme heat affects the body – and the best ways to cope",
-    "link": "https://www.newscientist.com/article/2533216-how-extreme-heat-affects-the-body-and-the-best-ways-to-cope/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home"
+    "link": "https://www.newscientist.com/article/2533216-how-extreme-heat-affects-the-body-and-the-best-ways-to-cope/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+    "source": "New Scientist",
+    "language": "en"
   },
   {
     "title": "New weight loss pill beats oral Ozempic in major trial",
-    "link": "https://www.sciencedaily.com/releases/2026/07/260707054111.htm"
+    "link": "https://www.sciencedaily.com/releases/2026/07/260707054111.htm",
+    "source": "ScienceDaily",
+    "language": "en"
   },
   {
     "title": "Ancient DNA reveals the mysterious collapse of Europe's megalith builders",
-    "link": "https://www.sciencedaily.com/releases/2026/07/260707054108.htm"
+    "link": "https://www.sciencedaily.com/releases/2026/07/260707054108.htm",
+    "source": "ScienceDaily",
+    "language": "en"
   },
   {
     "title": "Incredible new material makes heat programmable",
-    "link": "https://www.sciencedaily.com/releases/2026/07/260707025046.htm"
+    "link": "https://www.sciencedaily.com/releases/2026/07/260707025046.htm",
+    "source": "ScienceDaily",
+    "language": "en"
   },
   {
     "title": "Bumblebees collect up to 7 times more toxic metals than honeybees",
-    "link": "https://www.sciencedaily.com/releases/2026/07/260707025044.htm"
+    "link": "https://www.sciencedaily.com/releases/2026/07/260707025044.htm",
+    "source": "ScienceDaily",
+    "language": "en"
   },
   {
     "title": "NASA's Hubble spots a stellar sparkler for the Fourth of July",
-    "link": "https://www.sciencedaily.com/releases/2026/07/260704232642.htm"
+    "link": "https://www.sciencedaily.com/releases/2026/07/260704232642.htm",
+    "source": "ScienceDaily",
+    "language": "en"
+  },
+  {
+    "title": "Kármán András: Ha az Orbán-kormány maradt volna hatalmon, idén 8,3 százalékos lenne a költségvetési hiány",
+    "link": "https://telex.hu/gazdasag/2026/07/08/karman-andras-penzugyminiszterium-koltsegvetes-hiany",
+    "source": "Telex",
+    "language": "hu"
+  },
+  {
+    "title": "Reagált Pósfai Gábor belügyminiszter Szakács István megafonos propagandista szerda reggeli előállítására",
+    "link": "https://telex.hu/belfold/2026/07/08/szakacs-istvan-eloallitas-posfai-gabor-belugyminiszter-reagalt",
+    "source": "Telex",
+    "language": "hu"
   },
   {
     "title": "Közel 900 kígyó használta ki a tájfun okozta árvizet, és lépett meg Kínában",
-    "link": "https://telex.hu/kulfold/2026/07/08/kozel-900-kigyo-hasznalta-ki-a-tajfun-okozta-arvizet-es-lepett-meg-kinaban"
+    "link": "https://telex.hu/kulfold/2026/07/08/kozel-900-kigyo-hasznalta-ki-a-tajfun-okozta-arvizet-es-lepett-meg-kinaban",
+    "source": "Telex",
+    "language": "hu"
   },
   {
     "title": "Ezek voltak a propaganda mélypontjai az M1-en",
-    "link": "https://telex.hu/belfold/2026/07/08/m1-hirado-legnagyobb-melypontjai-propaganda"
+    "link": "https://telex.hu/belfold/2026/07/08/m1-hirado-legnagyobb-melypontjai-propaganda",
+    "source": "Telex",
+    "language": "hu"
   },
   {
     "title": "Bárándy Péter: Ha az állami működésben kupleráj van, akkor a vonatok menetrendje is a kupleráj szabályai szerint fog működni",
-    "link": "https://telex.hu/belfold/2026/07/08/barandy-peter-jogasz-volt-igazsagugyi-miniszter-szinten-tul-krug-emilia"
+    "link": "https://telex.hu/belfold/2026/07/08/barandy-peter-jogasz-volt-igazsagugyi-miniszter-szinten-tul-krug-emilia",
+    "source": "Telex",
+    "language": "hu"
   },
   {
-    "title": "Újabb komoly hőhullámra figyelmeztetett az Európai Bizottság",
-    "link": "https://telex.hu/kulfold/2026/07/08/eu-europai-parlament-hadja-lahbib-europai-bizottsag-hoseg-erdotuz"
+    "title": "Hatos karambol volt Budapesten",
+    "link": "https://hvg.hu/cegauto/20260708_hatos-karambol-volt-budapesten",
+    "source": "HVG",
+    "language": "hu"
   },
   {
-    "title": "Trump engedélyezi Ukrajnának a Patriot légvédelmi rakéták gyártását",
-    "link": "https://telex.hu/kulfold/2026/07/08/zelenszkij-trump-beszelgetes-a-nato-csucson-amerikai-elnok-helyesli-az-orosz-olajinfrastruktura-tamadasat"
+    "title": "A Nemzeti Sport kirúgott főszerkesztője marad a sportújságíró-szövetség elnöke",
+    "link": "https://hvg.hu/sport/20260708_szollosi-gyorgy-magyar-sportujsagirok-szovetsege-bizalmatlansagi-inditvany-szavazas",
+    "source": "HVG",
+    "language": "hu"
   },
   {
     "title": "Nem csak négyen kényszerülnek távozni az Alkotmánybíróságból",
-    "link": "https://hvg.hu/itthon/20260708_alkotmanybirosag-korhatar-modosito"
+    "link": "https://hvg.hu/itthon/20260708_alkotmanybirosag-korhatar-modosito",
+    "source": "HVG",
+    "language": "hu"
   },
   {
     "title": "Megszólalt a Belügyminisztérium Szakács István ügyében",
-    "link": "https://hvg.hu/itthon/20260708_belugyminiszterium-szakacs-istvan-kozlemeny"
+    "link": "https://hvg.hu/itthon/20260708_belugyminiszterium-szakacs-istvan-kozlemeny",
+    "source": "HVG",
+    "language": "hu"
   },
   {
     "title": "FT: A Tesco fontolgatja, hogy kivonul Magyarországról, Szlovákiából és Csehországból",
-    "link": "https://hvg.hu/kkv/20260708_tesco-kivonulas-financial-times-magyarorszag"
-  },
-  {
-    "title": "Leáll az eredeti Nintendo Switch gyártása, eltűnik a konzol Európából",
-    "link": "https://hvg.hu/tudomany/20260708_nintendo-switch-jatekkonzol-gyartas-europa-megszunik"
-  },
-  {
-    "title": "Robbantással fenyegetett meg 46 iskolát egy borsodi fiatal, elítélték",
-    "link": "https://hvg.hu/itthon/20260708_miskolci-torvenyszek-bombafenyegetes-terrorcselekmennyel-fenyegetes-itelet-borsodi-fiatal"
+    "link": "https://hvg.hu/kkv/20260708_tesco-kivonulas-financial-times-magyarorszag",
+    "source": "HVG",
+    "language": "hu"
   },
   {
     "title": "Török Gábor: Magyar Péter távolléte mutatta meg, hogy többféle Tisza van",
-    "link": "https://24.hu/belfold/2026/07/08/podcast-torokules-torok-gabor-tisza-alkotmanymodositas/"
+    "link": "https://24.hu/belfold/2026/07/08/podcast-torokules-torok-gabor-tisza-alkotmanymodositas/",
+    "source": "24.hu",
+    "language": "hu"
   },
   {
     "title": "Drámai adat a bezárásokról: továbbra is zuhan a kocsmák száma Magyarországon",
-    "link": "https://24.hu/belfold/2026/07/08/bezaras-kocsma-cukraszda-vendeglatas-2026/"
+    "link": "https://24.hu/belfold/2026/07/08/bezaras-kocsma-cukraszda-vendeglatas-2026/",
+    "source": "24.hu",
+    "language": "hu"
   },
   {
     "title": "Az oroszok egy ukrán dróngyárt lőttek",
-    "link": "https://24.hu/kulfold/2026/07/08/orosz-tamadas-ukrajna-drongyar/"
+    "link": "https://24.hu/kulfold/2026/07/08/orosz-tamadas-ukrajna-drongyar/",
+    "source": "24.hu",
+    "language": "hu"
   },
   {
     "title": "Bombariadó-frász: elítélték az iskolákat robbantással fenyegető fiút",
-    "link": "https://24.hu/belfold/2026/07/08/bombariado-itelet-robbantas-fiu/"
+    "link": "https://24.hu/belfold/2026/07/08/bombariado-itelet-robbantas-fiu/",
+    "source": "24.hu",
+    "language": "hu"
   },
   {
     "title": "Hiába a bizalmatlansági indítvány, Szöllősi György maradt a sportújságíró-szövetség élén",
-    "link": "https://24.hu/sport/2026/07/08/szollosi-gyorgy-magyar-sportujsagiro-szovetseg-rendkivuli-kozgyules/"
+    "link": "https://24.hu/sport/2026/07/08/szollosi-gyorgy-magyar-sportujsagiro-szovetseg-rendkivuli-kozgyules/",
+    "source": "24.hu",
+    "language": "hu"
   },
   {
     "title": "Trump says ceasefire is 'over' after US and Iran trade strikes",
-    "link": "https://www.bbc.co.uk/news/articles/clyw8w1g409o?at_medium=RSS&at_campaign=rss"
+    "link": "https://www.bbc.co.uk/news/articles/clyw8w1g409o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "language": "en"
   },
   {
     "title": "US strikes target Iranian military boats",
-    "link": "https://www.bbc.co.uk/news/videos/cn94nqzwpxwo?at_medium=RSS&at_campaign=rss"
+    "link": "https://www.bbc.co.uk/news/videos/cn94nqzwpxwo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "language": "en"
   },
   {
     "title": "German doctor jailed for murder of 15 patients and suspected of more",
-    "link": "https://www.bbc.co.uk/news/articles/cq819jyp2g7o?at_medium=RSS&at_campaign=rss"
+    "link": "https://www.bbc.co.uk/news/articles/cq819jyp2g7o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "language": "en"
   },
   {
     "title": "Teenager arrested after two girls, 13, seriously injured in German school attack",
-    "link": "https://www.bbc.co.uk/news/articles/c0qyvkgndzpo?at_medium=RSS&at_campaign=rss"
+    "link": "https://www.bbc.co.uk/news/articles/c0qyvkgndzpo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "language": "en"
   },
   {
     "title": "Arizona toddler found alive in hospital morgue after declared dead from drowning",
-    "link": "https://www.bbc.co.uk/news/articles/cvg5x0vvrmro?at_medium=RSS&at_campaign=rss"
+    "link": "https://www.bbc.co.uk/news/articles/cvg5x0vvrmro?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "language": "en"
   },
   {
     "title": "Hungary: Black screen heralds start of public media overhaul",
-    "link": "https://www.dw.com/en/hungary-black-screen-heralds-start-of-public-media-overhaul/a-77880569?maca=en-rss-en-world-4025-rdf"
+    "link": "https://www.dw.com/en/hungary-black-screen-heralds-start-of-public-media-overhaul/a-77880569?maca=en-rss-en-world-4025-rdf",
+    "source": "DW",
+    "language": "en"
   },
   {
     "title": "US birthright citizenship ruling eases fears among Indians",
-    "link": "https://www.dw.com/en/us-birthright-citizenship-ruling-eases-fears-among-indians/a-77879632?maca=en-rss-en-world-4025-rdf"
+    "link": "https://www.dw.com/en/us-birthright-citizenship-ruling-eases-fears-among-indians/a-77879632?maca=en-rss-en-world-4025-rdf",
+    "source": "DW",
+    "language": "en"
   },
   {
     "title": "Renewed US-Iran war would hit Gulf countries hard",
-    "link": "https://www.dw.com/en/renewed-us-iran-war-would-hit-gulf-countries-hard/a-77876781?maca=en-rss-en-world-4025-rdf"
+    "link": "https://www.dw.com/en/renewed-us-iran-war-would-hit-gulf-countries-hard/a-77876781?maca=en-rss-en-world-4025-rdf",
+    "source": "DW",
+    "language": "en"
   },
   {
     "title": "What's behind Hamas's move to dissolve Gaza government",
-    "link": "https://www.dw.com/en/what-s-behind-hamas-s-move-to-dissolve-gaza-government/a-77876196?maca=en-rss-en-world-4025-rdf"
+    "link": "https://www.dw.com/en/what-s-behind-hamas-s-move-to-dissolve-gaza-government/a-77876196?maca=en-rss-en-world-4025-rdf",
+    "source": "DW",
+    "language": "en"
   },
   {
     "title": "DR Congo: Tensions mount over planned constitutional referendum",
-    "link": "https://www.dw.com/en/dr-congo-tensions-mount-over-planned-constitutional-referendum/a-77859643?maca=en-rss-en-world-4025-rdf"
+    "link": "https://www.dw.com/en/dr-congo-tensions-mount-over-planned-constitutional-referendum/a-77859643?maca=en-rss-en-world-4025-rdf",
+    "source": "DW",
+    "language": "en"
   },
   {
     "title": "Catnip lotion as effective as Deet at repelling mosquitoes, study finds",
-    "link": "https://www.theguardian.com/global-development/2026/jul/07/catnip-lotion-as-effective-as-deet-at-repelling-mosquitoes-study-finds"
+    "link": "https://www.theguardian.com/global-development/2026/jul/07/catnip-lotion-as-effective-as-deet-at-repelling-mosquitoes-study-finds",
+    "source": "The Guardian",
+    "language": "en"
   },
   {
     "title": "What will define Elon Musk’s legacy? Doge cuts to USAID Ebola programs",
-    "link": "https://www.theguardian.com/technology/2026/jul/07/elon-musk-doge-cuts-usaid-ebola"
+    "link": "https://www.theguardian.com/technology/2026/jul/07/elon-musk-doge-cuts-usaid-ebola",
+    "source": "The Guardian",
+    "language": "en"
   },
   {
     "title": "Five charged in Liberia after more than 200kg of cocaine seized in drug bust",
-    "link": "https://www.theguardian.com/world/2026/jul/07/charged-liberia-200kg-cocaine-seized-drug-bust"
+    "link": "https://www.theguardian.com/world/2026/jul/07/charged-liberia-200kg-cocaine-seized-drug-bust",
+    "source": "The Guardian",
+    "language": "en"
   },
   {
     "title": "Archaeologists uncover ancient Byzantine city in Egypt’s western desert",
-    "link": "https://www.theguardian.com/world/2026/jul/04/archaeologists-uncover-ancient-byzantine-city-in-egypts-western-desert"
+    "link": "https://www.theguardian.com/world/2026/jul/04/archaeologists-uncover-ancient-byzantine-city-in-egypts-western-desert",
+    "source": "The Guardian",
+    "language": "en"
   },
   {
     "title": "‘The situation is terrible’: aid workers on life in Sudanese city pummelled by drone strikes",
-    "link": "https://www.theguardian.com/world/2026/jul/04/el-obeid-aid-workers-sudan-war-drone-strikes"
+    "link": "https://www.theguardian.com/world/2026/jul/04/el-obeid-aid-workers-sudan-war-drone-strikes",
+    "source": "The Guardian",
+    "language": "en"
+  },
+  {
+    "title": "Kongatja a vészharangot az ENSZ: rengetegen szenvednek, azonnali segítség kell",
+    "link": "https://www.portfolio.hu/global/20260708/kongatja-a-veszharangot-az-ensz-rengetegen-szenvednek-azonnali-segitseg-kell-848444",
+    "source": "Portfolio",
+    "language": "hu"
+  },
+  {
+    "title": "Kína állítása szerint érzékeny felhasználói adatokhoz férhet hozzá az egyik legelterjedtebb AI-eszköz",
+    "link": "https://www.portfolio.hu/uzlet/20260708/kina-allitasa-szerint-erzekeny-felhasznaloi-adatokhoz-ferhet-hozza-az-egyik-legelterjedtebb-ai-eszkoz-848446",
+    "source": "Portfolio",
+    "language": "hu"
   },
   {
     "title": "Hatos karambol történt Budapesten",
-    "link": "https://www.portfolio.hu/gazdasag/20260708/hatos-karambol-tortent-budapesten-848442"
+    "link": "https://www.portfolio.hu/gazdasag/20260708/hatos-karambol-tortent-budapesten-848442",
+    "source": "Portfolio",
+    "language": "hu"
   },
   {
     "title": "Távozik a hidegfront: melegedés kezdődik Magyarországon a következő napokban",
-    "link": "https://www.portfolio.hu/gazdasag/20260708/tavozik-a-hidegfront-melegedes-kezdodik-magyarorszagon-a-kovetkezo-napokban-848416"
+    "link": "https://www.portfolio.hu/gazdasag/20260708/tavozik-a-hidegfront-melegedes-kezdodik-magyarorszagon-a-kovetkezo-napokban-848416",
+    "source": "Portfolio",
+    "language": "hu"
   },
   {
     "title": "Megszólalt Kármán András, kiderült, mekkora valójában a hiány - Azonnal reagál a forint",
-    "link": "https://www.portfolio.hu/deviza/20260708/megszolalt-karman-andras-kiderult-mekkora-valojaban-a-hiany-azonnal-reagal-a-forint-848264"
-  },
-  {
-    "title": "Drasztikus döntést hozott Moszkva, azonnal megvan a fájó eredmény - Ezt mindenki a bőrén érezheti",
-    "link": "https://www.portfolio.hu/global/20260708/drasztikus-dontest-hozott-moszkva-azonnal-megvan-a-fajo-eredmeny-ezt-mindenki-a-boren-erezheti-848432"
-  },
-  {
-    "title": "Tisza-kormány: NATO-csúcson Magyar Péter, a parlamenti nagyüzem után Ankarára figyelhet a magyar közélet",
-    "link": "https://www.portfolio.hu/gazdasag/20260708/tisza-kormany-nato-csucson-magyar-peter-a-parlamenti-nagyuzem-utan-ankarara-figyelhet-a-magyar-kozelet-848252"
+    "link": "https://www.portfolio.hu/deviza/20260708/megszolalt-karman-andras-kiderult-mekkora-valojaban-a-hiany-azonnal-reagal-a-forint-848264",
+    "source": "Portfolio",
+    "language": "hu"
   },
   {
     "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
-    "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main"
+    "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+    "source": "Wall Street Journal",
+    "language": "en"
   },
   {
     "title": "Comex Gold, Silver Settle Lower",
-    "link": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main"
+    "link": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main",
+    "source": "Wall Street Journal",
+    "language": "en"
   },
   {
     "title": "DeepSeek Won't Sink U.S. AI Titans",
-    "link": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main"
+    "link": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main",
+    "source": "Wall Street Journal",
+    "language": "en"
   },
   {
     "title": "Financial Services Roundup: Market Talk",
-    "link": "https://www.wsj.com/articles/financial-services-roundup-market-talk-94f52cba?mod=rss_markets_main"
+    "link": "https://www.wsj.com/articles/financial-services-roundup-market-talk-94f52cba?mod=rss_markets_main",
+    "source": "Wall Street Journal",
+    "language": "en"
   },
   {
     "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
-    "link": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main"
+    "link": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main",
+    "source": "Wall Street Journal",
+    "language": "en"
   }
 ]
