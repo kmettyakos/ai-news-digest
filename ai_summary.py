@@ -4,7 +4,8 @@ from openai import OpenAI
 
 
 client = OpenAI(
-    api_key=os.environ["OPENAI_API_KEY"]
+    api_key=os.environ["GROQ_API_KEY"],
+    base_url="https://api.groq.com/openai/v1"
 )
 
 
@@ -14,12 +15,12 @@ with open("news.json", "r", encoding="utf-8") as f:
 
 news_text = ""
 
-for item in news[:60]:
+for item in news[:40]:
     news_text += f"""
-Cím: {item.get('title', '')}
+Cím: {item['title']}
 Forrás: {item.get('source', '')}
-Nyelv: {item.get('language', '')}
-Link: {item.get('link', '')}
+Nyelv: {item.get('language', 'en')}
+Link: {item['link']}
 
 """
 
@@ -27,71 +28,69 @@ Link: {item.get('link', '')}
 prompt = f"""
 Te egy személyes reggeli hírszerkesztő AI vagy.
 
-Készíts egy 5 perc alatt elolvasható Morning Briefing-et.
+Készíts egy Morning Briefing összefoglalót.
 
 SZABÁLYOK:
 
 - Válaszd ki a 10 legfontosabb hírt.
-- Szűrd ki az ismétlődéseket.
-- Ne használj kattintásvadász híreket.
+- Szűrd ki az ismétlődő híreket.
+- Ne legyen clickbait.
 - Fókusz:
   - mesterséges intelligencia
   - technológia
   - tudomány
   - űripar
   - gazdaság
-  - fontos világpolitika
+  - világpolitika
 
-NYELVI SZABÁLY:
 
-- Magyar források esetén magyarul írj.
-- Angol források esetén angolul írj.
-- Ne fordítsd át a híreket más nyelvre.
+NYELV:
+
+Ha a hír nyelve "hu":
+→ magyar összefoglaló
+
+Ha "en":
+→ angol összefoglaló
+
 
 FORMÁTUM:
 
 # 🌅 Morning Briefing
 
-## Kategória
 
-### Hír címe
+## Hír címe
 
 Mi történt:
-(1-2 mondat)
+2 mondat
 
 Miért fontos:
-(1 mondat)
+1 mondat
 
 Forrás:
-(link)
+link
 
 
 A végén:
 
 # 📌 Mai trendek
 
-3-5 pontban írd le a legfontosabb folyamatokat.
+3-5 pont.
 
 
-Hírek:
+HÍREK:
 
 {news_text}
 """
 
 
 response = client.chat.completions.create(
-    model="gpt-4.1-mini",
+    model="llama-3.3-70b-versatile",
     messages=[
-        {
-            "role": "system",
-            "content": "You are a professional news editor."
-        },
         {
             "role": "user",
             "content": prompt
         }
-    ],
-    temperature=0.3
+    ]
 )
 
 
