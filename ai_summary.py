@@ -9,46 +9,20 @@ client = OpenAI(
 )
 
 
-# Hírek betöltése
 with open("news.json", "r", encoding="utf-8") as f:
     news = json.load(f)
 
 
-# Kategóriánként csak a legfontosabb alapanyag
-categories = {
-    "Hungary": [],
-    "AI": [],
-    "Space": [],
-    "Science": [],
-    "World": [],
-    "Politics": [],
-    "Other Hungary": []
-}
-
-
-for item in news:
-    cat = item.get("category", "")
-
-    if cat in categories:
-        categories[cat].append(item)
-
-
-# Maximum hírek elküldése az AI-nak
-selected_news = []
-
-for cat, items in categories.items():
-    selected_news.extend(items[:20])
-
-
+# Maximum 120 hír küldése, hogy ne lépjük túl a token limitet
 news_text = ""
 
-for item in selected_news:
+for item in news[:120]:
     news_text += f"""
-Cím: {item['title']}
-Forrás: {item.get('source','')}
-Kategória: {item.get('category','')}
-Nyelv: {item.get('language','en')}
-Link: {item['link']}
+Cím: {item.get('title', '')}
+Forrás: {item.get('source', '')}
+Kategória: {item.get('category', '')}
+Nyelv: {item.get('language', '')}
+Link: {item.get('link', '')}
 
 """
 
@@ -56,118 +30,118 @@ Link: {item['link']}
 prompt = f"""
 Te egy prémium reggeli hírszerkesztő AI vagy.
 
-A feladatod egy napi Morning Briefing elkészítése a kapott hírekből.
+Készíts egy napi Morning Briefing összefoglalót a kapott hírekből.
 
 FONTOS SZABÁLYOK:
 
-- SOHA ne találj ki hírt.
 - Csak a megadott hírekből dolgozz.
-- Ha egy kategóriában nincs elég jó friss hír, inkább kevesebbet írj.
+- SOHA ne találj ki hírt.
+- Ha nincs megfelelő hír egy kategóriában, inkább hagyd üresen vagy válassz kevesebbet.
 - Ne használj régi általános háttéranyagokat.
-- Ne ismételd ugyanazt a hírt több forrásból.
+- Ne használj ugyanazt a hírt több kategóriában.
+- Ugyanazt az eseményt ne írd le több forrásból.
 - A hír címe mindig maradjon eredeti nyelven.
 - Ne fordítsd le a címeket.
 
-KATEGÓRIÁK ÉS DARABSZÁM:
+
+A híreket rangsorold:
+
++3 pont: világszinten jelentős esemény
++3 pont: sok embert érint
++2 pont: nagy vállalat, ország vagy szervezet érintett
++2 pont: új technológia vagy tudományos áttörés
++1 pont: Magyarországhoz kapcsolódik
+
+A magasabb pontszámú híreket válaszd.
+
+
+KATEGÓRIÁK:
+
 
 🇭🇺 Magyarország
-- 2 legfontosabb friss magyar hír
+2 legfontosabb friss magyar hír
 
 🏛️ Magyar politika
-- 2 legfontosabb politikai hír
+2 legfontosabb magyar politikai hír
 
 🤖 AI & Technológia
-- 2 legfontosabb AI vagy technológiai hír
+2 legfontosabb AI vagy technológiai hír
 
 🚀 Űripar
-- 2 legfontosabb űripari hír
+2 legfontosabb űripari hír
 
 🔬 Tudomány
-- 3 legérdekesebb tudományos hír
+3 legérdekesebb tudományos hír
+
+Prioritás:
+1. egészség
+2. biotechnológia
+3. energia
+4. klíma
+5. nagy tudományos felfedezések
+
+Nagyon speciális kutatást csak akkor válassz, ha nincs érdekesebb.
+
 
 🌍 Világpolitika
-- 2 legfontosabb nemzetközi politikai hír
+2 legfontosabb nemzetközi politikai hír
 
-
-VÁLASZTÁSI SZEMPONTOK:
-
-AI & Technológia:
-- mesterséges intelligencia
-- nagy technológiai cégek
-- új eszközök
-- fontos kutatások
-
-Űripar:
-- SpaceX
-- NASA
-- rakéták
-- műholdak
-- űrkutatás
-
-Tudomány:
-Prioritás:
-1. nagy tudományos felfedezések
-2. egészség és biotechnológia
-3. energia és klíma
-4. érdekes kutatások
-
-Magyarország:
-- aktuális magyar események
-- gazdaság
-- társadalom
-- fontos közéleti hírek
-
-Magyar politika:
-- kormány
-- ellenzék
-- parlament
-- választások
-- politikai döntések
 
 
 FORMÁTUM:
 
+
 🌅 Morning Briefing
 
 
-[kategória emoji] Kategória neve
+🇭🇺 Magyarország
 
 
-📰 Hír címe
+📰 Eredeti cím
 
 📌 Röviden:
 2-3 mondatos összefoglaló.
 
 🎯 Miért fontos?
-1 konkrét mondat arról, hogy miért számít ez az esemény.
-Ne írj üres mondatokat.
-Ne használd:
-"fontos mert fontos"
-"a fejlődés szempontjából fontos"
+1 konkrét mondat.
+Magyarázd el a valódi jelentőségét.
+
+Kerüld:
+- "fontos mert fontos"
+- "a fejlődés szempontjából fontos"
+- általános üres mondatokat.
+
 
 🔗 Tovább:
-link
+eredeti link
+
+
+
+Minden kategóriát ugyanebben a formában írj.
 
 
 A végén:
 
+
 📌 Mai trendek
 
-Írj 3-5 pontot a nap legfontosabb összefüggéseiről.
-Ne csak híreket sorolj.
-Mutasd meg a nagyobb folyamatokat.
+Írj 3-5 pontot a nap legfontosabb nagyobb folyamatairól.
+Ne csak híreket ismételj.
 
 
-NE HASZNÁLJ:
-- # jeleket
-- markdown headingeket
-- felesleges bevezetőt
-- ismétléseket
+TILOS:
+
+- # jelek használata
+- markdown headingek
+- kitalált információ
+- hiányzó linkek
+- ismétlődő hírek
 
 
 HÍREK:
 
 {news_text}
+
 """
 
 
