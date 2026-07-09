@@ -9,129 +9,140 @@ client = OpenAI(
 )
 
 
-# -----------------------------
 # Hírek betöltése
-# -----------------------------
-
 with open("news.json", "r", encoding="utf-8") as f:
     news = json.load(f)
 
 
-# -----------------------------
-# Kategóriánként előszűrés
-# -----------------------------
+# Kategóriánként csak a legfontosabb alapanyag
+categories = {
+    "Hungary": [],
+    "AI": [],
+    "Space": [],
+    "Science": [],
+    "World": [],
+    "Politics": [],
+    "Other Hungary": []
+}
 
-categories = {}
 
 for item in news:
+    cat = item.get("category", "")
 
-    category = item.get("category", "OTHER")
+    if cat in categories:
+        categories[cat].append(item)
 
-    if category not in categories:
-        categories[category] = []
 
-    # kategóriánként maximum 15 jelölt
-    if len(categories[category]) < 15:
-        categories[category].append(item)
+# Maximum hírek elküldése az AI-nak
+selected_news = []
 
+for cat, items in categories.items():
+    selected_news.extend(items[:20])
 
 
 news_text = ""
 
-for category, items in categories.items():
-
-    news_text += f"\n\n===== {category} =====\n"
-
-    for item in items:
-
-        news_text += f"""
-Cím: {item.get('title','')}
+for item in selected_news:
+    news_text += f"""
+Cím: {item['title']}
 Forrás: {item.get('source','')}
-Nyelv: {item.get('language','')}
-Link: {item.get('link','')}
+Kategória: {item.get('category','')}
+Nyelv: {item.get('language','en')}
+Link: {item['link']}
 
 """
 
 
-# -----------------------------
-# Prompt
-# -----------------------------
-
 prompt = f"""
 Te egy prémium reggeli hírszerkesztő AI vagy.
 
-A feladatod egy Morning Briefing készítése.
+Készíts egy Morning Briefing-et.
 
-Válassz híreket ezekbe a kategóriákba:
+A cél:
+Egy elfoglalt ember 5 perc alatt átlássa a nap legfontosabb híreit.
 
+
+FONTOS SZABÁLYOK:
+
+- Ne a forrás alapján dönts a kategóriáról.
+- Egy Telex/HVG hír is lehet technológiai vagy világpolitikai.
+- Ne rakj külföldi hírt a Magyarország kategóriába.
+- Ugyanazt a hírt csak egyszer használd.
+- Ne válassz clickbait vagy jelentéktelen híreket.
+
+
+KATEGÓRIÁK ÉS DARABSZÁM:
 
 🇭🇺 Magyarország
+- 2 általános magyar hír
 
-🏛️ Magyar politika:
-2 hír
+🏛️ Magyar politika
+- 2 politikai magyar hír
 
+🤖 AI & Technológia
+- 2 hír
 
-📰 Egyéb magyar hírek:
-2 hír
+🚀 Űripar
+- 2 hír
 
+🔬 Tudomány
+- 3 hír
 
-🤖 AI & Technológia:
-2 hír
-
-
-🚀 Űripar:
-2 hír
-
-
-🔬 Tudomány:
-3 hír
+🌍 Világpolitika
+- 2 hír
 
 
-🌍 Világpolitika:
-2 hír
+PONTOZÁS:
 
+Minden hír kiválasztásánál gondold végig:
 
-SZABÁLYOK:
-
-- Egy hír csak egyszer szerepelhet.
-- Ha több forrás ugyanarról ír, csak egyet használj.
-- Ne használj reklámot vagy termékakciót.
-- A cím maradjon eredeti nyelven.
-- Magyar hírt magyarul foglalj össze.
-- Angol hírt angolul foglalj össze.
+- globális hatás
+- hosszútávú jelentőség
+- mennyire friss
+- mennyire érdekes az olvasónak
 
 
 FORMÁTUM:
 
+Ne használj # jeleket.
+
+Pontosan így:
 
 🌅 Morning Briefing
 
 
-(kategóriák emoji címmel)
+🇭🇺 Magyarország
 
 
-📰 Cím
+📰 Eredeti cím
 
 
 📌 Röviden:
-2-3 mondat
+2-3 mondat magyarul
 
 
 🎯 Miért fontos?
-1 mondat
+1 értelmes mondat, ami elmagyarázza a jelentőségét
 
 
 🔗 Tovább:
 link
 
 
+NYELV:
+
+- A cím mindig maradjon eredeti nyelven.
+- Magyar hír → magyar összefoglaló.
+- Angol hír → angol összefoglaló.
+
 
 A végén:
 
-
 📌 Mai trendek
 
-3-5 pont a legfontosabb folyamatokról.
+3-5 pont:
+- milyen nagy folyamatok látszanak
+- ne csak ismételd a híreket
 
 
 HÍREK:
@@ -140,10 +151,6 @@ HÍREK:
 
 """
 
-
-# -----------------------------
-# AI
-# -----------------------------
 
 response = client.chat.completions.create(
     model="llama-3.3-70b-versatile",
@@ -160,15 +167,7 @@ response = client.chat.completions.create(
 summary = response.choices[0].message.content
 
 
-# -----------------------------
-# Mentés
-# -----------------------------
-
-with open(
-    "summary.txt",
-    "w",
-    encoding="utf-8"
-) as f:
+with open("summary.txt", "w", encoding="utf-8") as f:
     f.write(summary)
 
 
