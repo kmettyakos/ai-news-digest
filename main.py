@@ -1,8 +1,22 @@
 import feedparser
 import json
+import re
+
 from datetime import datetime, timedelta
 from urllib.parse import urlparse
 
+
+# ==========================
+# BEÁLLÍTÁSOK
+# ==========================
+
+DAYS_BACK = 14
+MAX_PER_SOURCE = 10
+
+
+# ==========================
+# RSS FORRÁSOK
+# ==========================
 
 with open("sources.txt", "r", encoding="utf-8") as file:
     sources = [
@@ -14,44 +28,17 @@ with open("sources.txt", "r", encoding="utf-8") as file:
 
 news = []
 
-date_limit = datetime.now() - timedelta(days=14)
+date_limit = datetime.now() - timedelta(days=DAYS_BACK)
 
 
-HUNGARIAN_SOURCES = [
-    "telex.hu",
-    "hvg.hu",
-    "24.hu",
-    "444.hu",
-    "index.hu",
-    "mandiner.hu",
-    "portfolio.hu",
-    "vg.hu"
-]
 
+# ==========================
+# KATEGÓRIA FELISMERÉS
+# ==========================
 
 def detect_category(title, summary, source):
 
     text = (title + " " + summary).lower()
-
-
-    # magyar politika
-    if any(x in text for x in [
-        "orbán",
-        "fidesz",
-        "tisza",
-        "parlament",
-        "miniszter",
-        "kormány",
-        "választás",
-        "ellenzék",
-        "országgyűlés"
-    ]):
-        return "Politics"
-
-
-    # magyar hírek
-    if any(x in source for x in HUNGARIAN_SOURCES):
-        return "Hungary"
 
 
     # AI
@@ -64,50 +51,83 @@ def detect_category(title, summary, source):
         "llm",
         "machine learning",
         "deep learning",
-        "robot"
+        "neural network"
     ]):
         return "AI"
 
 
-    # űripar
+    # Space
     if any(x in text for x in [
         "nasa",
         "spacex",
-        "rocket",
+        "starship",
+        "rocket launch",
         "satellite",
-        "orbit",
-        "moon",
-        "mars",
-        "space"
+        "spacecraft",
+        "moon mission",
+        "mars mission",
+        "orbital"
     ]):
         return "Space"
 
 
-    # tudomány
+    # Science
     if any(x in text for x in [
-        "nature",
-        "science",
         "research",
         "study",
-        "physics",
+        "nature",
+        "science",
         "biology",
         "medicine",
+        "physics",
         "quantum"
     ]):
         return "Science"
 
 
-    # világpolitika
+    # Technology
     if any(x in text for x in [
-        "war",
-        "china",
-        "russia",
-        "iran",
-        "ukraine",
+        "google",
+        "apple",
+        "microsoft",
+        "android",
+        "iphone",
+        "linux",
+        "software",
+        "cybersecurity",
+        "chip",
+        "processor",
+        "rust",
+        "typescript"
+    ]):
+        return "Technology"
+
+
+    # Magyar
+    if any(x in source for x in [
+        "telex.hu",
+        "hvg.hu",
+        "24.hu",
+        "444.hu",
+        "index.hu",
+        "mandiner.hu",
+        "portfolio.hu"
+    ]):
+        return "Hungary"
+
+
+    # Politika
+    if any(x in text for x in [
+        "government",
         "president",
+        "prime minister",
+        "election",
+        "parliament",
+        "minister",
+        "war",
         "nato",
-        "europe",
-        "government"
+        "sanction",
+        "military"
     ]):
         return "World"
 
@@ -116,74 +136,95 @@ def detect_category(title, summary, source):
 
 
 
-def calculate_score(title, summary, source):
+# ==========================
+# SCORE
+# ==========================
 
-    text = (title + " " + summary).lower()
+def calculate_score(category, source, date):
 
     score = 0
 
 
-    important_words = [
-        "breaking",
-        "major",
-        "first",
-        "new",
-        "launch",
-        "discovery",
-        "research",
-        "openai",
-        "nasa",
-        "spacex",
-        "google",
-        "microsoft"
+    trusted = [
+        "nature.com",
+        "science.org",
+        "technologyreview.com",
+        "theverge.com",
+        "arstechnica.com",
+        "spacenews.com",
+        "bbc.com",
+        "bbc.co.uk"
     ]
 
-    for word in important_words:
-        if word in text:
-            score += 2
+
+    if source in trusted:
+        score += 3
 
 
-    if source in HUNGARIAN_SOURCES:
-        score += 2
+    if category in [
+        "AI",
+        "Space",
+        "Science",
+        "Technology"
+    ]:
+        score += 3
 
 
-    if len(title) < 20:
-        score -= 2
+    if date:
+        if date > datetime.now()-timedelta(days=2):
+            score +=2
 
 
     return score
 
 
 
+# ==========================
+# RSS FELDOLGOZÁS
+# ==========================
+
 for url in sources:
 
-    print("\nOlvasom:", url)
+    print("Olvasom:", url)
+
 
     try:
 
         feed = feedparser.parse(url)
 
 
-        for entry in feed.entries[:40]:
+        for entry in feed.entries[:30]:
 
-            title = entry.get("title", "")
-            link = entry.get("link", "")
-            summary = entry.get("summary", "")
+
+            title = entry.get("title","")
+            link = entry.get("link","")
+            summary = entry.get("summary","")
+
+
+            # tisztítás
+            link = re.sub(r"\[|\]|\(|\)", "", link)
 
 
             published = entry.get("published_parsed")
+
+
+            article_date = None
 
 
             if published:
 
                 article_date = datetime(*published[:6])
 
+
                 if article_date < date_limit:
                     continue
 
 
 
-            source = urlparse(link).netloc.replace("www.", "")
+            source = urlparse(link).netloc.replace(
+                "www.",
+                ""
+            )
 
 
             category = detect_category(
@@ -193,82 +234,108 @@ for url in sources:
             )
 
 
-            language = "hu" if source in HUNGARIAN_SOURCES else "en"
+            score = calculate_score(
+                category,
+                source,
+                article_date
+            )
 
+
+            language = "hu" if category=="Hungary" else "en"
 
 
             news.append({
 
-                "title": title,
+                "title":title,
 
-                "link": link,
+                "link":link,
 
-                "source": source,
+                "source":source,
 
-                "category": category,
+                "category":category,
 
-                "language": language,
+                "language":language,
 
-                "score": calculate_score(
-                    title,
-                    summary,
-                    source
-                )
+                "score":score,
+
+                "date":
+                    article_date.isoformat()
+                    if article_date
+                    else None
 
             })
 
 
     except Exception as e:
-        print("Hiba:", e)
+
+        print("Hiba:",e)
 
 
 
+# ==========================
+# DUPLIKÁCIÓ
+# ==========================
 
-# duplikáció törlés
+unique={}
 
-unique = {}
 
 for item in news:
 
-    key = item["title"].lower()
+    key=item["title"].lower()
 
     if key not in unique:
-        unique[key] = item
+        unique[key]=item
 
 
-news = list(unique.values())
+news=list(unique.values())
 
 
 
-# pontszám alapján rendezés
+# ==========================
+# FORRÁS LIMIT
+# ==========================
+
+filtered=[]
+
+counter={}
+
+
+for item in sorted(
+    news,
+    key=lambda x:x["score"],
+    reverse=True
+):
+
+    source=item["source"]
+
+    if counter.get(source,0)>=MAX_PER_SOURCE:
+        continue
+
+
+    filtered.append(item)
+
+    counter[source]=counter.get(source,0)+1
+
+
+
+news=filtered
+
+
+
+# ==========================
+# RENDEZÉS
+# ==========================
 
 news.sort(
-    key=lambda x: x["score"],
+    key=lambda x:x["score"],
     reverse=True
 )
 
 
 
-# forrás limit
-
-final = []
-
-source_count = {}
-
-
-for item in news:
-
-    source = item["source"]
-
-    if source_count.get(source,0) >= 5:
-        continue
-
-
-    final.append(item)
-
-    source_count[source] = source_count.get(source,0)+1
-
-
+# ==========================
+# MENTÉS
+# ==========================
 
 with open(
     "news.json",
@@ -277,15 +344,13 @@ with open(
 ) as f:
 
     json.dump(
-        final,
+        news,
         f,
         ensure_ascii=False,
         indent=2
     )
 
 
-print(
-    "\nMentve:",
-    len(final),
-    "hír"
-)
+print()
+print("Kész!")
+print("Hírek:",len(news))
