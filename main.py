@@ -1,103 +1,151 @@
 import feedparser
 import json
-from urllib.parse import urlparse
-
-# RSS források beolvasása
-
-with open("sources.txt", "r", encoding="utf-8") as file:
-    sources = [
-        line.strip()
-        for line in file.readlines()
-        if line.strip() and not line.startswith("#")
-    ]
+import re
 
 
-all_news = []
+def detect_language(category, title):
+    """
+    Egyszerű nyelvfelismerés.
+    Magyar forrásokat automatikusan hu-nak vesz.
+    """
 
+    if category == "HUNGARY":
+        return "hu"
 
-# Egyszerű nyelv felismerés RSS alapján
-def detect_language(url):
-    if any(x in url for x in [
-        "telex.hu",
-        "hvg.hu",
-        "24.hu",
-        "portfolio.hu"
-    ]):
+    # gyakori magyar karakterek
+    hungarian_chars = "áéíóöőúüűÁÉÍÓÖŐÚÜŰ"
+
+    if any(char in title for char in hungarian_chars):
         return "hu"
 
     return "en"
 
 
-# Forrás neve kinyerése
-def get_source(url):
-    domain = urlparse(url).netloc.replace("www.", "")
+def get_source_name(url):
+    """
+    Forrásnév kinyerése URL-ből
+    """
 
-    names = {
-        "theverge.com": "The Verge",
-        "techcrunch.com": "TechCrunch",
-        "technologyreview.com": "MIT Technology Review",
-        "arstechnica.com": "Ars Technica",
-        "hnrss.org": "Hacker News",
-        "nature.com": "Nature",
-        "science.org": "Science",
-        "newscientist.com": "New Scientist",
-        "sciencedaily.com": "ScienceDaily",
-        "telex.hu": "Telex",
-        "hvg.hu": "HVG",
-        "24.hu": "24.hu",
-        "bbc.co.uk": "BBC",
-        "dw.com": "DW",
-        "theguardian.com": "The Guardian",
-        "portfolio.hu": "Portfolio",
-        "wsj.com": "Wall Street Journal"
-    }
+    clean = url.replace("https://", "").replace("http://", "")
+    domain = clean.split("/")[0]
 
-    return names.get(domain, domain)
+    return domain.replace("www.", "")
 
 
+# -----------------------------
+# RSS források beolvasása
+# -----------------------------
 
-for url in sources:
-    print(f"\nOlvasom: {url}")
+sources = []
+
+current_category = "Other"
+
+with open("sources.txt", "r", encoding="utf-8") as file:
+
+    for line in file:
+
+        line = line.strip()
+
+        if not line:
+            continue
+
+        # kategória sor
+        if line.startswith("[") and line.endswith("]"):
+            current_category = line[1:-1]
+            continue
+
+        # komment
+        if line.startswith("#"):
+            continue
+
+        sources.append({
+            "url": line,
+            "category": current_category
+        })
+
+
+# -----------------------------
+# Hírek gyűjtése
+# -----------------------------
+
+all_news = []
+
+seen_links = set()
+
+
+for source in sources:
+
+    url = source["url"]
+    category = source["category"]
+
+    print("\nOlvasom:", url)
 
     try:
+
         feed = feedparser.parse(url)
 
-        source = get_source(url)
-        language = detect_language(url)
+        source_name = get_source_name(url)
 
-        for entry in feed.entries[:5]:
 
-            title = entry.get("title", "Nincs cím")
-            link = entry.get("link", "")
+        for entry in feed.entries[:10]:
+
+            title = entry.get(
+                "title",
+                "Nincs cím"
+            )
+
+            link = entry.get(
+                "link",
+                ""
+            )
+
+
+            # duplikáció kiszűrés
+            if link in seen_links:
+                continue
+
+            seen_links.add(link)
+
+
+            language = detect_language(
+                category,
+                title
+            )
+
 
             all_news.append({
+
                 "title": title,
-                "source": source,
-                "language": language,
-                "link": link
+
+                "link": link,
+
+                "source": source_name,
+
+                "category": category,
+
+                "language": language
+
             })
 
 
     except Exception as e:
-        print("Hiba:", e)
+
+        print(
+            "Hiba:",
+            e
+        )
 
 
+# -----------------------------
+# Mentés
+# -----------------------------
 
-print("\n\n===== HÍREK =====\n")
+with open(
+    "news.json",
+    "w",
+    encoding="utf-8"
+) as f:
 
-for i, news in enumerate(all_news, 1):
-    print(
-        f"{i}. {news['title']} "
-        f"({news['source']} - {news['language']})"
-    )
-    print(news["link"])
-    print()
-
-
-
-# JSON mentés
-
-with open("news.json", "w", encoding="utf-8") as f:
     json.dump(
         all_news,
         f,
@@ -106,4 +154,8 @@ with open("news.json", "w", encoding="utf-8") as f:
     )
 
 
-print("\nMentve: news.json")
+print("\n----------------")
+print(
+    f"Kész: {len(all_news)} hír mentve"
+)
+print("----------------")
