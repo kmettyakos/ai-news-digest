@@ -17,74 +17,88 @@ with open("news.json", "r", encoding="utf-8") as f:
     news = json.load(f)
 
 
-# maximum ennyi hírt küldünk az AI-nak
+# -----------------------------
+# Kategóriánként előszűrés
+# -----------------------------
+
+categories = {}
+
+for item in news:
+
+    category = item.get("category", "OTHER")
+
+    if category not in categories:
+        categories[category] = []
+
+    # kategóriánként maximum 15 jelölt
+    if len(categories[category]) < 15:
+        categories[category].append(item)
+
+
+
 news_text = ""
 
-for item in news[:200]:
+for category, items in categories.items():
 
-    news_text += f"""
-Cím: {item.get('title', '')}
-Forrás: {item.get('source', '')}
-Kategória: {item.get('category', '')}
-Nyelv: {item.get('language', '')}
-Link: {item.get('link', '')}
+    news_text += f"\n\n===== {category} =====\n"
+
+    for item in items:
+
+        news_text += f"""
+Cím: {item.get('title','')}
+Forrás: {item.get('source','')}
+Nyelv: {item.get('language','')}
+Link: {item.get('link','')}
 
 """
 
 
 # -----------------------------
-# AI prompt
+# Prompt
 # -----------------------------
 
 prompt = f"""
 Te egy prémium reggeli hírszerkesztő AI vagy.
 
-Készíts egy Morning Briefing-et az alábbi hírekből.
+A feladatod egy Morning Briefing készítése.
 
-FONTOS:
-Ne a 10 legjobb hírt válaszd összesen.
-Minden kategóriából kötelező válogatni.
+Válassz híreket ezekbe a kategóriákba:
 
-
-KATEGÓRIÁK:
 
 🇭🇺 Magyarország
 
 🏛️ Magyar politika:
-- pontosan 2 hír
+2 hír
+
 
 📰 Egyéb magyar hírek:
-- pontosan 2 hír
+2 hír
 
 
 🤖 AI & Technológia:
-- pontosan 2 hír
+2 hír
 
 
 🚀 Űripar:
-- pontosan 2 hír
+2 hír
 
 
 🔬 Tudomány:
-- pontosan 3 hír
+3 hír
 
 
 🌍 Világpolitika:
-- pontosan 2 hír
+2 hír
 
 
 SZABÁLYOK:
 
-- Ugyanaz a hír csak egyszer szerepelhet.
-- Ha több oldal ír ugyanarról, csak a legjobb forrást használd.
-- Ne válassz reklámokat, termékakciókat vagy jelentéktelen híreket.
-- A cím maradjon az eredeti nyelven.
-- Ne fordítsd le a címet.
-
-NYELV:
-
-- Magyar hír esetén magyarul írj.
-- Angol hír esetén angolul írj.
+- Egy hír csak egyszer szerepelhet.
+- Ha több forrás ugyanarról ír, csak egyet használj.
+- Ne használj reklámot vagy termékakciót.
+- A cím maradjon eredeti nyelven.
+- Magyar hírt magyarul foglalj össze.
+- Angol hírt angolul foglalj össze.
 
 
 FORMÁTUM:
@@ -93,10 +107,7 @@ FORMÁTUM:
 🌅 Morning Briefing
 
 
-🇭🇺 Magyarország
-
-
-🏛️ Magyar politika
+(kategóriák emoji címmel)
 
 
 📰 Cím
@@ -112,49 +123,6 @@ FORMÁTUM:
 
 🔗 Tovább:
 link
-
-
-
-📰 Egyéb magyar hírek
-
-(ugyanilyen formátum)
-
-
-
-🤖 AI & Technológia
-
-
-📰 Cím
-
-📌 Röviden:
-2-3 mondat
-
-🎯 Miért fontos?
-1 mondat
-
-🔗 Tovább:
-link
-
-
-
-🚀 Űripar
-
-
-(ugyanilyen formátum)
-
-
-
-🔬 Tudomány
-
-
-(ugyanilyen formátum)
-
-
-
-🌍 Világpolitika
-
-
-(ugyanilyen formátum)
 
 
 
@@ -163,8 +131,7 @@ A végén:
 
 📌 Mai trendek
 
-
-3-5 pontban írd le a legfontosabb hosszabb távú folyamatokat.
+3-5 pont a legfontosabb folyamatokról.
 
 
 HÍREK:
@@ -175,7 +142,7 @@ HÍREK:
 
 
 # -----------------------------
-# AI hívás
+# AI
 # -----------------------------
 
 response = client.chat.completions.create(
