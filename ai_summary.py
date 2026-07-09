@@ -13,16 +13,19 @@ with open("news.json", "r", encoding="utf-8") as f:
     news = json.load(f)
 
 
-# Maximum 120 hír küldése, hogy ne lépjük túl a token limitet
+# maximum 120 hír megy az AI-nak, hogy ne legyen túl nagy request
+news = news[:120]
+
+
 news_text = ""
 
-for item in news[:120]:
+for item in news:
     news_text += f"""
-Cím: {item.get('title', '')}
+Cím: {item['title']}
 Forrás: {item.get('source', '')}
 Kategória: {item.get('category', '')}
 Nyelv: {item.get('language', '')}
-Link: {item.get('link', '')}
+Link: {item['link']}
 
 """
 
@@ -30,62 +33,42 @@ Link: {item.get('link', '')}
 prompt = f"""
 Te egy prémium reggeli hírszerkesztő AI vagy.
 
-Készíts egy napi Morning Briefing összefoglalót a kapott hírekből.
+Készíts egy Morning Briefing hírszemlét.
 
-FONTOS SZABÁLYOK:
-
-- Csak a megadott hírekből dolgozz.
-- SOHA ne találj ki hírt.
-- Ha nincs megfelelő hír egy kategóriában, inkább hagyd üresen vagy válassz kevesebbet.
-- Ne használj régi általános háttéranyagokat.
-- Ne használj ugyanazt a hírt több kategóriában.
-- Ugyanazt az eseményt ne írd le több forrásból.
-- A hír címe mindig maradjon eredeti nyelven.
-- Ne fordítsd le a címeket.
-
-
-A híreket rangsorold:
-
-+3 pont: világszinten jelentős esemény
-+3 pont: sok embert érint
-+2 pont: nagy vállalat, ország vagy szervezet érintett
-+2 pont: új technológia vagy tudományos áttörés
-+1 pont: Magyarországhoz kapcsolódik
-
-A magasabb pontszámú híreket válaszd.
-
+A híreket kategóriák szerint rendezd.
 
 KATEGÓRIÁK:
 
-
 🇭🇺 Magyarország
-2 legfontosabb friss magyar hír
+- 2 legfontosabb magyar hír
 
 🏛️ Magyar politika
-2 legfontosabb magyar politikai hír
+- 2 legfontosabb politikai hír
 
 🤖 AI & Technológia
-2 legfontosabb AI vagy technológiai hír
+- 2 legfontosabb hír
 
 🚀 Űripar
-2 legfontosabb űripari hír
+- 2 legfontosabb hír
 
 🔬 Tudomány
-3 legérdekesebb tudományos hír
-
-Prioritás:
-1. egészség
-2. biotechnológia
-3. energia
-4. klíma
-5. nagy tudományos felfedezések
-
-Nagyon speciális kutatást csak akkor válassz, ha nincs érdekesebb.
-
+- 3 legfontosabb hír
 
 🌍 Világpolitika
-2 legfontosabb nemzetközi politikai hír
+- 2 legfontosabb hír
 
+
+SZABÁLYOK:
+
+- Egy hír csak egyszer szerepelhet.
+- Ha ugyanaz a hír több forrásból van, csak a legjobb forrást használd.
+- Ne találj ki híreket.
+- Ha nincs elég releváns hír egy kategóriában, írd:
+"Nincs elég releváns hír."
+- A cím mindig maradjon az eredeti nyelven.
+- A forrás linkje mindig maradjon meg.
+- Ne használj Markdown fejléc jeleket (#).
+- Csak emoji kategóriacímek legyenek.
 
 
 FORMÁTUM:
@@ -100,24 +83,14 @@ FORMÁTUM:
 📰 Eredeti cím
 
 📌 Röviden:
-2-3 mondatos összefoglaló.
+2-3 természetes magyar mondat.
 
 🎯 Miért fontos?
-1 konkrét mondat.
-Magyarázd el a valódi jelentőségét.
-
-Kerüld:
-- "fontos mert fontos"
-- "a fejlődés szempontjából fontos"
-- általános üres mondatokat.
+1 konkrét mondat arról, hogy miért számít ez a hír.
 
 
 🔗 Tovább:
-eredeti link
-
-
-
-Minden kategóriát ugyanebben a formában írj.
+link
 
 
 A végén:
@@ -125,17 +98,10 @@ A végén:
 
 📌 Mai trendek
 
-Írj 3-5 pontot a nap legfontosabb nagyobb folyamatairól.
-Ne csak híreket ismételj.
 
-
-TILOS:
-
-- # jelek használata
-- markdown headingek
-- kitalált információ
-- hiányzó linkek
-- ismétlődő hírek
+- 5 rövid pont a mai nap legfontosabb összefüggő trendjeiről.
+- Ne általánosságokat írj.
+- Kapcsolódjon konkrétan a mai hírekhez.
 
 
 HÍREK:
