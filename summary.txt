@@ -1,58 +1,106 @@
-# 🌅 Morning Briefing
+🌅 Morning Briefing
 
-## Meta Dolgozik Okos Szemüvegeken
-Mi történt: A Meta dolgozik egy okos szemüvegen, amely folyamatosan rögzíti a környezetet. A szemüveg a "super sensing" technológiát használja, amely lehetővé teszi a felhasználók számára, hogy érzékeljék a környezetüket.
-Miért fontos: Ez a technológia forradalmasíthatja a felhasználói élményt és új lehetőségeket teremthet az okos szemüvegek számára.
-Forrás: https://www.theverge.com/tech/963138/meta-smart-glasses-recording-super-sensing-ai
 
-## Google Mélyhamisítás Elleni Rendszere
-Mi történt: A Google kidolgozott egy mélyhamisítás elleni rendszert, amely segít a valótlan információk azonosításában. A rendszer már sikeresen használták egy hamis kép ellenőrzésére.
-Miért fontos: A mélyhamisítás elleni rendszer fontos lépés a valós információk védelme érdekében.
-Forrás: https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/
+🇭🇺 Magyarország
 
-## SpaceX AI Grok 4.5
-Mi történt: A SpaceX AI kiadta a Grok 4.5 modellt, amelyet Elon Musk "opus-class" modellnek nevezett. A modell fejlettebb képességekkel rendelkezik a korábbi verziókhoz képest.
-Miért fontos: A Grok 4.5 modell fontos lépés a mesterséges intelligencia fejlődésében és új lehetőségeket teremthet a technológia számára.
-Forrás: https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/
+📰 Olcsón megúszta Elon Musk: 1,5 millió dollárra büntették, miután 150 milliót nyert a Twitter-vásárlás körüli szabálytalanságokon
+📌 Röviden: Elon Muskot 1,5 millió dollárra büntették a Twitter-vásárlás körüli szabálytalanságok miatt. A bíró elfogadta az egyezséget, amely szerint Musk nem ismeri el a bűnösségét, de elfogadja a büntetést.
+🎯 Miért fontos? Az ügy fontos, mert Elon Musk egyik legnagyobb vállalkozásáról van szó, és a bírói döntés hatással lesz a tech-iparágazatra.
+🔗 Tovább: https://telex.hu/gazdasag/2026/07/09/elon-musk-sec-amerikai-tozsdefelugyelethez-twitter-x-reszveny-vasarlas-bejelentes-buntetes-egyezseg-megallapodas-1-5-millio-dollar
 
-## Autonóm Járművek és Az Elsősegély
-Mi történt: Az Egyesült Államok kormánya felszólította az autonóm járművek gyártóit, hogy ne akadályozzák az elsősegély nyújtását. A gyártók kötelesek lesznek engedélyezni az elsősegély nyújtását az autonóm járművek mellett.
-Miért fontos: Ez a lépés fontos a közlekedés biztonságának növelése érdekében és az autonóm járművek fejlődésének támogatásában.
-Forrás: https://techcrunch.com/2026/07/08/feds-demand-autonomous-vehicle-companies-stop-interfering-with-first-responders/
+📰 Tiszás újoncok a parlamentben: nem gombnyomogató embernek mentek oda, de a sok ülés próbára teszi őket
+📌 Röviden: A Tisza Párt új képviselői a parlamentben kezdik meg munkájukat. A képviselők elmondásuk szerint nem csak gombnyomogatók lesznek, hanem aktívan részt vesznek a döntéshozatalban.
+🎯 Miért fontos? A Tisza Párt új képviselői fontos szerepet játszhatnak a magyar politikai életben, és a döntéshozatalban való részvételük hatással lesz az ország jövőjére.
+🔗 Tovább: https://telex.hu/belfold/2026/07/09/tisza-frakcio-kepviselok-parlament
 
-## ChatGPT Hangalapú Mód
-Mi történt: A ChatGPT kiadta a hangalapú modelljét, amely jobb a csendes üzenetekben. A modell fejlettebb képességekkel rendelkezik a beszélgetéshez.
-Miért fontos: A hangalapú modell fontos lépés a mesterséges intelligencia fejlődésében és új lehetőségeket teremthet a technológia számára.
-Forrás: https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live
 
-## QuantumDiamonds Chipgyártás
-Mi történt: A QuantumDiamonds chipgyártó cég az EU támogatásával gyorsítja fel a chipgyártást. A cég fejlettebb technológiát használ a chipgyártásban.
-Miért fontos: A gyorsabb chipgyártás fontos lépés a technológia fejlődésében és az iparágak növekedésében.
-Forrás: https://techcrunch.com/2026/07/08/with-eu-backing-quantumdiamonds-aims-to-speed-up-chip-manufacturing/
+🏛️ Magyar politika
 
-## Manna Autonóm Drone Szállítás
-Mi történt: A Manna autonóm drone szállító cég terjeszkedik az Egyesült Államokban. A cég fejlettebb drónokat használ a szállításban.
-Miért fontos: Az autonóm drone szállítás fontos lépés a logisztika fejlődésében és az iparágak növekedésében.
-Forrás: https://techcrunch.com/2026/07/08/autonomous-drone-delivery-startup-manna-plots-major-u-s-expansion/
+📰 Sulyok Tamás aggódik, hogy az utódja a Tisza Párt politikai kinevezettje lesz
+📌 Röviden: Sulyok Tamás, a Tisza Párt elnöke aggódik, hogy az utódja politikai kinevezett lesz, és nem a párt érdekeit fogja képviselni.
+🎯 Miért fontos? A Tisza Párt elnökének aggályai fontosak, mert a párt jövője és a magyar politika alakulása szempontjából fontosak.
+🔗 Tovább: https://telex.hu/belfold/2026/07/09/sulyok-tamas-aggodik-hogy-az-utodja-a-tisza-part-politikai-kinevezettje-lesz
 
-## Google Android Bench
-Mi történt: A Google frissítette az Android Bench eszközt, amely lehetővé teszi a fejlesztők számára, hogy teszteljék az alkalmazásaikat. A frissítés új LLM-eket tartalmaz.
-Miért fontos: A frissítés fontos lépés a fejlesztők számára, akik az Android platformon dolgoznak.
-Forrás: https://arstechnica.com/google/2026/07/google-revamps-android-ai-dev-benchmark-adds-fable-5-and-other-agents/
+📰 Megszüntette a nyomozást a rendőrség a Kecskemétről eltűnt MiG–29-es alkatrészek ügyében
+📌 Röviden: A rendőrség megszüntette a nyomozást a Kecskemétről eltűnt MiG–29-es alkatrészek ügyében, mert nem találtak elegendő bizonyítékot.
+🎯 Miért fontos? Az ügy fontos, mert a magyar hadsereg és a nemzetbiztonság szempontjából fontos.
+🔗 Tovább: https://telex.hu/belfold/2026/07/09/kecskemet-mig-29-ellopott-alkatresz-nyomozas
 
-## City Labs Nukleáris Energia
-Mi történt: A City Labs cég elérte az első kereskedelmi nukleáris energiát a világűrben. A cég fejlettebb technológiát használ a nukleáris energia termelésében.
-Miért fontos: A nukleáris energia fontos lépés a világűr fejlődésében és az iparágak növekedésében.
-Forrás: https://arstechnica.com/space/2026/07/miami-based-city-labs-achieves-a-first-for-commercial-nuclear-power-in-space/
 
-## US Keresi Az Olcsóbb Vadászrepülőgépeket
-Mi történt: Az Egyesült Államok kormánya keresi az olcsóbb vadászrepülőgépeket, miután Irán elpusztított egy milliárd dollárt érő Reapert.
-Miért fontos: Az olcsóbb vadászrepülőgépek fontosak a katonai iparág fejlődésében és a költségek csökkentésében.
-Forrás: https://arstechnica.com/gadgets/2026/07/us-seeks-cheaper-hunter-killer-drones-after-iran-destroys-1b-worth-of-reapers/
+📰 Egyéb magyar hírek
 
-# 📌 Mai trendek
-* A mesterséges intelligencia fejlődése és az új technológiák
-* Az autonóm járművek és a logisztika fejlődése
-* A nukleáris energia és a világűr fejlődése
-* Az olcsóbb vadászrepülőgépek keresése
-* A chipgyártás és a technológia fejlődése
+📰 Drágállja a Mol Bubi új díjait a Kerékpárosklub, a BKK egyeztet
+📌 Röviden: A Kerékpárosklub és a BKK egyeztet a Mol Bubi új díjairól, mert a klub szerint a díjak túl magasak.
+🎯 Miért fontos? A Mol Bubi díjai fontosak, mert a budapesti közlekedés szempontjából fontosak.
+🔗 Tovább: https://telex.hu/belfold/2026/07/09/mol-bubi-bkk-dijszabas-kerekparosklub
+
+📰 Átvitte a szalagkorlátot, majd az oldalára borult egy autószállító tréler az M1-esen
+📌 Röviden: Egy autószállító tréler átvitte a szalagkorlátot, majd az oldalára borult az M1-esen, de senki sem sérült meg.
+🎯 Miért fontos? A baleset fontos, mert a magyar közlekedésbiztonság szempontjából fontos.
+🔗 Tovább: https://telex.hu/belfold/2026/07/09/atvitte-a-szalagkorlatot-majd-az-oldalara-borult-egy-autoszallito-treler-az-m1-esen
+
+
+🤖 AI & Technológia
+
+📰 Meta is reportedly working on smart glasses that would be recording all the time
+📌 Röviden: A Meta dolgozik egy olyan okos szemüvegen, amely folyamatosan rögzíti a környezetet.
+🎯 Miért fontos? Az okos szemüveg fontos, mert a technológiai fejlődés szempontjából fontos.
+🔗 Tovább: https://www.theverge.com/tech/963138/meta-smart-glasses-recording-super-sensing-ai
+
+📰 ChatGPT’s upgraded voice mode is better at shutting up
+📌 Röviden: A ChatGPT fejlesztett hangmódja jobb a csendes üzemben.
+🎯 Miért fontos? A ChatGPT fejlesztése fontos, mert a mesterséges intelligencia fejlődése szempontjából fontos.
+🔗 Tovább: https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live
+
+
+🚀 Űripar
+
+📰 New Singapore space agency seeks to build up the country’s space industry
+📌 Röviden: Szingapúr új űrügynöksége az ország űriparának fejlesztését célozza.
+🎯 Miért fontos? Az űripar fontos, mert a technológiai fejlődés és a nemzetközi együttműködés szempontjából fontos.
+🔗 Tovább: https://spacenews.com/new-singapore-space-agency-seeks-to-build-up-the-countrys-space-industry/
+
+📰 ispace to send larger payloads to the moon on SpaceX’s Starship
+📌 Röviden: Az ispace nagyobb terheket fog küldeni a Holdra a SpaceX Starship űrhajóval.
+🎯 Miért fontos? A Holdra küldött terhek fontosak, mert a űrkutatás és a technológiai fejlődés szempontjából fontosak.
+🔗 Tovább: https://spacenews.com/ispace-to-send-larger-payloads-to-the-moon-on-spacexs-starship/
+
+
+🔬 Tudomány
+
+📰 Nukes in space? Orbital detector could sniff out warheads
+📌 Röviden: Egy új űreszköz képes lehet a nukleáris robbanófejek észlelésére.
+🎯 Miért fontos? A nukleáris robbanófejek észlelése fontos, mert a nemzetközi biztonság és a béketeremtés szempontjából fontos.
+🔗 Tovább: https://www.nature.com/articles/d41586-026-02141-z
+
+📰 Observation of Floquet rotational super-radiance
+📌 Röviden: A tudósok megfigyelték a Floquet rotációs szuper-radianciát.
+🎯 Miért fontos? A Floquet rotációs szuper-radiancia fontos, mert a kvantummechanika és a fizika fejlődése szempontjából fontos.
+🔗 Tovább: https://www.nature.com/articles/s41586-026-10725-y
+
+📰 In vivo feasibility study of humanoid robots in surgery
+📌 Röviden: A humanoid robotok sebészi alkalmazásának lehetőségeit vizsgálják.
+🎯 Miért fontos? A humanoid robotok sebészi alkalmazása fontos, mert az orvostudomány és a technológia fejlődése szempontjából fontos.
+🔗 Tovább: https://www.nature.com/articles/s41586-026-10796-x
+
+
+🌍 Világpolitika
+
+📰 US launches more strikes on Iran with blasts reported in south of country
+📌 Röviden: Az Egyesült Államok újabb csapásokat mért Iránra, amelyek a dél-iráni területeken robbantak.
+🎯 Miért fontos? Az iráni-amerikai konfliktus fontos, mert a nemzetközi biztonság és a Közel-Keleti helyzet szempontjából fontos.
+🔗 Tovább: https://www.bbc.co.uk/news/articles/cz75zjj5wp8o?at_medium=RSS&at_campaign=rss
+
+📰 Hungary public media reform begins with black screen apology
+📌 Röviden: Magyarországon elkezdődött a közszolgálati média reformja, amely egy fekete képernyős bocsánatkéréssel kezdődött.
+🎯 Miért fontos? A magyar közszolgálati média reformja fontos, mert a sajtószabadság és a demokrácia fejlődése szempontjából fontos.
+🔗 Tovább: https://www.dw.com/en/hungary-public-media-reform-begins-with-black-screen-apology/a-77880569?maca=en-rss-en-world-4025-rdf
+
+
+📌 Mai trendek
+
+* A technológiai fejlődés és a mesterséges intelligencia fejlesztése fontos trendek a mai világban.
+* A nemzetközi konfliktusok és a biztonságpolitika fontos szerepet játszanak a globális politikai helyzet alakulásában.
+* A magyar politika és a közszolgálati média reformja fontos kérdések a magyar társadalom és a demokrácia fejlődése szempontjából.
+* Az űrkutatás és a Holdra küldött terhek fontosak a technológiai fejlődés és a nemzetközi együttműködés szempontjából.
+* A tudományos fejlődés és a kvantummechanika fontosak a fizika és a technológia fejlődése szempontjából.

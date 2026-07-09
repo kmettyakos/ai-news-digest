@@ -280,6 +280,13 @@
     "language": "en"
   },
   {
+    "title": "CollectWise (YC F24) Is Hiring",
+    "link": "https://www.ycombinator.com/companies/collectwise/jobs/P646Yw6-founding-account-executive",
+    "source": "hnrss.org",
+    "category": "AI",
+    "language": "en"
+  },
+  {
     "title": "AI changes the economics of software rewrites",
     "link": "https://thetruthasiseeitnow.com/ai-slop-starts-with-the-codebase-itself/",
     "source": "hnrss.org",
@@ -338,13 +345,6 @@
   {
     "title": "Benchmarking coding agents on Databricks' multi-million line codebase",
     "link": "https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase",
-    "source": "hnrss.org",
-    "category": "AI",
-    "language": "en"
-  },
-  {
-    "title": "Separating signal from noise in coding evaluations",
-    "link": "https://openai.com/index/separating-signal-from-noise-coding-evaluations/",
     "source": "hnrss.org",
     "category": "AI",
     "language": "en"
@@ -770,6 +770,13 @@
     "language": "hu"
   },
   {
+    "title": "Tóta W. Árpád: A bocsi megvolt, elő az ocsmányságokkal",
+    "link": "https://hvg.hu/360/20260709_tota-w-arpad-a-bocsi-megvolt-elo-az-ocsmanysagokkal",
+    "source": "hvg.hu",
+    "category": "HUNGARY",
+    "language": "hu"
+  },
+  {
     "title": "Nagyon súlyos hibát találtak ezekben a wifi routerekben",
     "link": "https://hvg.hu/tudomany/20260709_tenda-wifi-router-nem-javitott-biztonsagi-res-sebezhetoseg",
     "source": "hvg.hu",
@@ -833,9 +840,16 @@
     "language": "hu"
   },
   {
-    "title": "Kínai riválisai másolják a Xiaomi első autóját, amelyet a Porsche Taycan ihletett",
-    "link": "https://hvg.hu/cegauto/20260709_kinai-rivalisai-masoljak-a-xiaomi-elso-autojat-amit-a-porsche-taycan-ihletett-mg-geely",
-    "source": "hvg.hu",
+    "title": "Ellopták egy vak embertől a telefonját",
+    "link": "https://24.hu/belfold/2026/07/09/latasserult-ellopott-telefon-vademeles/",
+    "source": "24.hu",
+    "category": "HUNGARY",
+    "language": "hu"
+  },
+  {
+    "title": "A Fidesz-kétharmad által a kegyelmi botrány után sietve kinevezett Sulyok amiatt aggódik, hogy utódja „egyfajta politikai kinevezett” lehet",
+    "link": "https://24.hu/belfold/2026/07/09/sulyok-tamas-fidesz-tisza/",
+    "source": "24.hu",
     "category": "HUNGARY",
     "language": "hu"
   },
@@ -891,20 +905,6 @@
   {
     "title": "Magyar Péter Áder Jánosnak: Szedje össze a bátorságát, mégiscsak ön a csornai Charles Bronson!",
     "link": "https://24.hu/belfold/2026/07/09/magyar-peter-ader-janos-disneyland-kozpenz-breking/",
-    "source": "24.hu",
-    "category": "HUNGARY",
-    "language": "hu"
-  },
-  {
-    "title": "A megcsuklás után csütörtök reggelre megállt a forint lecsúszása",
-    "link": "https://24.hu/fn/gazdasag/2026/07/09/forint-arfolyam-euro-penz/",
-    "source": "24.hu",
-    "category": "HUNGARY",
-    "language": "hu"
-  },
-  {
-    "title": "Magától távozott Lázár János bizalmasa a kerékpáros szövetség éléről",
-    "link": "https://24.hu/belfold/2026/07/09/kerekpar-szovetseg-lemondas-lazar/",
     "source": "24.hu",
     "category": "HUNGARY",
     "language": "hu"
@@ -1050,6 +1050,27 @@
     "language": "hu"
   },
   {
+    "title": "Trump hangot váltott, Lukasenko lavíroz: egyre több irányból szűkülhet Putyin mozgástere",
+    "link": "https://www.portfolio.hu/global/20260709/trump-hangot-valtott-lukasenko-laviroz-egyre-tobb-iranybol-szukulhet-putyin-mozgastere-848364",
+    "source": "portfolio.hu",
+    "category": "HUNGARY",
+    "language": "hu"
+  },
+  {
+    "title": "Óriási tőke zúdult egyetlen befektetésbe: imádják a tiszta energiát az európai nagyhatalomban",
+    "link": "https://www.portfolio.hu/befektetes/20260709/oriasi-toke-zudult-egyetlen-befektetesbe-imadjak-a-tiszta-energiat-az-europai-nagyhatalomban-848512",
+    "source": "portfolio.hu",
+    "category": "HUNGARY",
+    "language": "hu"
+  },
+  {
+    "title": "Megadta az engedélyt Ukrajnának Trump, kétségbeesett lépésre kényszerült Moszkva – Híreink az orosz-ukrán háborúról csütörtökön",
+    "link": "https://www.portfolio.hu/global/20260709/megadta-az-engedelyt-ukrajnanak-trump-ketsegbeesett-lepesre-kenyszerult-moszkva-hireink-az-orosz-ukran-haborurol-csutortokon-848472",
+    "source": "portfolio.hu",
+    "category": "HUNGARY",
+    "language": "hu"
+  },
+  {
     "title": "Nagy esés után próbálnak magukhoz térni az európai tőzsdék",
     "link": "https://www.portfolio.hu/uzlet/20260709/nagy-eses-utan-probalnak-magukhoz-terni-az-europai-tozsdek-848478",
     "source": "portfolio.hu",
@@ -1094,27 +1115,6 @@
   {
     "title": "Nyomoz a rendőrség a hatvanpusztai zebrapusztulás ügyében",
     "link": "https://www.portfolio.hu/gazdasag/20260709/nyomoz-a-rendorseg-a-hatvanpusztai-zebrapusztulas-ugyeben-848502",
-    "source": "portfolio.hu",
-    "category": "HUNGARY",
-    "language": "hu"
-  },
-  {
-    "title": "Újabb csavar: még többen távozhatnak az Alkotmánybíróságból",
-    "link": "https://www.portfolio.hu/gazdasag/20260709/ujabb-csavar-meg-tobben-tavozhatnak-az-alkotmanybirosagbol-848498",
-    "source": "portfolio.hu",
-    "category": "HUNGARY",
-    "language": "hu"
-  },
-  {
-    "title": "Éles kritikát fogalmazott meg Sulyok Tamás: szerinte veszélyes precedenst teremthet a kormány új terve",
-    "link": "https://www.portfolio.hu/gazdasag/20260709/eles-kritikat-fogalmazott-meg-sulyok-tamas-szerinte-veszelyes-precedenst-teremthet-a-kormany-uj-terve-848492",
-    "source": "portfolio.hu",
-    "category": "HUNGARY",
-    "language": "hu"
-  },
-  {
-    "title": "Nagy esés után kapaszkodik a forint",
-    "link": "https://www.portfolio.hu/deviza/20260709/nagy-eses-utan-kapaszkodik-a-forint-848496",
     "source": "portfolio.hu",
     "category": "HUNGARY",
     "language": "hu"
