@@ -1,26 +1,35 @@
-# AI + Technology
+[AI]
 https://www.theverge.com/rss/index.xml
 https://techcrunch.com/feed/
 https://www.technologyreview.com/feed/
 https://feeds.arstechnica.com/arstechnica/index
 https://hnrss.org/frontpage
 
-# Science + Biotechnology
+[SPACE]
+https://spacenews.com/feed/
+https://www.nasa.gov/rss/dyn/breaking_news.rss
+
+[SCIENCE]
 https://www.nature.com/nature.rss
 https://www.science.org/rss/news_current.xml
 https://www.newscientist.com/feed/home/
 https://www.sciencedaily.com/rss/all.xml
 
-# Hungary
+[HUNGARY]
 https://telex.hu/rss
 https://hvg.hu/rss
 https://24.hu/feed/
+https://444.hu/feed
+https://index.hu/rss/
+https://mandiner.hu/rss
+https://magyarnemzet.hu/rss
+https://portfolio.hu/rss/all.xml
 
-# World politics
+[POLITICS]
 https://feeds.bbci.co.uk/news/world/rss.xml
 https://rss.dw.com/rdf/rss-en-world
 https://www.theguardian.com/world/rss
 
-# Economy
+[ECONOMY]
 https://www.portfolio.hu/rss/all.xml
 https://feeds.a.dj.com/rss/RSSMarketsMain.xml
