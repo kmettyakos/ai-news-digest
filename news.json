@@ -10,7 +10,7 @@
     "title": "Get a $30 credit when you reserve Samsung’s upcoming Galaxy phones",
     "link": "https://www.theverge.com/gadgets/962999/samsung-unpacked-z-fold-flip-wide-reserve-credit-preorder",
     "source": "theverge.com",
-    "category": "AI",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
@@ -24,7 +24,7 @@
     "title": "America’s cheapest new EV is smaller than a ping-pong table and tops out at 19mph",
     "link": "https://www.theverge.com/transportation/962753/fiat-topolino-ev-us-price-specs-micromobiilty",
     "source": "theverge.com",
-    "category": "AI",
+    "category": "Space",
     "language": "en"
   },
   {
@@ -38,7 +38,7 @@
     "title": "If Microsoft sold off Xbox, who would even buy it?",
     "link": "https://www.theverge.com/games/962837/microsoft-xbox-spin-off-sell-divest-layoffs-asha-sharma",
     "source": "theverge.com",
-    "category": "AI",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
@@ -73,21 +73,21 @@
     "title": "Truecaller clashes with India’s telecom regulator over anti-spam rules",
     "link": "https://techcrunch.com/2026/07/08/truecaller-clashes-with-indias-telecom-regulator-over-anti-spam-rules/",
     "source": "techcrunch.com",
-    "category": "AI",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
     "title": "Despite ‘misgivings,’ judge approves Elon Musk’s $1.5M SEC settlement",
     "link": "https://techcrunch.com/2026/07/08/despite-misgivings-judge-approves-elon-musks-1-5-million-sec-settlement/",
     "source": "techcrunch.com",
-    "category": "AI",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
     "title": "Lovable reportedly in talks to double its valuation to $13.2B",
     "link": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/",
     "source": "techcrunch.com",
-    "category": "AI",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
@@ -115,7 +115,7 @@
     "title": "Autonomous drone delivery startup Manna plots major US expansion",
     "link": "https://techcrunch.com/2026/07/08/autonomous-drone-delivery-startup-manna-plots-major-u-s-expansion/",
     "source": "techcrunch.com",
-    "category": "AI",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
@@ -129,12 +129,47 @@
     "title": "‘Slow-cial’ app Roost forces you to slow down to the speed of a carrier pigeon",
     "link": "https://techcrunch.com/2026/07/08/slow-cial-app-roost-forces-you-to-slow-down-to-the-speed-of-a-carrier-pigeon/",
     "source": "techcrunch.com",
-    "category": "AI",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
     "title": "This startup thinks robotics is about to have its ChatGPT moment",
     "link": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
+    "source": "techcrunch.com",
+    "category": "AI",
+    "language": "en"
+  },
+  {
+    "title": "Elon Musk says X will send DMs when posts you’ve engaged with are corrected",
+    "link": "https://techcrunch.com/2026/07/08/elon-musk-says-x-will-send-dms-when-posts-youve-engaged-with-are-corrected/",
+    "source": "techcrunch.com",
+    "category": "AI",
+    "language": "en"
+  },
+  {
+    "title": "Google Photos adds a new AI ‘Video Remix’ tool",
+    "link": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/",
+    "source": "techcrunch.com",
+    "category": "AI",
+    "language": "en"
+  },
+  {
+    "title": "Why this CEO thinks video games make better training data than the internet",
+    "link": "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/",
+    "source": "techcrunch.com",
+    "category": "AI",
+    "language": "en"
+  },
+  {
+    "title": "Meta wants its AI glasses to seem less creepy. Its AI strategy says otherwise.",
+    "link": "https://techcrunch.com/2026/07/08/meta-wants-its-ai-glasses-to-seem-less-creepy-its-ai-strategy-says-otherwise/",
+    "source": "techcrunch.com",
+    "category": "AI",
+    "language": "en"
+  },
+  {
+    "title": "OpenAI releases new voice models for more natural live conversations",
+    "link": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
     "source": "techcrunch.com",
     "category": "AI",
     "language": "en"
@@ -192,7 +227,7 @@
     "title": "South Korea’s hottest new bachelors are chip workers",
     "link": "https://www.technologyreview.com/2026/07/06/1140000/south-korea-bachelors-samsung-skhynix-chip-workers/",
     "source": "technologyreview.com",
-    "category": "AI",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
@@ -212,1261 +247,1702 @@
   {
     "title": "Suspecting AI cheating, Ivy League prof ordered an in-person final; scores fell 50%",
     "link": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/",
-    "source": "feeds.arstechnica.com",
+    "source": "arstechnica.com",
     "category": "AI",
     "language": "en"
   },
   {
     "title": "Lawsuit: Man used Grok to make 7K sex images of stepdaughter, then shot himself",
     "link": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt/",
-    "source": "feeds.arstechnica.com",
-    "category": "AI",
+    "source": "arstechnica.com",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
     "title": "Judge rejects Kalshi attempt to override New York state gambling laws",
     "link": "https://arstechnica.com/tech-policy/2026/07/new-york-can-restrict-sports-gambling-on-prediction-markets-us-judge-rules/",
-    "source": "feeds.arstechnica.com",
-    "category": "AI",
+    "source": "arstechnica.com",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
     "title": "Google pays $250K for Linux vulnerability allowing guest VM escapes",
     "link": "https://arstechnica.com/security/2026/07/high-severity-guest-vm-escape-is-1-of-2-linux-vulnerabilities-to-surface-this-week/",
-    "source": "feeds.arstechnica.com",
+    "source": "arstechnica.com",
     "category": "AI",
     "language": "en"
   },
   {
     "title": "Aussie gov't tells volunteers to throw out thousands of functioning test routers",
     "link": "https://arstechnica.com/gadgets/2026/07/thousands-of-routers-bricked-after-government-program-concludes-in-australia/",
-    "source": "feeds.arstechnica.com",
-    "category": "AI",
+    "source": "arstechnica.com",
+    "category": "World",
     "language": "en"
   },
   {
     "title": "TikTok users don't have as much agency over their FYPs as they think",
     "link": "https://arstechnica.com/science/2026/07/how-much-control-do-tiktok-users-really-have-over-fyps/",
-    "source": "feeds.arstechnica.com",
-    "category": "AI",
+    "source": "arstechnica.com",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
     "title": "US seeks cheaper hunter-killer drones after Iran destroys $1B worth of Reapers",
     "link": "https://arstechnica.com/gadgets/2026/07/us-seeks-cheaper-hunter-killer-drones-after-iran-destroys-1b-worth-of-reapers/",
-    "source": "feeds.arstechnica.com",
-    "category": "AI",
+    "source": "arstechnica.com",
+    "category": "World",
     "language": "en"
   },
   {
     "title": "Miami-based City Labs achieves a first for commercial nuclear power in space",
     "link": "https://arstechnica.com/space/2026/07/miami-based-city-labs-achieves-a-first-for-commercial-nuclear-power-in-space/",
-    "source": "feeds.arstechnica.com",
-    "category": "AI",
+    "source": "arstechnica.com",
+    "category": "Space",
     "language": "en"
   },
   {
     "title": "Google updates Android Bench with new LLMs, but Gemini still lags behind",
     "link": "https://arstechnica.com/google/2026/07/google-revamps-android-ai-dev-benchmark-adds-fable-5-and-other-agents/",
-    "source": "feeds.arstechnica.com",
+    "source": "arstechnica.com",
     "category": "AI",
     "language": "en"
   },
   {
     "title": "Two teens learn the hard way not to do toy gun drive-bys from a Waymo",
     "link": "https://arstechnica.com/cars/2026/07/two-teens-learn-the-hard-way-not-to-do-toy-gun-drivebys-from-a-waymo/",
-    "source": "feeds.arstechnica.com",
+    "source": "arstechnica.com",
     "category": "AI",
+    "language": "en"
+  },
+  {
+    "title": "Ocean rift zone saw spreading happen in a sudden burst",
+    "link": "https://arstechnica.com/science/2026/07/newly-installed-monitoring-system-watched-the-seafloor-spread/",
+    "source": "arstechnica.com",
+    "category": "Other Hungary",
+    "language": "en"
+  },
+  {
+    "title": "US rare earths flow to Asia as domestic demand is slow to emerge",
+    "link": "https://arstechnica.com/science/2026/07/us-rare-earths-flow-to-asia-as-domestic-demand-is-slow-to-emerge/",
+    "source": "arstechnica.com",
+    "category": "AI",
+    "language": "en"
+  },
+  {
+    "title": "Blue Origin, for the first time, is expected to raise private capital",
+    "link": "https://arstechnica.com/space/2026/07/blue-origin-for-the-first-time-is-expected-to-raise-private-capital/",
+    "source": "arstechnica.com",
+    "category": "AI",
+    "language": "en"
+  },
+  {
+    "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
+    "link": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/",
+    "source": "arstechnica.com",
+    "category": "AI",
+    "language": "en"
+  },
+  {
+    "title": "Michigan sees explosive outbreak of diarrheal parasite with over 700 cases",
+    "link": "https://arstechnica.com/health/2026/07/michigan-sees-explosive-outbreak-of-diarrheal-parasite-with-over-700-cases/",
+    "source": "arstechnica.com",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
     "title": "CollectWise (YC F24) Is Hiring",
     "link": "https://www.ycombinator.com/companies/collectwise/jobs/P646Yw6-founding-account-executive",
-    "source": "hnrss.org",
-    "category": "AI",
+    "source": "ycombinator.com",
+    "category": "Other Hungary",
+    "language": "en"
+  },
+  {
+    "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+    "link": "https://github.com/malisper/pgrust",
+    "source": "github.com",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
     "title": "AI changes the economics of software rewrites",
     "link": "https://thetruthasiseeitnow.com/ai-slop-starts-with-the-codebase-itself/",
-    "source": "hnrss.org",
+    "source": "thetruthasiseeitnow.com",
     "category": "AI",
     "language": "en"
   },
   {
     "title": "Spider venom kills varroa mites without harming honeybees",
     "link": "https://connectsci.au/news/news-parent/9703/Spider-venom-kills-varroa-mites-without-harming",
-    "source": "hnrss.org",
-    "category": "AI",
+    "source": "connectsci.au",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
     "title": "I think I have LLM burnout",
     "link": "https://www.alecscollon.com/blog/llm-burnout/",
-    "source": "hnrss.org",
+    "source": "alecscollon.com",
     "category": "AI",
     "language": "en"
   },
   {
     "title": "Remote Attestation",
     "link": "https://www.liamcvw.com/p/remote-attestation",
-    "source": "hnrss.org",
-    "category": "AI",
+    "source": "liamcvw.com",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
     "title": "MIRA: Multiplayer Interactive World Models Trained on Rocket League",
     "link": "https://mira-wm.com/",
-    "source": "hnrss.org",
+    "source": "mira-wm.com",
     "category": "AI",
     "language": "en"
   },
   {
     "title": "John Deere owners will get the right to repair equipment under FTC settlement",
     "link": "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02",
-    "source": "hnrss.org",
-    "category": "AI",
-    "language": "en"
-  },
-  {
-    "title": "We made Grok 4.5, GPT-5.5, and Claude build the same apps",
-    "link": "https://www.tryai.dev/blog/grok-4.5-vs-gpt-5.5-vs-claude-build-off",
-    "source": "hnrss.org",
+    "source": "apnews.com",
     "category": "AI",
     "language": "en"
   },
   {
     "title": "Rewriting Bun in Rust",
     "link": "https://bun.com/blog/bun-in-rust",
-    "source": "hnrss.org",
-    "category": "AI",
+    "source": "bun.com",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
     "title": "Benchmarking coding agents on Databricks' multi-million line codebase",
     "link": "https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase",
-    "source": "hnrss.org",
+    "source": "databricks.com",
+    "category": "Other Hungary",
+    "language": "en"
+  },
+  {
+    "title": "Separating signal from noise in coding evaluations",
+    "link": "https://openai.com/index/separating-signal-from-noise-coding-evaluations/",
+    "source": "openai.com",
     "category": "AI",
+    "language": "en"
+  },
+  {
+    "title": "Turning a pile of documents into a searchable useable knowledge base",
+    "link": "https://github.com/linuxrebel/DocuBrowser",
+    "source": "github.com",
+    "category": "Other Hungary",
+    "language": "en"
+  },
+  {
+    "title": "FAANG Simulator",
+    "link": "https://www.abeyk.com/escape-the-rat-race/",
+    "source": "abeyk.com",
+    "category": "Other Hungary",
+    "language": "en"
+  },
+  {
+    "title": "New Sweden: the US's long-lost 'secret' colony",
+    "link": "https://www.bbc.com/travel/article/20260629-new-sweden-the-uss-long-lost-secret-colony",
+    "source": "bbc.com",
+    "category": "Other Hungary",
+    "language": "en"
+  },
+  {
+    "title": "Cloudflare Drop",
+    "link": "https://www.cloudflare.com/drop/",
+    "source": "cloudflare.com",
+    "category": "Other Hungary",
+    "language": "en"
+  },
+  {
+    "title": "OpenMandriva: Statement regarding attempted distribution sabotage",
+    "link": "https://forum.openmandriva.org/t/statement-regarding-attempted-distribution-sabotage/8997",
+    "source": "forum.openmandriva.org",
+    "category": "Other Hungary",
+    "language": "en"
+  },
+  {
+    "title": "Grok 4.5",
+    "link": "https://x.ai/news/grok-4-5",
+    "source": "x.ai",
+    "category": "Other Hungary",
+    "language": "en"
+  },
+  {
+    "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
+    "link": "https://microsoft.github.io/flint-chart/#/",
+    "source": "microsoft.github.io",
+    "category": "AI",
+    "language": "en"
+  },
+  {
+    "title": "GPT‑Live",
+    "link": "https://openai.com/index/introducing-gpt-live/",
+    "source": "openai.com",
+    "category": "AI",
+    "language": "en"
+  },
+  {
+    "title": "TypeScript 7",
+    "link": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
+    "source": "devblogs.microsoft.com",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
     "title": "New Singapore space agency seeks to build up the country’s space industry",
     "link": "https://spacenews.com/new-singapore-space-agency-seeks-to-build-up-the-countrys-space-industry/",
     "source": "spacenews.com",
-    "category": "SPACE",
+    "category": "Space",
     "language": "en"
   },
   {
     "title": "ispace to send larger payloads to the moon on SpaceX’s Starship",
     "link": "https://spacenews.com/ispace-to-send-larger-payloads-to-the-moon-on-spacexs-starship/",
     "source": "spacenews.com",
-    "category": "SPACE",
+    "category": "Space",
     "language": "en"
   },
   {
     "title": "Is this the year for a NASA authorization bill?",
     "link": "https://spacenews.com/is-this-the-year-for-a-nasa-authorization-bill/",
     "source": "spacenews.com",
-    "category": "SPACE",
+    "category": "Space",
     "language": "en"
   },
   {
     "title": "Fi expands Starlink direct-to-device capability into dog-tracking",
     "link": "https://spacenews.com/fi-expands-starlink-direct-to-device-capability-into-dog-tracking/",
     "source": "spacenews.com",
-    "category": "SPACE",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "The satellite industry’s most expensive problem isn’t in orbit",
     "link": "https://spacenews.com/the-satellite-industrys-most-expensive-problem-isnt-in-orbit/",
     "source": "spacenews.com",
-    "category": "SPACE",
+    "category": "Space",
     "language": "en"
   },
   {
     "title": "Venus Aerospace raises $91 million to scale rocket engine technology",
     "link": "https://spacenews.com/venus-aerospace-raises-91-million-to-scale-rocket-engine-technology/",
     "source": "spacenews.com",
-    "category": "SPACE",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "The government’s options to address strained spaceports",
     "link": "https://spacenews.com/the-governments-options-to-address-strained-spaceports/",
     "source": "spacenews.com",
-    "category": "SPACE",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "Space Force adds Relativity, Impulse Space to national security launch program",
     "link": "https://spacenews.com/space-force-adds-relativity-impulse-space-to-national-security-launch-program/",
     "source": "spacenews.com",
-    "category": "SPACE",
+    "category": "Space",
     "language": "en"
   },
   {
     "title": "Skyroot prepares for first orbital launch attempt",
     "link": "https://spacenews.com/skyroot-prepares-for-first-orbital-launch-attempt/",
     "source": "spacenews.com",
-    "category": "SPACE",
+    "category": "Space",
     "language": "en"
   },
   {
     "title": "D-Orbit signs launch-services contract with ArkEdge Space",
     "link": "https://spacenews.com/d-orbit-signs-launch-services-contract-with-arkedge-space/",
     "source": "spacenews.com",
-    "category": "SPACE",
+    "category": "Space",
+    "language": "en"
+  },
+  {
+    "title": "Orbit Fab hires new CEO and raises funding to support satellite refueling business",
+    "link": "https://spacenews.com/orbit-fab-hires-new-ceo-and-raises-funding-to-support-satellite-refueling-business/",
+    "source": "spacenews.com",
+    "category": "AI",
+    "language": "en"
+  },
+  {
+    "title": "Spirit Electronics Announces Managed Access to U.S.-Based Advanced Semiconductor Manufacturing for Aerospace and Defense Programs",
+    "link": "https://spacenews.com/spirit-electronics-announces-managed-access-to-u-s-based-advanced-semiconductor-manufacturing-for-aerospace-and-defense-programs/",
+    "source": "spacenews.com",
+    "category": "Space",
+    "language": "en"
+  },
+  {
+    "title": "Apolink makes contact with first relay satellite",
+    "link": "https://spacenews.com/apolink-makes-contact-with-first-relay-satellite/",
+    "source": "spacenews.com",
+    "category": "Space",
+    "language": "en"
+  },
+  {
+    "title": "Arianespace opens door to GEO rideshare opportunities from 2029",
+    "link": "https://spacenews.com/arianespace-opens-door-to-geo-rideshare-opportunities-from-2029/",
+    "source": "spacenews.com",
+    "category": "Space",
+    "language": "en"
+  },
+  {
+    "title": "SpaceX launches Transporter-17 amid concerns about rideshare program’s future",
+    "link": "https://spacenews.com/spacex-launches-transporter-17-amid-concerns-about-rideshare-programs-future/",
+    "source": "spacenews.com",
+    "category": "Space",
     "language": "en"
   },
   {
     "title": "Super Typhoon Bavi",
     "link": "https://science.nasa.gov/earth/earth-observatory/super-typhoon-bavi/",
-    "source": "nasa.gov",
-    "category": "SPACE",
+    "source": "science.nasa.gov",
+    "category": "World",
     "language": "en"
   },
   {
     "title": "Students Connect NASA Science With Indigenous Knowledge to Study Coastal Erosion",
     "link": "https://science.nasa.gov/learning-resources/science-activation/students-connect-nasa-science-with-indigenous-knowledge-to-study-coastal-erosion/",
-    "source": "nasa.gov",
-    "category": "SPACE",
+    "source": "science.nasa.gov",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "Hubble Captures Star-Studded Cluster",
     "link": "https://www.nasa.gov/image-article/hubble-captures-star-studded-cluster/",
     "source": "nasa.gov",
-    "category": "SPACE",
+    "category": "Space",
     "language": "en"
   },
   {
     "title": "Cottonwood Fire Chars Utah",
     "link": "https://science.nasa.gov/earth/earth-observatory/cottonwood-fire-chars-utah/",
-    "source": "nasa.gov",
-    "category": "SPACE",
+    "source": "science.nasa.gov",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
     "title": "NASA Transfers ‘Hundred Acre Wood’ to Patuxent Research Refuge",
     "link": "https://www.nasa.gov/centers-and-facilities/goddard/nasa-transfers-hundred-acre-wood-to-patuxent-research-refuge/",
     "source": "nasa.gov",
-    "category": "SPACE",
+    "category": "Space",
     "language": "en"
   },
   {
     "title": "NASA’s New Horizons Spacecraft Wakes from Hibernation in Good Health",
     "link": "https://science.nasa.gov/missions/new-horizons/nasas-new-horizons-spacecraft-wakes-from-hibernation-in-good-health/",
-    "source": "nasa.gov",
-    "category": "SPACE",
+    "source": "science.nasa.gov",
+    "category": "Space",
     "language": "en"
   },
   {
     "title": "Artemis II Crew and Apollo 14 Moon Tree",
     "link": "https://www.nasa.gov/image-article/artemis-ii-crew-and-apollo-14-moon-tree/",
     "source": "nasa.gov",
-    "category": "SPACE",
+    "category": "Space",
     "language": "en"
   },
   {
     "title": "July 2026 Satellite Puzzler",
     "link": "https://science.nasa.gov/earth/earth-observatory/july-2026-satellite-puzzler/",
-    "source": "nasa.gov",
-    "category": "SPACE",
+    "source": "science.nasa.gov",
+    "category": "Space",
     "language": "en"
   },
   {
     "title": "The World Cup From 250 Miles Up",
     "link": "https://science.nasa.gov/earth/earth-observatory/the-world-cup-from-250-miles-up/",
-    "source": "nasa.gov",
-    "category": "SPACE",
+    "source": "science.nasa.gov",
+    "category": "Space",
     "language": "en"
   },
   {
     "title": "NASA Takes Flight For America’s 250th",
     "link": "https://www.nasa.gov/image-article/nasa-takes-flight-for-americas-250th/",
     "source": "nasa.gov",
-    "category": "SPACE",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "Nukes in space? Orbital detector could sniff out warheads",
     "link": "https://www.nature.com/articles/d41586-026-02141-z",
     "source": "nature.com",
-    "category": "SCIENCE",
+    "category": "Space",
     "language": "en"
   },
   {
     "title": "Observation of Floquet rotational super-radiance",
     "link": "https://www.nature.com/articles/s41586-026-10725-y",
     "source": "nature.com",
-    "category": "SCIENCE",
+    "category": "Science",
     "language": "en"
   },
   {
     "title": "In vivo feasibility study of humanoid robots in surgery",
     "link": "https://www.nature.com/articles/s41586-026-10796-x",
     "source": "nature.com",
-    "category": "SCIENCE",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "Single-phase gradient-solvation-electrolyte-stabilized Li metal batteries",
     "link": "https://www.nature.com/articles/s41586-026-10732-z",
     "source": "nature.com",
-    "category": "SCIENCE",
+    "category": "Science",
     "language": "en"
   },
   {
     "title": "Non-genotoxic transplantation and in vivo selection through epitope editing",
     "link": "https://www.nature.com/articles/s41586-026-10737-8",
     "source": "nature.com",
-    "category": "SCIENCE",
+    "category": "Science",
     "language": "en"
   },
   {
     "title": "Architecture of the 8 MDa Hdr–Vhu–Fwd super-assembly in class I methanogens",
     "link": "https://www.nature.com/articles/s41586-026-10744-9",
     "source": "nature.com",
-    "category": "SCIENCE",
+    "category": "Science",
     "language": "en"
   },
   {
     "title": "Reinforcement learning control of quantum error correction",
     "link": "https://www.nature.com/articles/s41586-026-10759-2",
     "source": "nature.com",
-    "category": "SCIENCE",
+    "category": "Science",
     "language": "en"
   },
   {
     "title": "Large language models can predict the results of social science experiments",
     "link": "https://www.nature.com/articles/s41586-026-10742-x",
     "source": "nature.com",
-    "category": "SCIENCE",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "Ancient feeding-related neuropeptides regulate alloparenting in ants",
     "link": "https://www.nature.com/articles/s41586-026-10747-6",
     "source": "nature.com",
-    "category": "SCIENCE",
+    "category": "Science",
     "language": "en"
   },
   {
     "title": "Anatomy of a seafloor spreading event captured by in situ seismogeodesy",
     "link": "https://www.nature.com/articles/s41586-026-10785-0",
     "source": "nature.com",
-    "category": "SCIENCE",
+    "category": "Science",
+    "language": "en"
+  },
+  {
+    "title": "Computational approaches and the future of urban crime research",
+    "link": "https://www.nature.com/articles/s41586-026-10622-4",
+    "source": "nature.com",
+    "category": "Science",
+    "language": "en"
+  },
+  {
+    "title": "Reconfigurable mmWave microchips co-integrating hBN switches on GaN",
+    "link": "https://www.nature.com/articles/s41586-026-10761-8",
+    "source": "nature.com",
+    "category": "Science",
+    "language": "en"
+  },
+  {
+    "title": "Air-permeable hydrogels through viscoelastic phase separation of aerogels",
+    "link": "https://www.nature.com/articles/s41586-026-10712-3",
+    "source": "nature.com",
+    "category": "AI",
+    "language": "en"
+  },
+  {
+    "title": "Verification of the Outer Space Treaty with cosmic protons",
+    "link": "https://www.nature.com/articles/s41586-026-10783-2",
+    "source": "nature.com",
+    "category": "AI",
+    "language": "en"
+  },
+  {
+    "title": "Aneuploidy selects for the acquisition of driver genes in breast cancer",
+    "link": "https://www.nature.com/articles/s41586-026-10752-9",
+    "source": "nature.com",
+    "category": "Science",
     "language": "en"
   },
   {
     "title": "Study dampens hope that meningitis vaccine can also prevent gonorrhea",
     "link": "https://www.science.org/content/article/study-dampens-hope-meningitis-vaccine-can-also-prevent-gonorrhea",
     "source": "science.org",
-    "category": "SCIENCE",
+    "category": "Science",
     "language": "en"
   },
   {
     "title": "A molecular quirk unique to octopuses makes them better at building proteins",
     "link": "https://www.science.org/content/article/molecular-quirk-unique-octopuses-makes-them-better-building-proteins",
     "source": "science.org",
-    "category": "SCIENCE",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "Surprising claim of superstringy universe may be based on a mistake",
     "link": "https://www.science.org/content/article/surprising-claim-superstringy-universe-may-be-based-mistake",
     "source": "science.org",
-    "category": "SCIENCE",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "Springer Nature restores Max Planck’s mysteriously retracted papers",
     "link": "https://www.science.org/content/article/springer-nature-restores-max-planck-s-mysteriously-retracted-papers",
     "source": "science.org",
-    "category": "SCIENCE",
+    "category": "Science",
     "language": "en"
   },
   {
     "title": "Detection schemes could deter putting nuclear warheads in space",
     "link": "https://www.science.org/content/article/detection-schemes-could-deter-putting-nuclear-warheads-space",
     "source": "science.org",
-    "category": "SCIENCE",
+    "category": "Space",
     "language": "en"
   },
   {
     "title": "Chatbots can help perpetuate stigma around certain health conditions",
     "link": "https://www.science.org/content/article/chatbots-can-help-perpetuate-stigma-around-certain-health-conditions",
     "source": "science.org",
-    "category": "SCIENCE",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "As flu virus threatens its unique bird species, New Zealand pins hopes on a vaccine",
     "link": "https://www.science.org/content/article/flu-virus-threatens-its-unique-bird-species-new-zealand-pins-hopes-vaccine",
     "source": "science.org",
-    "category": "SCIENCE",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
     "title": "Uranus and Neptune may not be ‘ice giants’ after all",
     "link": "https://www.science.org/content/article/uranus-and-neptune-may-not-be-ice-giants-after-all",
     "source": "science.org",
-    "category": "SCIENCE",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
     "title": "British ‘First Fleet’ brought smallpox to Australia—and may have killed millions",
     "link": "https://www.science.org/content/article/british-first-fleet-brought-smallpox-australia-and-may-have-killed-millions",
     "source": "science.org",
-    "category": "SCIENCE",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
     "title": "Philosophers call for their journals to require conflict of interest disclosures",
     "link": "https://www.science.org/content/article/philosophers-call-their-journals-require-conflict-interest-disclosures",
     "source": "science.org",
-    "category": "SCIENCE",
+    "category": "AI",
+    "language": "en"
+  },
+  {
+    "title": "The 4 best science-fiction shows of 2026 so far",
+    "link": "https://www.newscientist.com/article/mg27136031-100-the-4-best-science-fiction-shows-of-2026-so-far/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+    "source": "newscientist.com",
+    "category": "Science",
+    "language": "en"
+  },
+  {
+    "title": "A surprisingly detailed look at the physics of a lugworm's poop",
+    "link": "https://www.newscientist.com/article/mg27136032-200-a-surprisingly-detailed-look-at-the-physics-of-a-lugworms-poop/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+    "source": "newscientist.com",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "Seeding clouds with seawater could prevent a super El Niño",
     "link": "https://www.newscientist.com/article/2533348-seeding-clouds-with-seawater-could-prevent-a-super-el-nino/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
     "source": "newscientist.com",
-    "category": "SCIENCE",
+    "category": "Science",
     "language": "en"
   },
   {
     "title": "Our fertility window could be extended by making ovaries softer",
     "link": "https://www.newscientist.com/article/2533507-our-fertility-window-could-be-extended-by-making-ovaries-softer/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
     "source": "newscientist.com",
-    "category": "SCIENCE",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
     "title": "Occam’s razor has lost its edge. Can we sharpen our search for truth?",
     "link": "https://www.newscientist.com/article/2531862-occams-razor-has-lost-its-edge-can-we-sharpen-our-search-for-truth/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
     "source": "newscientist.com",
-    "category": "SCIENCE",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
     "title": "Why Schrödinger's 1944 classic What Is Life? still feels prescient",
     "link": "https://www.newscientist.com/article/2533430-why-schrodingers-1944-classic-what-is-life-still-feels-prescient/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
     "source": "newscientist.com",
-    "category": "SCIENCE",
-    "language": "hu"
+    "category": "Science",
+    "language": "en"
   },
   {
     "title": "Lambs born via IVF using highly immature eggs in major breakthrough",
     "link": "https://www.newscientist.com/article/2533441-lambs-born-via-ivf-using-highly-immature-eggs-in-major-breakthrough/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
     "source": "newscientist.com",
-    "category": "SCIENCE",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "The allergy culprit histamine also boosts our memory",
     "link": "https://www.newscientist.com/article/2533166-the-allergy-culprit-histamine-also-boosts-our-memory/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
     "source": "newscientist.com",
-    "category": "SCIENCE",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "Salt batteries are about to shake up EVs and grid storage",
     "link": "https://www.newscientist.com/article/2532997-salt-batteries-are-about-to-shake-up-evs-and-grid-storage/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
     "source": "newscientist.com",
-    "category": "SCIENCE",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
     "title": "How extreme heat affects the body – and the best ways to cope",
     "link": "https://www.newscientist.com/article/2533216-how-extreme-heat-affects-the-body-and-the-best-ways-to-cope/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
     "source": "newscientist.com",
-    "category": "SCIENCE",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "Peter Shor’s algorithm could break the internet – but he's not worried",
     "link": "https://www.newscientist.com/article/2533218-peter-shors-algorithm-could-break-the-internet-but-hes-not-worried/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
     "source": "newscientist.com",
-    "category": "SCIENCE",
+    "category": "Science",
     "language": "en"
   },
   {
     "title": "Does time come from the entire universe running computations?",
     "link": "https://www.newscientist.com/article/2532871-does-time-come-from-the-entire-universe-running-computations/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
     "source": "newscientist.com",
-    "category": "SCIENCE",
+    "category": "AI",
+    "language": "en"
+  },
+  {
+    "title": "The strange metals forcing us to rethink how electricity really works",
+    "link": "https://www.newscientist.com/article/2531747-the-strange-metals-forcing-us-to-rethink-how-electricity-really-works/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+    "source": "newscientist.com",
+    "category": "AI",
+    "language": "en"
+  },
+  {
+    "title": "Chris Packham: 'I'd throw myself in front of a T. Rex to be consumed'",
+    "link": "https://www.newscientist.com/article/2533235-chris-packham-id-throw-myself-in-front-of-a-t-rex-to-be-consumed/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+    "source": "newscientist.com",
+    "category": "Science",
+    "language": "en"
+  },
+  {
+    "title": "5 graphs that show how heatwaves are getting more dangerous",
+    "link": "https://www.newscientist.com/article/2532809-5-graphs-that-show-how-heatwaves-are-getting-more-dangerous/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+    "source": "newscientist.com",
+    "category": "World",
     "language": "en"
   },
   {
     "title": "Rare goblin shark filmed alive for the first time in the deep sea",
     "link": "https://www.sciencedaily.com/releases/2026/07/260708022208.htm",
     "source": "sciencedaily.com",
-    "category": "SCIENCE",
+    "category": "Science",
     "language": "en"
   },
   {
     "title": "The Ozempic and Wegovy mistake sending thousands to poison control",
     "link": "https://www.sciencedaily.com/releases/2026/07/260708022204.htm",
     "source": "sciencedaily.com",
-    "category": "SCIENCE",
+    "category": "Science",
     "language": "en"
   },
   {
     "title": "Harvard scientists turn a silicon chip into a DNA writing machine",
     "link": "https://www.sciencedaily.com/releases/2026/07/260708022202.htm",
     "source": "sciencedaily.com",
-    "category": "SCIENCE",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
     "title": "Tiny silica particles wiped out aggressive prostate cancer in mice",
     "link": "https://www.sciencedaily.com/releases/2026/07/260708022158.htm",
     "source": "sciencedaily.com",
-    "category": "SCIENCE",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "Heidelberg physicists just united two opposing quantum theories",
     "link": "https://www.sciencedaily.com/releases/2026/07/260708022154.htm",
     "source": "sciencedaily.com",
-    "category": "SCIENCE",
+    "category": "Science",
     "language": "en"
   },
   {
     "title": "New weight loss pill beats oral Ozempic in major trial",
     "link": "https://www.sciencedaily.com/releases/2026/07/260707054111.htm",
     "source": "sciencedaily.com",
-    "category": "SCIENCE",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "Ancient DNA reveals the mysterious collapse of Europe's megalith builders",
     "link": "https://www.sciencedaily.com/releases/2026/07/260707054108.htm",
     "source": "sciencedaily.com",
-    "category": "SCIENCE",
+    "category": "World",
     "language": "en"
   },
   {
     "title": "Scientists used AI to crack one of water's biggest mysteries",
     "link": "https://www.sciencedaily.com/releases/2026/07/260707025047.htm",
     "source": "sciencedaily.com",
-    "category": "SCIENCE",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "Incredible new material makes heat programmable",
     "link": "https://www.sciencedaily.com/releases/2026/07/260707025046.htm",
     "source": "sciencedaily.com",
-    "category": "SCIENCE",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
     "title": "Bumblebees collect up to 7 times more toxic metals than honeybees",
     "link": "https://www.sciencedaily.com/releases/2026/07/260707025044.htm",
     "source": "sciencedaily.com",
-    "category": "SCIENCE",
+    "category": "Science",
+    "language": "en"
+  },
+  {
+    "title": "NASA's Hubble spots a stellar sparkler for the Fourth of July",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260704232642.htm",
+    "source": "sciencedaily.com",
+    "category": "Space",
+    "language": "en"
+  },
+  {
+    "title": "NASA's Hubble captures a crimson stellar nursery sparkling with blue and white stars",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260704232639.htm",
+    "source": "sciencedaily.com",
+    "category": "AI",
+    "language": "en"
+  },
+  {
+    "title": "NASA's Hubble captures a star-spangled sea of 500,000 stars",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260704232634.htm",
+    "source": "sciencedaily.com",
+    "category": "AI",
+    "language": "en"
+  },
+  {
+    "title": "NASA celebrates America's 250th birthday with incredible views of space",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260702230859.htm",
+    "source": "sciencedaily.com",
+    "category": "Space",
+    "language": "en"
+  },
+  {
+    "title": "New research reveals the hidden pollution left behind by fireworks",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260701205009.htm",
+    "source": "sciencedaily.com",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "Hadházy Ákos, Kubatov Gábor és Kósa Lajos sem adta le még a diplomata-útlevelét",
     "link": "https://telex.hu/belfold/2026/07/09/diplomata-utlevel-leadas-hadhazy-gyurcsany",
     "source": "telex.hu",
-    "category": "HUNGARY",
+    "category": "Politics",
     "language": "hu"
   },
   {
     "title": "Hátulról rohant bele egy autó egy lovaskocsiba, a hajtó és a ló is meghalt",
     "link": "https://telex.hu/belfold/2026/07/09/dunavarsany-halalos-baleset-lo-hajto",
     "source": "telex.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Olcsón megúszta Elon Musk: 1,5 millió dollárra büntették, miután 150 milliót nyert a Twitter-vásárlás körüli szabálytalanságokon",
     "link": "https://telex.hu/gazdasag/2026/07/09/elon-musk-sec-amerikai-tozsdefelugyelethez-twitter-x-reszveny-vasarlas-bejelentes-buntetes-egyezseg-megallapodas-1-5-millio-dollar",
     "source": "telex.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Sulyok Tamás aggódik, hogy az utódja a Tisza Párt politikai kinevezettje lesz",
     "link": "https://telex.hu/belfold/2026/07/09/sulyok-tamas-aggodik-hogy-az-utodja-a-tisza-part-politikai-kinevezettje-lesz",
     "source": "telex.hu",
-    "category": "HUNGARY",
+    "category": "Politics",
     "language": "hu"
   },
   {
     "title": "Justin Bieber is fellép a foci-vb döntőjének halftime show-jában",
     "link": "https://telex.hu/after/2026/07/09/justin-bieber-is-fellep-a-foci-vb-dontojenek-halftime-show-jaban-fifa-jotekonykodas",
     "source": "telex.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Tovább támadja egymást Irán és az USA a Közel-Keleten, Trumpot felháborítja Irán hozzáállása",
     "link": "https://telex.hu/kulfold/2026/07/09/iran-egyesult-allamok-centcom-haboru-tamadas-hormuzi-szoros-kuvait-bahrein",
     "source": "telex.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Megállt és visszafordult az erősödésből a forint, újra 360 környékén mozog az euró árfolyama",
     "link": "https://telex.hu/gazdasag/2026/07/09/forint-euro-arfolyam-3",
     "source": "telex.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Tiszás újoncok a parlamentben: nem gombnyomogató embernek mentek oda, de a sok ülés próbára teszi őket",
     "link": "https://telex.hu/belfold/2026/07/09/tisza-frakcio-kepviselok-parlament",
     "source": "telex.hu",
-    "category": "HUNGARY",
+    "category": "Politics",
     "language": "hu"
   },
   {
     "title": "Megszüntette a nyomozást a rendőrség a Kecskemétről eltűnt MiG–29-es alkatrészek ügyében",
     "link": "https://telex.hu/belfold/2026/07/09/kecskemet-mig-29-ellopott-alkatresz-nyomozas",
     "source": "telex.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "És vajon ad már csütörtökön híreket az M1? Mutatjuk, mi várható",
     "link": "https://telex.hu/belfold/2026/07/09/mit-ad-ma-az-m1-hat-hireket-azt-meg-nem",
     "source": "telex.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
+    "language": "hu"
+  },
+  {
+    "title": "Átvitte a szalagkorlátot, majd az oldalára borult egy autószállító tréler az M1-esen",
+    "link": "https://telex.hu/belfold/2026/07/09/atvitte-a-szalagkorlatot-majd-az-oldalara-borult-egy-autoszallito-treler-az-m1-esen",
+    "source": "telex.hu",
+    "category": "Hungary",
+    "language": "hu"
+  },
+  {
+    "title": "Drágállja a Mol Bubi új díjait a Kerékpárosklub, a BKK egyeztet",
+    "link": "https://telex.hu/belfold/2026/07/09/mol-bubi-bkk-dijszabas-kerekparosklub",
+    "source": "telex.hu",
+    "category": "Hungary",
+    "language": "hu"
+  },
+  {
+    "title": "Idén is jön a Telex születésnapja: augusztus 29-én újra megtöltjük a Dürer Kertet",
+    "link": "https://telex.hu/kozlemeny/2026/07/09/telex-6-szuletesnapi-buli-a-durerben-coo-lee-telehold-rutkai-bori-es-sokan-masok",
+    "source": "telex.hu",
+    "category": "Hungary",
+    "language": "hu"
+  },
+  {
+    "title": "Már a rendőrség is nyomoz a Hatvanpusztán elpusztult zebrák miatt",
+    "link": "https://telex.hu/belfold/2026/07/09/hatvanpuszta-zebrak-elhullas-rendorseg-nyomozas",
+    "source": "telex.hu",
+    "category": "Hungary",
+    "language": "hu"
+  },
+  {
+    "title": "Ha egymás után 26-szor fekete jött ki a ruletten, a pirosra tenne a következő gurításnál?",
+    "link": "https://telex.hu/eszkombajn/2026/07/09/szerencsejatekosok-tevedese-monte-carlo-rulettasztal-1913",
+    "source": "telex.hu",
+    "category": "Hungary",
+    "language": "hu"
+  },
+  {
+    "title": "Dobta a ZTE Mészáros Lőrinc sportmárkáját, a webshop is szünetel",
+    "link": "https://hvg.hu/kkv/20260709_zalaegerszegi-te-2rule-meszaros-lorinc-magyar-sportmarka-zrt",
+    "source": "hvg.hu",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Zebracsikókat fotóztak Hatvanpusztán",
     "link": "https://hvg.hu/itthon/20260709_hatvanpuszta-zebra-zebracsiko-rendorseg-nyomozas-hadhazy-akos",
     "source": "hvg.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Tóta W. Árpád: A bocsi megvolt, elő az ocsmányságokkal",
     "link": "https://hvg.hu/360/20260709_tota-w-arpad-a-bocsi-megvolt-elo-az-ocsmanysagokkal",
     "source": "hvg.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Nagyon súlyos hibát találtak ezekben a wifi routerekben",
     "link": "https://hvg.hu/tudomany/20260709_tenda-wifi-router-nem-javitott-biztonsagi-res-sebezhetoseg",
     "source": "hvg.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Tovább nyomul autógyártóként a Xiaomi: bemutattak egy új modellcsaládot",
     "link": "https://hvg.hu/cegauto/20260709_xiaomi-uj-suv-modellcsalad-sky-nomad",
     "source": "hvg.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Két emberrel ötmilliárdos forgalmat csinált Sarka Kata férjének cége",
     "link": "https://hvg.hu/kkv/20260709_bessenyei-istvan-sarka-kata-caramola-trade-energetikai-korszerusites",
     "source": "hvg.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Megvan az új mexikói szövetségi kapitány",
     "link": "https://hvg.hu/sport/20260709_uj-mexikoi-szovetsegi-kapitany-rafael-marquez",
     "source": "hvg.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
-    "title": "Érinthetetlen, Számkivetett, Forrest Gump - Tom Hanks 70 éves",
+    "title": "Érinthetetlen, Számkivetett, Forrest Gump – Tom Hanks 70 éves",
     "link": "https://hvg.hu/kultura/20260709_erinthetetlen-szamkivetett-forrest-gump-tom-hanks-70-eves",
     "source": "hvg.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Magyar az ellene tüntetni készülő Ádernek: mondja meg, hogyan szolgálta az országot az, hogy 55 millió forint közpénzből utaztatta a családját az USA-ba",
     "link": "https://hvg.hu/itthon/20260709_magyar-az-ellene-tuntetni-keszulo-adernek-mondja-meg-hogyan-szolgalta-az-orszagot-az-hogy-55-millio-forint-kozpenzbol-utaztatta-a-csaladjat-az-usa-ba",
     "source": "hvg.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Minden új autót érintő változtatások léptek életbe az EU-ban",
     "link": "https://hvg.hu/cegauto/20260709_nagy-valtozas-az-uj-autoknal-kotelezo-lett-a-soforfigyelo-rendszer",
     "source": "hvg.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Egy tortaformákat gyártó cég bevonásával, 1650 antennával megépítik a világ legnagyobb rádióteleszkóp-rendszerét",
     "link": "https://hvg.hu/tudomany/20260709_deep-synoptic-array-radioteleszkop-csillagaszat-sotet-energia",
     "source": "hvg.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
+    "language": "hu"
+  },
+  {
+    "title": "Parászka Boróka: Ez az eksztázis pillanata azoknak, akik a NER-önkény kárvallottjai",
+    "link": "https://hvg.hu/360/20260709_paraszka-boroka-az-igazmondas-kepernyoje-fulszoveg-hvg-28-szam",
+    "source": "hvg.hu",
+    "category": "Politics",
+    "language": "hu"
+  },
+  {
+    "title": "Kínai riválisai másolják a Xiaomi első autóját, amelyet a Porsche Taycan ihletett",
+    "link": "https://hvg.hu/cegauto/20260709_kinai-rivalisai-masoljak-a-xiaomi-elso-autojat-amit-a-porsche-taycan-ihletett-mg-geely",
+    "source": "hvg.hu",
+    "category": "Hungary",
+    "language": "hu"
+  },
+  {
+    "title": "Már nem nyomoz a rendőrség a kecskeméti MiG–29-esek ellopott alkatrészeinek ügyében",
+    "link": "https://hvg.hu/itthon/20260709_mig29-ellopott-alkatresz-kecskemet-rendorseg-nyomozas-buncselekmeny-hianya",
+    "source": "hvg.hu",
+    "category": "Hungary",
+    "language": "hu"
+  },
+  {
+    "title": "A bringások szerint nagyon drága lesz a Mol Bubi, ezért tárgyalnának a BKK-val",
+    "link": "https://hvg.hu/itthon/20260709_a-bringasok-szerint-nagyon-draga-lesz-a-mol-bubi-ezert-targyalnanak-a-bkk-val",
+    "source": "hvg.hu",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Ez aztán ritka fotó: Dwayne Johnson a 3 lányával együtt pózolt",
     "link": "https://24.hu/szorakozas/2026/07/09/dwayne-johnson-gyerekei-foto-vaiana/",
     "source": "24.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Ellopták egy vak embertől a telefonját",
     "link": "https://24.hu/belfold/2026/07/09/latasserult-ellopott-telefon-vademeles/",
     "source": "24.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "A Fidesz-kétharmad által a kegyelmi botrány után sietve kinevezett Sulyok amiatt aggódik, hogy utódja „egyfajta politikai kinevezett” lehet",
     "link": "https://24.hu/belfold/2026/07/09/sulyok-tamas-fidesz-tisza/",
     "source": "24.hu",
-    "category": "HUNGARY",
+    "category": "Politics",
     "language": "hu"
   },
   {
     "title": "Tárgyalni kell arról, hogy az Egyesült Királyságba látogató Harry herceg találkozhat-e az apjával",
     "link": "https://24.hu/szorakozas/2026/07/09/karoly-kiraly-harry-herceg-unokak-talalkozas/",
     "source": "24.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Döntött az oktatási tárca az előző kormány által kötött, 45 milliárdos tankönyvi keretszerződésről",
     "link": "https://24.hu/belfold/2026/07/09/ogym-tankonyvek-palyazat-keretszezodes/",
     "source": "24.hu",
-    "category": "HUNGARY",
+    "category": "Politics",
     "language": "hu"
   },
   {
     "title": "Július leghűvösebb napja vár ránk csütörtökön",
     "link": "https://24.hu/tudomany/2026/07/09/julius-leghuvosebb-napja-csutortok-julius-9/",
     "source": "24.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "A marokkói kapitány nagyon rossz hírt kapott a vb-negyedöntő előtt",
     "link": "https://24.hu/sport/foci/2026/07/09/foci-vb-2026-franciaorszag-marokko-negyeddonto-iszmael-szaibari/",
     "source": "24.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Margaret Qualley és a férje 3 év után szétmentek",
     "link": "https://24.hu/szorakozas/2026/07/09/margaret-qualley-jack-antonoff-szakitas-hazassag-valas/",
     "source": "24.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Évente százezreket bukhatnak egyetlen betegség miatt a magyar nők",
     "link": "https://24.hu/tudomany/2026/07/09/endometriozis-kutatas-teljesitmenyromlas-munkakieses/",
     "source": "24.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Ilyen filmsztár ritkán születik: képgaléria a ma 70 éves Tom Hanksről",
     "link": "https://24.hu/szorakozas/2026/07/09/tom-hanks-palyaja-szuletesnap-70-galeria/",
     "source": "24.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Magyar Péter üzent Áder Jánosnak: „Elnök úr! Szedje össze a bátorságát, mégiscsak ön a csornai Charles Bronson!”",
     "link": "https://444.hu/2026/07/09/magyar-peter-uzent-ader-janosnak-elnok-ur-szedje-ossze-a-batorsagat-megiscsak-on-a-csornai-charles-bronson?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
     "source": "444.hu",
-    "category": "HUNGARY",
+    "category": "Politics",
     "language": "hu"
   },
   {
     "title": "Sulyok Tamás: Az alaptörvény-módosítási javaslat számos elemében sérti a jogállamiság, a demokrácia és a hatalommegosztás elvét",
     "link": "https://444.hu/2026/07/09/sulyok-tamas-az-alaptorveny-modositasi-javaslat-szamos-elemeben-serti-a-jogallamisag-a-demokracia-es-a-hatalommegosztas-elvet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
     "source": "444.hu",
-    "category": "HUNGARY",
+    "category": "Politics",
     "language": "hu"
   },
   {
     "title": "Megszüntették a nyomozást a kecskeméti katonai reptérről eltűnt MIG–29-es alkatrészek ügyében",
     "link": "https://444.hu/2026/07/09/megszuntettek-a-nyomozast-a-kecskemeti-katonai-repterrol-eltunt-mig29-es-alkatreszek-ugyeben?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
     "source": "444.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Megtalálták az eltűnt pakisztáni Boeing 737-es roncsait, keresik a legénységet",
     "link": "https://444.hu/2026/07/09/megtalaltak-az-eltunt-pakisztani-boeing-737-es-roncsait-keresik-a-legenyseget?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
     "source": "444.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Az előző Országgyűlés tagjai közül többen elfelejtették leadni a diplomata-útlevelüket",
     "link": "https://444.hu/2026/07/09/az-elozo-orszaggyules-tagjai-kozul-tobben-elfelejtettek-leadni-a-diplomata-utleveluket?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
     "source": "444.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Oroszország betiltotta a dízel exportját",
     "link": "https://444.hu/2026/07/09/oroszorszag-betiltotta-a-dizel-exportjat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
     "source": "444.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Underground DPK, perzselő tisztítótűz",
     "link": "https://444.hu/2026/07/09/underground-dpk-perzselo-tisztitotuz?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
     "source": "444.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "A rendőrség is nyomozást indított a Hatvanpusztán elpusztult zebrák miatt",
     "link": "https://444.hu/2026/07/09/a-rendorseg-is-nyomozast-inditott-a-hatvanpusztan-elpusztult-zebrak-miatt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
     "source": "444.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Az amerikai légierő megint Iránt támadta, Irán pedig Kuvaitot és Bahreint",
     "link": "https://444.hu/2026/07/09/az-amerikai-legiero-megint-irant-tamadta-iran-pedig-kuvaitot-es-bahreint?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
     "source": "444.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Ők a legfontosabb távozók eddig az új rendszerben",
     "link": "https://444.hu/2026/07/09/ok-a-legfontosabb-tavozok-eddig-az-uj-rendszerben?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
     "source": "444.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
+    "language": "hu"
+  },
+  {
+    "title": "Megölte egy izraeli légicsapás azt a humanitárius dolgozót, aki megszervezte a vb-meccsek közvetítését Gázában",
+    "link": "https://444.hu/2026/07/08/megolte-egy-izraeli-legicsapas-azt-a-humanitarius-dolgozot-aki-megszervezte-a-vb-meccsek-kozvetiteset-gazaban?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+    "source": "444.hu",
+    "category": "Hungary",
+    "language": "hu"
+  },
+  {
+    "title": "Olyan súlyos az orosz üzemanyag-ellátási válság, hogy ideiglenesen felfüggesztették a dízelolaj exportját",
+    "link": "https://444.hu/2026/07/08/olyan-sulyos-az-orosz-uzemanyag-ellatasi-valsag-hogy-ideiglenesen-felfuggesztettek-a-dizelolaj-exportjat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+    "source": "444.hu",
+    "category": "Politics",
+    "language": "hu"
+  },
+  {
+    "title": "Újabb NER-es sportvezető mondott le, már nem Lázár János bizalmasa a kerékpáros szövetség elnöke",
+    "link": "https://444.hu/2026/07/08/ujabb-ner-es-sportvezeto-mondott-le-mar-nem-lazar-janos-bizalmasa-a-kerekparos-szovetseg-elnoke?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+    "source": "444.hu",
+    "category": "Hungary",
+    "language": "hu"
+  },
+  {
+    "title": "Trump durcásan érkezett Ankarába, ez rányomta a bélyegét az egész NATO csúcsra",
+    "link": "https://444.hu/2026/07/08/trump-durcasan-erkezett-ankaraba-ez-ranyomta-a-belyeget-az-egesz-nato-csucsra?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+    "source": "444.hu",
+    "category": "Hungary",
+    "language": "hu"
+  },
+  {
+    "title": "Meghalt Kádár Béla",
+    "link": "https://444.hu/2026/07/08/meghalt-kadar-bela?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+    "source": "444.hu",
+    "category": "Politics",
     "language": "hu"
   },
   {
     "title": "A „győztes páros”: nem árulnak zsákbamacskát Orbán francia szövetségesei",
     "link": "https://mandiner.hu/kulfold/2026/07/a-gyoztes-paros-nem-arulnak-zsakbamacskat-orban-francia-szovetsegesei",
     "source": "mandiner.hu",
-    "category": "HUNGARY",
+    "category": "Politics",
     "language": "hu"
   },
   {
     "title": "Magyar Péter felszólította és csornai Charles Bronsonnak nevezte a volt köztársasági elnököt",
     "link": "https://mandiner.hu/belfold/2026/07/magyar-peter-felszolitotta-es-csornai-charles-bronsonnak-nevezte-a-volt-koztarsasagi-elnokot",
     "source": "mandiner.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Megnövekedett katonai jelenlétre kell számítani ezeken a magyar településeken",
     "link": "https://mandiner.hu/belfold/2026/07/megnovekedett-katonai-jelenletre-kell-szamitani-ezeken-a-magyar-telepuleseken",
     "source": "mandiner.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Magyar Péter kijelentése után egyre nagyobb a nyomás a pénzügyminiszteren",
     "link": "https://mandiner.hu/belfold/2026/07/magyar-peter-kijelentese-utan-egyre-nagyobb-a-nyomas-a-penzugyminiszteren",
     "source": "mandiner.hu",
-    "category": "HUNGARY",
+    "category": "Politics",
     "language": "hu"
   },
   {
     "title": "Teljes vezetőségcserét hajtott végre a Tisza a rendőrségnél, itt az újabb döntés",
     "link": "https://mandiner.hu/belfold/2026/07/teljes-vezetosegcseret-hajtott-vegre-a-tisza-a-rendorsegnel-itt-az-ujabb-dontes",
     "source": "mandiner.hu",
-    "category": "HUNGARY",
+    "category": "Politics",
     "language": "hu"
   },
   {
     "title": "A valaha volt legbarátságosabb találkozót láttuk Donald Trump és Volodimir Zelenszkij között",
     "link": "https://mandiner.hu/kulfold/2026/07/a-valaha-volt-legbaratsagosabb-talalkozot-lattuk-donald-trump-es-volodimir-zelenszkij-kozott",
     "source": "mandiner.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Trump szerint Teherán tárgyalna, miközben az Egyesült Államok újabb csapásokat mért iráni célpontokra",
     "link": "https://mandiner.hu/kulfold/2026/07/trump-szerint-teheran-targyalna-mikozben-az-egyesult-allamok-ujabb-csapasokat-mert-irani-celpontokra",
     "source": "mandiner.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Nincs olyan, hogy konzervatív meg liberális oktatáspolitika – Rubovszky Rita a Mandinernek",
     "link": "https://mandiner.hu/belfold/2026/07/nincs-olyan-hogy-konzervativ-meg-liberalis-oktataspolitika-rubovszky-rita-a-mandinernek",
     "source": "mandiner.hu",
-    "category": "HUNGARY",
+    "category": "Politics",
     "language": "hu"
   },
   {
     "title": "Szakács István senkit nem fenyegetett, főleg nem Magyar Pétert – hanem Orbán Viktorért állt ki",
     "link": "https://mandiner.hu/belfold/2026/07/szakacs-istvan-senkit-nem-fenyegetett-foleg-nem-magyar-petert-hanem-orban-viktorert-allt-ki",
     "source": "mandiner.hu",
-    "category": "HUNGARY",
+    "category": "Politics",
     "language": "hu"
   },
   {
     "title": "Magyarék egyelőre képtelenek leállni az erőszakos megfélemlítéssel",
     "link": "https://mandiner.hu/belfold/2026/07/magyarek-egyelore-keptelenek-leallni-az-eroszakos-megfelemlitessel",
     "source": "mandiner.hu",
-    "category": "HUNGARY",
+    "category": "Politics",
+    "language": "hu"
+  },
+  {
+    "title": "Az új kormány telerakná az országot szélerőművekkel, de Németország intő példa lehet",
+    "link": "https://mandiner.hu/belfold/2026/07/az-uj-kormany-telerakna-az-orszagot-szeleromuvekkel-de-nemetorszag-into-pelda-lehet",
+    "source": "mandiner.hu",
+    "category": "Politics",
+    "language": "hu"
+  },
+  {
+    "title": "Elfogatóparancsot adtak ki a 26 éves Kasu Mózes ellen",
+    "link": "https://mandiner.hu/belfold/2026/07/elfogatoparancsot-adtak-ki-a-26-eves-kasu-mozes-ellen",
+    "source": "mandiner.hu",
+    "category": "Hungary",
+    "language": "hu"
+  },
+  {
+    "title": "Hatalmas az üzemanyaghiány Oroszországban, betiltják a dízelexportot és importálni kezdenek",
+    "link": "https://mandiner.hu/kulfold/2026/07/hatalmas-az-uzemanyaghiany-oroszorszagban-betiltjak-a-dizelexportot-es-importalni-kezdenek",
+    "source": "mandiner.hu",
+    "category": "Politics",
+    "language": "hu"
+  },
+  {
+    "title": "Gigantikus hiányszámot villantott Kármán András, augusztusban belenyúlnak a költségvetésbe",
+    "link": "https://mandiner.hu/gazdasag/2026/07/gigantikus-hianyszamot-villantott-karman-andras-augusztusban-belenyulnak-a-koltsegvetesbe",
+    "source": "mandiner.hu",
+    "category": "Hungary",
+    "language": "hu"
+  },
+  {
+    "title": "Út a polgárháborúba program",
+    "link": "https://mandiner.hu/belfold/2026/07/ut-a-polgarhaboruba-program",
+    "source": "mandiner.hu",
+    "category": "Hungary",
+    "language": "hu"
+  },
+  {
+    "title": "Azbesztszennyezés Magyarországon: elindul a térkép",
+    "link": "https://www.portfolio.hu/gazdasag/20260709/azbesztszennyezes-magyarorszagon-elindul-a-terkep-848522",
+    "source": "portfolio.hu",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Elkészült az Innovinia új nyíregyházi gyáregysége: már be is költözött az autóipari vállalat",
     "link": "https://www.portfolio.hu/ingatlan/20260709/elkeszult-az-innovinia-uj-nyiregyhazi-gyaregysege-mar-be-is-koltozott-az-autoipari-vallalat-848520",
     "source": "portfolio.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Elesett az egyik legfontosabb hazai autópálya, hatalmas dugó nehezíti a közlekedést",
     "link": "https://www.portfolio.hu/gazdasag/20260709/elesett-az-egyik-legfontosabb-hazai-autopalya-hatalmas-dugo-neheziti-a-kozlekedest-848518",
     "source": "portfolio.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Tisza-kormány: hamarosan érkeznek a kormány döntései",
     "link": "https://www.portfolio.hu/gazdasag/20260709/tisza-kormany-hamarosan-erkeznek-a-kormany-dontesei-848508",
     "source": "portfolio.hu",
-    "category": "HUNGARY",
+    "category": "Politics",
     "language": "hu"
   },
   {
     "title": "Trump hangot váltott, Lukasenko lavíroz: egyre több irányból szűkülhet Putyin mozgástere",
     "link": "https://www.portfolio.hu/global/20260709/trump-hangot-valtott-lukasenko-laviroz-egyre-tobb-iranybol-szukulhet-putyin-mozgastere-848364",
     "source": "portfolio.hu",
-    "category": "HUNGARY",
+    "category": "Politics",
     "language": "hu"
   },
   {
     "title": "Óriási tőke zúdult egyetlen befektetésbe: imádják a tiszta energiát az európai nagyhatalomban",
     "link": "https://www.portfolio.hu/befektetes/20260709/oriasi-toke-zudult-egyetlen-befektetesbe-imadjak-a-tiszta-energiat-az-europai-nagyhatalomban-848512",
     "source": "portfolio.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Megadta az engedélyt Ukrajnának Trump, kétségbeesett lépésre kényszerült Moszkva – Híreink az orosz-ukrán háborúról csütörtökön",
     "link": "https://www.portfolio.hu/global/20260709/megadta-az-engedelyt-ukrajnanak-trump-ketsegbeesett-lepesre-kenyszerult-moszkva-hireink-az-orosz-ukran-haborurol-csutortokon-848472",
     "source": "portfolio.hu",
-    "category": "HUNGARY",
+    "category": "Politics",
     "language": "hu"
   },
   {
     "title": "Nagy esés után próbálnak magukhoz térni az európai tőzsdék",
     "link": "https://www.portfolio.hu/uzlet/20260709/nagy-eses-utan-probalnak-magukhoz-terni-az-europai-tozsdek-848478",
     "source": "portfolio.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Trump megfenyegette Spanyolországot, de a lépés visszafelé is elsülhet",
     "link": "https://www.portfolio.hu/gazdasag/20260709/trump-megfenyegette-spanyolorszagot-de-a-lepes-visszafele-is-elsulhet-848500",
     "source": "portfolio.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Hogyan változik a luxuskarórák világa? – A Deloitte svájci óraiparról szóló tanulmánya",
     "link": "https://www.portfolio.hu/befektetes/20260709/hogyan-valtozik-a-luxuskarorak-vilaga-a-deloitte-svajci-oraiparrol-szolo-tanulmanya-848510",
     "source": "portfolio.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
     "language": "hu"
   },
   {
     "title": "Nagy dobás az MBH-tól: elkapkodták a befektetők az új kötvényeit",
     "link": "https://www.portfolio.hu/bank/20260709/nagy-dobas-az-mbh-tol-elkapkodtak-a-befektetok-az-uj-kotvenyeit-848506",
     "source": "portfolio.hu",
-    "category": "HUNGARY",
+    "category": "Hungary",
+    "language": "hu"
+  },
+  {
+    "title": "Új korszak kezdődött Magyarországon, minden új autót érintenek ezek a szabályok",
+    "link": "https://www.portfolio.hu/gazdasag/20260709/uj-korszak-kezdodott-magyarorszagon-minden-uj-autot-erintenek-ezek-a-szabalyok-848504",
+    "source": "portfolio.hu",
+    "category": "Hungary",
+    "language": "hu"
+  },
+  {
+    "title": "Nyomoz a rendőrség a hatvanpusztai zebrapusztulás ügyében",
+    "link": "https://www.portfolio.hu/gazdasag/20260709/nyomoz-a-rendorseg-a-hatvanpusztai-zebrapusztulas-ugyeben-848502",
+    "source": "portfolio.hu",
+    "category": "Politics",
+    "language": "hu"
+  },
+  {
+    "title": "Újabb csavar: még többen távozhatnak az Alkotmánybíróságból",
+    "link": "https://www.portfolio.hu/gazdasag/20260709/ujabb-csavar-meg-tobben-tavozhatnak-az-alkotmanybirosagbol-848498",
+    "source": "portfolio.hu",
+    "category": "Hungary",
+    "language": "hu"
+  },
+  {
+    "title": "Éles kritikát fogalmazott meg Sulyok Tamás: szerinte veszélyes precedenst teremthet a kormány új terve",
+    "link": "https://www.portfolio.hu/gazdasag/20260709/eles-kritikat-fogalmazott-meg-sulyok-tamas-szerinte-veszelyes-precedenst-teremthet-a-kormany-uj-terve-848492",
+    "source": "portfolio.hu",
+    "category": "Politics",
     "language": "hu"
   },
   {
     "title": "US launches more strikes on Iran with blasts reported in south of country",
     "link": "https://www.bbc.co.uk/news/articles/cz75zjj5wp8o?at_medium=RSS&at_campaign=rss",
-    "source": "feeds.bbci.co.uk",
-    "category": "POLITICS",
+    "source": "bbc.co.uk",
+    "category": "World",
     "language": "en"
   },
   {
     "title": "Democrat Graham Platner suspends campaign for key US Senate race after assault allegation",
     "link": "https://www.bbc.co.uk/news/articles/c9v229434p2o?at_medium=RSS&at_campaign=rss",
-    "source": "feeds.bbci.co.uk",
-    "category": "POLITICS",
+    "source": "bbc.co.uk",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "Platner's disastrous candidacy exposes rifts that could dampen Democrats' Senate hopes",
     "link": "https://www.bbc.co.uk/news/articles/c20ylnn8wqgo?at_medium=RSS&at_campaign=rss",
-    "source": "feeds.bbci.co.uk",
-    "category": "POLITICS",
+    "source": "bbc.co.uk",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
     "title": "It was 'love at first sight' with their adopted baby. Then they were told he may have been trafficked",
     "link": "https://www.bbc.co.uk/news/articles/czxq4ge246wo?at_medium=RSS&at_campaign=rss",
-    "source": "feeds.bbci.co.uk",
-    "category": "POLITICS",
+    "source": "bbc.co.uk",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
     "title": "Watch: We're a step closer to finding out if bees have feelings, here's why",
     "link": "https://www.bbc.co.uk/news/videos/cpq309jrve4o?at_medium=RSS&at_campaign=rss",
-    "source": "feeds.bbci.co.uk",
-    "category": "POLITICS",
+    "source": "bbc.co.uk",
+    "category": "Science",
     "language": "en"
   },
   {
     "title": "International court tells BBC of breakthrough in Sudan war crimes probe",
     "link": "https://www.bbc.co.uk/news/articles/c9928zr2m5xo?at_medium=RSS&at_campaign=rss",
-    "source": "feeds.bbci.co.uk",
-    "category": "POLITICS",
+    "source": "bbc.co.uk",
+    "category": "World",
     "language": "en"
   },
   {
     "title": "Ukraine to get licence to produce Patriot missiles, Trump says",
     "link": "https://www.bbc.co.uk/news/articles/ce8klree690o?at_medium=RSS&at_campaign=rss",
-    "source": "feeds.bbci.co.uk",
-    "category": "POLITICS",
+    "source": "bbc.co.uk",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "Starmer gifted gun and ammunition by Turkish president at Nato",
     "link": "https://www.bbc.co.uk/news/articles/c0jy3pd2jzqo?at_medium=RSS&at_campaign=rss",
-    "source": "feeds.bbci.co.uk",
-    "category": "POLITICS",
+    "source": "bbc.co.uk",
+    "category": "World",
     "language": "en"
   },
   {
     "title": "Wealthy AI workers send San Francisco house prices soaring",
     "link": "https://www.bbc.co.uk/news/articles/c9q29j47v9ro?at_medium=RSS&at_campaign=rss",
-    "source": "feeds.bbci.co.uk",
-    "category": "POLITICS",
+    "source": "bbc.co.uk",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "Arizona toddler found alive in hospital morgue after declared dead from drowning",
     "link": "https://www.bbc.co.uk/news/articles/cvg5x0vvrmro?at_medium=RSS&at_campaign=rss",
-    "source": "feeds.bbci.co.uk",
-    "category": "POLITICS",
+    "source": "bbc.co.uk",
+    "category": "Other Hungary",
+    "language": "en"
+  },
+  {
+    "title": "Nato allies announce £37bn for new missile project",
+    "link": "https://www.bbc.co.uk/news/articles/ckg4e3lwzqzo?at_medium=RSS&at_campaign=rss",
+    "source": "bbc.co.uk",
+    "category": "Other Hungary",
+    "language": "en"
+  },
+  {
+    "title": "Justin Bieber joins Madonna, Shakira and BTS for Fifa World Cup final half-time show",
+    "link": "https://www.bbc.co.uk/news/articles/c1wyx7g9e1do?at_medium=RSS&at_campaign=rss",
+    "source": "bbc.co.uk",
+    "category": "Other Hungary",
+    "language": "en"
+  },
+  {
+    "title": "Teenager arrested after two girls, 13, seriously injured in German school attack",
+    "link": "https://www.bbc.co.uk/news/articles/c0qyvkgndzpo?at_medium=RSS&at_campaign=rss",
+    "source": "bbc.co.uk",
+    "category": "AI",
+    "language": "en"
+  },
+  {
+    "title": "Eight killed after landslide hits girls' school in Bangladesh",
+    "link": "https://www.bbc.co.uk/news/articles/cx2wkzww20ro?at_medium=RSS&at_campaign=rss",
+    "source": "bbc.co.uk",
+    "category": "AI",
+    "language": "en"
+  },
+  {
+    "title": "German doctor jailed for murder of 15 patients and suspected of more",
+    "link": "https://www.bbc.co.uk/news/articles/cq819jyp2g7o?at_medium=RSS&at_campaign=rss",
+    "source": "bbc.co.uk",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "How Iran uses the Strait of Hormuz to pressure the US",
     "link": "https://www.dw.com/en/how-iran-uses-the-strait-of-hormuz-to-pressure-the-us/a-77870807?maca=en-rss-en-world-4025-rdf",
-    "source": "rss.dw.com",
-    "category": "POLITICS",
+    "source": "dw.com",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "Trump's support for Venezuela opposition head Machado wanes",
     "link": "https://www.dw.com/en/trump-s-support-for-venezuela-opposition-head-machado-wanes/a-77882047?maca=en-rss-en-world-4025-rdf",
-    "source": "rss.dw.com",
-    "category": "POLITICS",
+    "source": "dw.com",
+    "category": "World",
     "language": "en"
   },
   {
     "title": "Hungary public media reform begins with black screen apology",
     "link": "https://www.dw.com/en/hungary-public-media-reform-begins-with-black-screen-apology/a-77880569?maca=en-rss-en-world-4025-rdf",
-    "source": "rss.dw.com",
-    "category": "POLITICS",
+    "source": "dw.com",
+    "category": "Other Hungary",
     "language": "en"
   },
   {
     "title": "US birthright citizenship ruling eases fears among Indians",
     "link": "https://www.dw.com/en/us-birthright-citizenship-ruling-eases-fears-among-indians/a-77879632?maca=en-rss-en-world-4025-rdf",
-    "source": "rss.dw.com",
-    "category": "POLITICS",
+    "source": "dw.com",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "Renewed US-Iran war would hit Gulf countries hard",
     "link": "https://www.dw.com/en/renewed-us-iran-war-would-hit-gulf-countries-hard/a-77876781?maca=en-rss-en-world-4025-rdf",
-    "source": "rss.dw.com",
-    "category": "POLITICS",
+    "source": "dw.com",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "What's behind Hamas's move to dissolve Gaza government",
     "link": "https://www.dw.com/en/what-s-behind-hamas-s-move-to-dissolve-gaza-government/a-77876196?maca=en-rss-en-world-4025-rdf",
-    "source": "rss.dw.com",
-    "category": "POLITICS",
+    "source": "dw.com",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "DR Congo: Tensions mount over planned constitutional referendum",
     "link": "https://www.dw.com/en/dr-congo-tensions-mount-over-planned-constitutional-referendum/a-77859643?maca=en-rss-en-world-4025-rdf",
-    "source": "rss.dw.com",
-    "category": "POLITICS",
+    "source": "dw.com",
+    "category": "World",
     "language": "en"
   },
   {
     "title": "Attacks on Kyiv ahead of NATO summit: What is Putin's goal?",
     "link": "https://www.dw.com/en/attacks-on-kyiv-ahead-of-nato-summit-what-is-putin-s-goal/a-77867330?maca=en-rss-en-world-4025-rdf",
-    "source": "rss.dw.com",
-    "category": "POLITICS",
+    "source": "dw.com",
+    "category": "World",
     "language": "en"
   },
   {
     "title": "How drones transformed Iran's relationships with its proxies",
     "link": "https://www.dw.com/en/how-drones-transformed-iran-s-relationships-with-its-proxies/a-77864220?maca=en-rss-en-world-4025-rdf",
-    "source": "rss.dw.com",
-    "category": "POLITICS",
+    "source": "dw.com",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "Conflict, climate change, cash-strapped: Why poverty persists",
     "link": "https://www.dw.com/en/conflict-climate-change-cash-strapped-why-poverty-persists/a-77863904?maca=en-rss-en-world-4025-rdf",
-    "source": "rss.dw.com",
-    "category": "POLITICS",
+    "source": "dw.com",
+    "category": "AI",
+    "language": "en"
+  },
+  {
+    "title": "Ghana: Uncertainty hangs over new government anti-corruption plan",
+    "link": "https://www.dw.com/en/ghana-uncertainty-hangs-over-new-government-anti-corruption-plan/a-77863555?maca=en-rss-en-world-4025-rdf",
+    "source": "dw.com",
+    "category": "AI",
+    "language": "en"
+  },
+  {
+    "title": "Philippines' democracy tested by Duterte impeachment trial",
+    "link": "https://www.dw.com/en/philippines-democracy-tested-by-duterte-impeachment-trial/a-77864215?maca=en-rss-en-world-4025-rdf",
+    "source": "dw.com",
+    "category": "World",
+    "language": "en"
+  },
+  {
+    "title": "Ukraine: Suspect in Monaco bomb attack found dead near Kyiv",
+    "link": "https://www.dw.com/en/ukraine-suspect-in-monaco-bomb-attack-found-dead-near-kyiv/a-77863128?maca=en-rss-en-world-4025-rdf",
+    "source": "dw.com",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "Catnip lotion as effective as Deet at repelling mosquitoes, study finds",
     "link": "https://www.theguardian.com/global-development/2026/jul/07/catnip-lotion-as-effective-as-deet-at-repelling-mosquitoes-study-finds",
     "source": "theguardian.com",
-    "category": "POLITICS",
+    "category": "Science",
     "language": "en"
   },
   {
     "title": "What will define Elon Musk’s legacy? Doge cuts to USAID Ebola programs",
     "link": "https://www.theguardian.com/technology/2026/jul/07/elon-musk-doge-cuts-usaid-ebola",
     "source": "theguardian.com",
-    "category": "POLITICS",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "Five charged in Liberia after more than 200kg of cocaine seized in drug bust",
     "link": "https://www.theguardian.com/world/2026/jul/07/charged-liberia-200kg-cocaine-seized-drug-bust",
     "source": "theguardian.com",
-    "category": "POLITICS",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "Archaeologists uncover ancient Byzantine city in Egypt’s western desert",
     "link": "https://www.theguardian.com/world/2026/jul/04/archaeologists-uncover-ancient-byzantine-city-in-egypts-western-desert",
     "source": "theguardian.com",
-    "category": "POLITICS",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "‘The situation is terrible’: aid workers on life in Sudanese city pummelled by drone strikes",
     "link": "https://www.theguardian.com/world/2026/jul/04/el-obeid-aid-workers-sudan-war-drone-strikes",
     "source": "theguardian.com",
-    "category": "POLITICS",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "UK judges begin hearing appeal over Trinidad and Tobago anti-gay law",
     "link": "https://www.theguardian.com/world/2026/jul/08/uk-judges-appeal-trinidad-and-tobago-homophobic-law",
     "source": "theguardian.com",
-    "category": "POLITICS",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "French prosecutors investigate racist abuse of Kylian Mbappé by Paraguayan senator",
     "link": "https://www.theguardian.com/world/2026/jul/07/french-prosecutors-investigate-racist-abuse-mbappe",
     "source": "theguardian.com",
-    "category": "POLITICS",
-    "language": "hu"
+    "category": "AI",
+    "language": "en"
   },
   {
     "title": "‘Living like this is agony’: Cuba suffers third nationwide blackout in six months",
     "link": "https://www.theguardian.com/world/2026/jul/06/cuba-suffers-third-nationwide-blackout-in-six-months",
     "source": "theguardian.com",
-    "category": "POLITICS",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "Canada to buy 12 hi-tech German submarines after bidding war",
     "link": "https://www.theguardian.com/world/2026/jul/06/canada-buys-12-tkms-german-norwegian-submarines-after-bidding-war",
     "source": "theguardian.com",
-    "category": "POLITICS",
+    "category": "AI",
     "language": "en"
   },
   {
     "title": "Cuban zoo celebrates birth of Bengal tigers amid energy crisis",
     "link": "https://www.theguardian.com/world/2026/jul/06/cuban-zoo-celebrates-birth-of-bengal-tigers-amid-energy-crisis",
     "source": "theguardian.com",
-    "category": "POLITICS",
+    "category": "AI",
     "language": "en"
   },
   {
-    "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
-    "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
-    "source": "feeds.a.dj.com",
-    "category": "ECONOMY",
+    "title": "‘Software glitch’ blamed for mass outage – as it happened",
+    "link": "https://www.theguardian.com/australia-news/live/2026/jul/08/anthony-albanese-pacific-diplomacy-state-of-origin-labor-coalition-recession-unemployment-ntwnfb",
+    "source": "theguardian.com",
+    "category": "AI",
     "language": "en"
   },
   {
-    "title": "Comex Gold, Silver Settle Lower",
-    "link": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main",
-    "source": "feeds.a.dj.com",
-    "category": "ECONOMY",
+    "title": "Severe storms in China bring tornadoes and landslides that have killed 15 people",
+    "link": "https://www.theguardian.com/world/2026/jul/07/china-severe-storms-death-toll-xi-jinping-rescue-efforts-landslides-tornadoes",
+    "source": "theguardian.com",
+    "category": "AI",
     "language": "en"
   },
   {
-    "title": "DeepSeek Won't Sink U.S. AI Titans",
-    "link": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main",
-    "source": "feeds.a.dj.com",
-    "category": "ECONOMY",
+    "title": "Australian PM says Chinese missile test could have caused ‘considerable damage’ if weaponised",
+    "link": "https://www.theguardian.com/world/2026/jul/07/chinese-government-tells-critics-not-to-overinterpret-missile-test-in-pacific-as-criticism-grows",
+    "source": "theguardian.com",
+    "category": "AI",
     "language": "en"
   },
   {
-    "title": "Financial Services Roundup: Market Talk",
-    "link": "https://www.wsj.com/articles/financial-services-roundup-market-talk-94f52cba?mod=rss_markets_main",
-    "source": "feeds.a.dj.com",
-    "category": "ECONOMY",
+    "title": "Typhoon Maysak kills two and forces thousands to evacuate in China",
+    "link": "https://www.theguardian.com/world/2026/jul/06/typhoon-maysak-kills-two-and-forces-thousands-to-evacuate-in-china",
+    "source": "theguardian.com",
+    "category": "AI",
     "language": "en"
   },
   {
-    "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
-    "link": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main",
-    "source": "feeds.a.dj.com",
-    "category": "ECONOMY",
-    "language": "en"
-  },
-  {
-    "title": "Swiss franc, Japanese yen Rise as DeepSeek News Boosts Safe Havens",
-    "link": "https://www.wsj.com/articles/safe-haven-currencies-strengthen-amid-fears-over-global-tariffs-9964e17a?mod=rss_markets_main",
-    "source": "feeds.a.dj.com",
-    "category": "ECONOMY",
-    "language": "en"
-  },
-  {
-    "title": "Natural Gas Falls on Shifting Weather Forecasts",
-    "link": "https://www.wsj.com/articles/u-s-natural-gas-futures-fall-on-shifting-weather-forecasts-1ef3e457?mod=rss_markets_main",
-    "source": "feeds.a.dj.com",
-    "category": "ECONOMY",
-    "language": "en"
-  },
-  {
-    "title": "Building-Products Distributor QXO Launches Hostile Bid for Beacon",
-    "link": "https://www.wsj.com/articles/building-products-distributor-qxo-launching-hostile-bid-for-beacon-de024410?mod=rss_markets_main",
-    "source": "feeds.a.dj.com",
-    "category": "ECONOMY",
-    "language": "en"
-  },
-  {
-    "title": "Natural-Gas Firm Diversified Energy Strikes Deal for Permian Basin Player",
-    "link": "https://www.wsj.com/articles/natural-gas-firm-diversified-energy-nears-deal-for-permian-basin-player-4c1c5ff5?mod=rss_markets_main",
-    "source": "feeds.a.dj.com",
-    "category": "ECONOMY",
-    "language": "en"
-  },
-  {
-    "title": "What's New This Tax Season That Can Save You Money",
-    "link": "https://www.wsj.com/articles/tax-season-2024-irs-filing-dates-explained-628a8b37?mod=rss_markets_main",
-    "source": "feeds.a.dj.com",
-    "category": "ECONOMY",
+    "title": "China tests long-range missile in South Pacific in move Australia condemns as ‘destabilising to region’",
+    "link": "https://www.theguardian.com/world/2026/jul/06/china-missile-test-south-pacific",
+    "source": "theguardian.com",
+    "category": "AI",
     "language": "en"
   }
 ]

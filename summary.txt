@@ -1,105 +1,86 @@
 🌅 Morning Briefing
 
-
 🇭🇺 Magyarország
 
+📰 Hátulról rohant bele egy autó egy lovaskocsiba, a hajtó és a ló is meghalt
+📌 Röviden: Egy autó hátulról belerohant egy lovaskocsiba, a balesetben a hajtó és a ló is életét vesztette. A baleset Dunavarsányban történt.
+🎯 Miért fontos? A baleset felhívja a figyelmet a közlekedési biztonságra és a lovaskocsik védelmére.
+🔗 Tovább: https://telex.hu/belfold/2026/07/09/dunavarsany-halalos-baleset-lo-hajto
 
-📰 Magyarország gazdasági helyzete
-📌 Röviden: Magyarország gazdasága lassan növekszik, a kormány azonban továbbra is szigorú költségvetési politikát folytat. A gazdasági növekedés várhatóan 2-3% lesz az idén.
-🎯 Miért fontos? A gazdasági növekedés alakulása hatással lesz a munkanélküliségre és a lakosság életszínvonalára.
-🔗 Tovább: https://www.portfolio.hu/gazdasag/20230708/magyarorszag-gazdasagi-helyzete-533741
-
-
-📰 Magyarország energiaellátása
-📌 Röviden: Magyarország energiaellátása egyre inkább függ az orosz gáztól, ami aggodalmat kelt a biztonság és a függetlenség szempontjából. A kormány azonban továbbra is elkötelezett az orosz energiaimport mellett.
-🎯 Miért fontos? Az energiaellátás biztonsága hatással lesz az ország gazdasági és politikai stabilitására.
-🔗 Tovább: https://www.origo.hu/gazdasag/20230708/magyarorszag-energiaellatas-533742
-
+📰 Megállt és visszafordult az erősödésből a forint, újra 360 környékén mozog az euró árfolyama
+📌 Röviden: A forint árfolyama megállt és visszafordult, az euró árfolyama újra 360 környékén mozog. Ez a gazdasági helyzetet és a pénzügyi piacokat érinti.
+🎯 Miért fontos? A forint árfolyama hatással van a gazdaságra, a befektetésekre és a mindennapi életre.
+🔗 Tovább: https://telex.hu/gazdasag/2026/07/09/forint-euro-arfolyam-3
 
 🏛️ Magyar politika
 
+📰 Hadházy Ákos, Kubatov Gábor és Kósa Lajos sem adta le még a diplomata-útlevelét
+📌 Röviden: Több politikus, köztük Hadházy Ákos, Kubatov Gábor és Kósa Lajos, még nem adta le a diplomata-útlevelét. Ez a politikai helyzetet és a kormányzati döntéseket érinti.
+🎯 Miért fontos? A diplomata-útlevél ügye a politikai bizalom és a kormányzati átláthatóság kérdését veti fel.
+🔗 Tovább: https://telex.hu/belfold/2026/07/09/diplomata-utlevel-leadas-hadhazy-gyurcsany
 
-📰 Orbán Viktor beszéde
-📌 Röviden: Orbán Viktor miniszterelnök beszédet mondott a parlamentben, amelyben a kormány gazdasági és politikai céljait ismertette. A beszéd során hangsúlyozta a nemzeti szuverenitás fontosságát.
-🎯 Miért fontos? A miniszterelnök beszéde hatással lesz a kormány politikai irányvonalára és a parlament munkájára.
-🔗 Tovább: https://www.parlament.hu/irom39/13513/13513.pdf
-
-
-📰 ellenzéki pártok tiltakozása
-📌 Röviden: Az ellenzéki pártok tiltakozást szerveztek a kormány gazdasági és politikai döntései ellen. A tiltakozás során a résztvevők a kormány lemondását követelték.
-🎯 Miért fontos? A tiltakozás hatással lesz a politikai hangulatra és a kormány népszerűségére.
-🔗 Tovább: https://www.hvg.hu/itthon/20230708/ellenzeki_partok_tiltakozasa_533743
-
+📰 Sulyok Tamás aggódik, hogy az utódja a Tisza Párt politikai kinevezettje lesz
+📌 Röviden: Sulyok Tamás, a Tisza Párt elnöke, aggódik, hogy az utódja politikai kinevezett lesz. Ez a párt belső viszonyait és a politikai jövőt érinti.
+🎯 Miért fontos? A politikai kinevezések és a pártok belső viszonyai hatással vannak a demokráciára és a kormányzásra.
+🔗 Tovább: https://telex.hu/belfold/2026/07/09/sulyok-tamas-aggodik-hogy-az-utodja-a-tisza-part-politikai-kinevezettje-lesz
 
 🤖 AI & Technológia
 
-
-📰 Meta smart glasses
-📌 Röviden: A Meta cég fejleszt egy új okosszemet, amely folyamatosan rögzíti a környezetet. A szemüveg a mesterséges intelligencia technológiáját használja fel a felhasználók érdeklődésének megállapítására.
-🎯 Miért fontos? A technológia hatással lesz a felhasználók magánéletére és a személyes adatok védelmére.
+📰 Meta is reportedly working on smart glasses that would be recording all the time
+📌 Röviden: A Meta cég smart glasses-en dolgozik, amelyek folyamatosan rögzítenék a környezetet. Ez az adatvédelem és a technológiai fejlődés kérdését veti fel.
+🎯 Miért fontos? A folyamatos rögzítés és az adatgyűjtés hatással van a magánéletre és a társadalmi viszonyokra.
 🔗 Tovább: https://www.theverge.com/tech/963138/meta-smart-glasses-recording-super-sensing-ai
 
-
-📰 ChatGPT fejlesztése
-📌 Röviden: A ChatGPT mesterséges intelligencia rendszer fejlesztése folyamatosan zajlik. A legújabb verzió jobb hangkezelést és beszédfelismerést biztosít.
-🎯 Miért fontos? A technológia hatással lesz a mesterséges intelligencia fejlesztésére és a felhasználók élményére.
-🔗 Tovább: https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live
-
+📰 Google Photos adds a new AI ‘Video Remix’ tool
+📌 Röviden: A Google Photos új AI eszközt vezetett be, amely a videók remixelését teszi lehetővé. Ez a technológiai fejlődés és a fényképezés kérdését veti fel.
+🎯 Miért fontos? A technológiai fejlődés és az AI eszközök hatással vannak a mindennapi életre és a kreativitásra.
+🔗 Tovább: https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/
 
 🚀 Űripar
 
+📰 SpaceX launches Transporter-17 amid concerns about rideshare program’s future
+📌 Röviden: A SpaceX elindította a Transporter-17 küldetést, de aggodalmak merültek fel a rideshare program jövőjét illetően. Ez az űripar és a technológiai fejlődés kérdését veti fel.
+🎯 Miért fontos? A rideshare program és az űripar fejlődése hatással van a technológiai haladásra és a gazdasági növekedésre.
+🔗 Tovább: https://spacenews.com/spacex-launches-transporter-17-amid-concerns-about-rideshare-programs-future/
 
-📰 SpaceX fejlesztése
-📌 Röviden: A SpaceX cég folyamatosan fejleszti űrtechnológiáját. A legújabb fejlesztés a Grok 4.5 modell, amely az Opus-osztályba tartozik.
-🎯 Miért fontos? A technológia hatással lesz az űrkutatásra és a világűr felfedezésére.
-🔗 Tovább: https://www.techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/
-
-
-📰 Manna drone delivery
-📌 Röviden: A Manna cég autonóm drónokat fejleszt a csomagkézbesítéshez. A technológia az Egyesült Államokban terjed.
-🎯 Miért fontos? A technológia hatással lesz a logisztikai iparra és a csomagkézbesítésre.
-🔗 Tovább: https://www.techcrunch.com/2026/07/08/autonomous-drone-delivery-startup-manna-plots-major-u-s-expansion/
-
+📰 Miami-based City Labs achieves a first for commercial nuclear power in space
+📌 Röviden: A City Labs cég elérte az első kereskedelmi nukleáris erőművet az űrben. Ez az űripar és a technológiai fejlődés kérdését veti fel.
+🎯 Miért fontos? A nukleáris erőművek és az űripar fejlődése hatással van a technológiai haladásra és a gazdasági növekedésre.
+🔗 Tovább: https://arstechnica.com/space/2026/07/miami-based-city-labs-achieves-a-first-for-commercial-nuclear-power-in-space/
 
 🔬 Tudomány
 
+📰 Observation of Floquet rotational super-radiance
+📌 Röviden: A tudósok megfigyelték a Floquet rotációs szuper-radianciát. Ez a fizika és a tudományos felfedezés kérdését veti fel.
+🎯 Miért fontos? A tudományos felfedezések és a fizika fejlődése hatással van a technológiai haladásra és a mindennapi életre.
+🔗 Tovább: https://www.nature.com/articles/s41586-026-10725-y
 
-📰 Google deepfake detektor
-📌 Röviden: A Google cég fejlesztett egy deepfake detektor rendszert, amely a hamis képek és videók azonosítására szolgál.
-🎯 Miért fontos? A technológia hatással lesz a médiakövetésre és a valóság ellenőrzésére.
-🔗 Tovább: https://www.techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic
+📰 Single-phase gradient-solvation-electrolyte-stabilized Li metal batteries
+📌 Röviden: A tudósok kidolgoztak egy új típusú lítium-ion akkumulátort. Ez a technológiai fejlődés és a környezetvédelem kérdését veti fel.
+🎯 Miért fontos? A technológiai fejlődés és a környezetvédelem hatással van a mindennapi életre és a gazdasági növekedésre.
+🔗 Tovább: https://www.nature.com/articles/s41586-026-10732-z
 
-
-📰 QuantumDiamonds fejlesztése
-📌 Röviden: A QuantumDiamonds cég fejleszt egy új technológiát a chipgyártás felgyorsítására. Az EU támogatja a fejlesztést.
-🎯 Miért fontos? A technológia hatással lesz a chipgyártásra és a technológiai fejlődésre.
-🔗 Tovább: https://www.techcrunch.com/2026/07/08/with-eu-backing-quantumdiamonds-aims-to-speed-up-chip-manufacturing
-
-
-📰 Roost app
-📌 Röviden: A Roost app lassítja a felhasználók internetes tevékenységét, hogy a felhasználók lassabban és tudatosabban használják az internetet.
-🎯 Miért fontos? A technológia hatással lesz a felhasználók viselkedésére és a digitális függőségre.
-🔗 Tovább: https://www.techcrunch.com/2026/07/08/slow-cial-app-roost-forces-you-to-slow-down-to-the-speed-of-a-carrier-pigeon
-
+📰 Ancient feeding-related neuropeptides regulate alloparenting in ants
+📌 Röviden: A tudósok felfedezték, hogy az ősi táplálkozási neuropeptidek szabályozzák az alloparentinget a hangyákban. Ez a biológia és a tudományos felfedezés kérdését veti fel.
+🎯 Miért fontos? A biológiai felfedezések és a tudományos haladás hatással van a technológiai fejlődésre és a mindennapi életre.
+🔗 Tovább: https://www.nature.com/articles/s41586-026-10747-6
 
 🌍 Világpolitika
 
+📰 US seeks cheaper hunter-killer drones after Iran destroys $1B worth of Reapers
+📌 Röviden: Az Egyesült Államok olcsóbb vadász-drónokat keres, miután Irán megsemmisített 1 milliárd dollár értékű Reapert. Ez a geopolitika és a katonai fejlődés kérdését veti fel.
+🎯 Miért fontos? A geopolitika és a katonai fejlődés hatással van a nemzetközi biztonságra és a gazdasági növekedésre.
+🔗 Tovább: https://arstechnica.com/gadgets/2026/07/us-seeks-cheaper-hunter-killer-drones-after-iran-destroys-1b-worth-of-reapers/
 
-📰 Egyesült Államok és Kína
-📌 Röviden: Az Egyesült Államok és Kína közötti feszültség továbbra is fennáll. A két ország gazdasági és politikai kapcsolatai egyre inkább megromlanak.
-🎯 Miért fontos? A feszültség hatással lesz a globális gazdaságra és a politikai stabilitásra.
-🔗 Tovább: https://www.bbc.com/news/world-us-canada-62212314
-
-
-📰 Európai Unió és Oroszország
-📌 Röviden: Az Európai Unió és Oroszország közötti kapcsolatok továbbra is feszültek. Az EU szankciókat vezetett be Oroszország ellen.
-🎯 Miért fontos? A feszültség hatással lesz a globális energiapiacra és a politikai stabilitásra.
-🔗 Tovább: https://www.euractiv.com/section/energy-environment/news/eu-russia-relations-remain-tense-as-sanctions-remain-in-place
-
+📰 Attacks on Kyiv ahead of NATO summit: What is Putin's goal?
+📌 Röviden: Oroszország támadásokat indított Kijev ellen a NATO csúcstalálkozó előtt. Ez a geopolitika és a nemzetközi biztonság kérdését veti fel.
+🎯 Miért fontos? A geopolitika és a nemzetközi biztonság hatással van a gazdasági növekedésre és a mindennapi életre.
+🔗 Tovább: https://www.dw.com/en/attacks-on-kyiv-ahead-of-nato-summit-what-is-putin-s-goal/a-77867330
 
 📌 Mai trendek
 
-* A mesterséges intelligencia technológiája egyre inkább terjed a mindennapi életben.
-* A globális gazdaság lassan növekszik, de a feszültség az Egyesült Államok és Kína, valamint az Európai Unió és Oroszország között továbbra is fennáll.
-* A technológiai fejlesztések hatással lesznek a felhasználók viselkedésére és a digitális függőségre.
-* A környezetvédelem és a fenntarthatóság egyre inkább fontos szerepet kap a globális politikában.
+* A technológiai fejlődés és az AI eszközök hatással vannak a mindennapi életre és a kreativitásra.
+* A geopolitika és a katonai fejlődés hatással van a nemzetközi biztonságra és a gazdasági növekedésre.
+* A tudományos felfedezések és a fizika fejlődése hatással van a technológiai haladásra és a mindennapi életre.
+* A környezetvédelem és a technológiai fejlődés hatással van a mindennapi életre és a gazdasági növekedésre.
+* A politikai bizalom és a kormányzati átláthatóság kérdése hatással van a demokráciára és a kormányzásra.
