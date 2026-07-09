@@ -1,134 +1,209 @@
 import json
 import os
+from datetime import datetime
 from openai import OpenAI
 
 
+# ======================
+# BEÁLLÍTÁSOK
+# ======================
+
+MODEL = "gpt-5-mini"
+MAX_NEWS = 30
+
+
 client = OpenAI(
-    api_key=os.environ["GROQ_API_KEY"],
-    base_url="https://api.groq.com/openai/v1"
+    api_key=os.getenv("OPENAI_API_KEY")
 )
 
 
-with open("news.json", "r", encoding="utf-8") as f:
+# ======================
+# NEWS BETÖLTÉS
+# ======================
+
+with open(
+    "news.json",
+    "r",
+    encoding="utf-8"
+) as f:
+
     news = json.load(f)
 
 
-# maximum 120 hír megy az AI-nak, hogy ne legyen túl nagy request
-news = news[:120]
+# csak legjobb hírek
+news = news[:MAX_NEWS]
 
 
-news_text = ""
+results = []
 
-for item in news:
-    news_text += f"""
-Cím: {item['title']}
-Forrás: {item.get('source', '')}
-Kategória: {item.get('category', '')}
-Nyelv: {item.get('language', '')}
-Link: {item['link']}
 
+# ======================
+# AI FELDOLGOZÁS
+# ======================
+
+for index, item in enumerate(news, start=1):
+
+    title = item.get("title", "")
+
+    if not title:
+        continue
+
+
+    print(
+        f"[{index}/{len(news)}] {title}"
+    )
+
+
+    prompt = f"""
+You are a professional news editor.
+
+Analyze this article title.
+
+Title:
+{title}
+
+Category:
+{item.get("category")}
+
+Source:
+{item.get("source")}
+
+
+Write a Hungarian news explanation.
+
+Return ONLY valid JSON.
+
+Format:
+
+{{
+"summary": "",
+"why_it_matters": "",
+"background": ""
+}}
+
+
+Rules:
+
+summary:
+- 2-3 sentences
+- explain what happened
+- factual only
+
+why_it_matters:
+- explain why this topic is important
+- mention possible impact
+
+background:
+- provide short context
+- explain things a normal reader needs to know
+
+Do not invent facts.
+If information is missing, say that the details are limited.
 """
 
 
-prompt = f"""
-Te egy prémium reggeli hírszerkesztő AI vagy.
+    try:
 
-Készíts egy Morning Briefing hírszemlét.
+        response = client.responses.create(
 
-A híreket kategóriák szerint rendezd.
+            model=MODEL,
 
-KATEGÓRIÁK:
+            input=prompt,
 
-🇭🇺 Magyarország
-- 2 legfontosabb magyar hír
-
-🏛️ Magyar politika
-- 2 legfontosabb politikai hír
-
-🤖 AI & Technológia
-- 2 legfontosabb hír
-
-🚀 Űripar
-- 2 legfontosabb hír
-
-🔬 Tudomány
-- 3 legfontosabb hír
-
-🌍 Világpolitika
-- 2 legfontosabb hír
+            temperature=0.2
+        )
 
 
-SZABÁLYOK:
-
-- Egy hír csak egyszer szerepelhet.
-- Ha ugyanaz a hír több forrásból van, csak a legjobb forrást használd.
-- Ne találj ki híreket.
-- Ha nincs elég releváns hír egy kategóriában, írd:
-"Nincs elég releváns hír."
-- A cím mindig maradjon az eredeti nyelven.
-- A forrás linkje mindig maradjon meg.
-- Ne használj Markdown fejléc jeleket (#).
-- Csak emoji kategóriacímek legyenek.
+        text = response.output_text.strip()
 
 
-FORMÁTUM:
+        # JSON tisztítás
+        if text.startswith("```"):
+
+            text = (
+                text
+                .replace("```json", "")
+                .replace("```", "")
+                .strip()
+            )
 
 
-🌅 Morning Briefing
+        data = json.loads(text)
 
 
-🇭🇺 Magyarország
+        item["summary"] = data.get(
+            "summary",
+            ""
+        )
+
+        item["why_it_matters"] = data.get(
+            "why_it_matters",
+            ""
+        )
+
+        item["background"] = data.get(
+            "background",
+            ""
+        )
 
 
-📰 Eredeti cím
-
-📌 Röviden:
-2-3 természetes magyar mondat.
-
-🎯 Miért fontos?
-1 konkrét mondat arról, hogy miért számít ez a hír.
+        item["processed_at"] = (
+            datetime.now()
+            .isoformat()
+        )
 
 
-🔗 Tovább:
-link
+        results.append(item)
 
 
-A végén:
+
+        # mentés minden siker után
+        with open(
+            "daily_news.json",
+            "w",
+            encoding="utf-8"
+        ) as f:
+
+            json.dump(
+                results,
+                f,
+                ensure_ascii=False,
+                indent=2
+            )
 
 
-📌 Mai trendek
+    except json.JSONDecodeError:
+
+        print(
+            "JSON hiba ennél:",
+            title
+        )
+
+        continue
 
 
-- 5 rövid pont a mai nap legfontosabb összefüggő trendjeiről.
-- Ne általánosságokat írj.
-- Kapcsolódjon konkrétan a mai hírekhez.
+    except Exception as e:
+
+        print(
+            "AI hiba:",
+            e
+        )
+
+        continue
 
 
-HÍREK:
 
-{news_text}
+# ======================
+# VÉGE
+# ======================
 
-"""
-
-
-response = client.chat.completions.create(
-    model="llama-3.3-70b-versatile",
-    messages=[
-        {
-            "role": "user",
-            "content": prompt
-        }
-    ],
-    temperature=0.3
+print()
+print(
+    "Kész!",
+    len(results),
+    "hír feldolgozva"
 )
 
-
-summary = response.choices[0].message.content
-
-
-with open("summary.txt", "w", encoding="utf-8") as f:
-    f.write(summary)
-
-
-print(summary)
-print("\nMentve: summary.txt")
+print(
+    "Mentve: daily_news.json"
+)
