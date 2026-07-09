@@ -3,78 +3,74 @@
 
 🇭🇺 Magyarország
 
-📰 Rév Marcellt Emmy-díjra jelölték az Eufória fináléjáért
-📌 Rév Marcell operatőrt Emmy-díjra jelölték az Eufória fináléjáért. A jelölés a sorozat egyik epizódjában végzett munkájáért szól. 
-🎯 Ez az esemény fontos, mert egy magyar alkotó nemzetközi elismerést kapott.
-
-📰 Megállt és visszafordult az erősödésből a forint, újra 360 környékén mozog az euró árfolyama
-📌 A forint árfolyama megállt és visszafordult az erősödésből, és újra 360 környékén mozog az euró árfolyama. 
-🎯 Ez az esemény fontos, mert a forint árfolyama hatással van a gazdaságra és a mindennapi életre.
+Nincs elég információ a magyar hírekről.
 
 
 🏛️ Magyar politika
 
-📰 Sulyok Tamás: Az alaptörvény-módosítási javaslat számos elemében sérti a jogállamiság, a demokrácia és a hatalommegosztás elvét
-📌 Sulyok Tamás szerint az alaptörvény-módosítási javaslat számos elemében sérti a jogállamiság, a demokrácia és a hatalommegosztás elvét. 
-🎯 Ez az esemény fontos, mert a jogállamiság és a demokrácia alapvető értékek a társadalomban.
-
-📰 Tisza-kormány: hamarosan érkeznek a kormány döntései
-📌 A Tisza-kormány hamarosan érkeznek a kormány döntései. 
-🎯 Ez az esemény fontos, mert a kormány döntései hatással lesznek az ország jövőjére.
+Nincs elég információ a magyar politikai hírekről.
 
 
 🤖 AI & Technológia
 
 📰 Meta is reportedly working on smart glasses that would be recording all the time
-📌 A Meta egy olyan okos szemüveget fejleszt, amely folyamatosan rögzítené a környezetet. 
-🎯 Ez az esemény fontos, mert az okos szemüveg forradalmasíthatja a technológiát.
+📌 Röviden: A Meta egy olyan okos szemüvegen dolgozik, amely folyamatosan rögzítené a környezetét.
+🎯 Miért fontos? Az okos szemüveg fejlesztése az AI és a technológia területén jelentős lépés lehet, de felveti az adatvédelem és a magánélet kérdését is.
+🔗 Tovább: https://www.theverge.com/tech/963138/meta-smart-glasses-recording-super-sensing-ai
 
-📰 ChatGPT’s upgraded voice mode is better at shutting up
-📌 A ChatGPT fejlesztett hangmódja jobb a csendben maradásban. 
-🎯 Ez az esemény fontos, mert a fejlesztett hangmód jobb felhasználói élményt nyújt.
+📰 Google Photos adds a new AI ‘Video Remix’ tool
+📌 Röviden: A Google Photos új AI-alapú "Video Remix" eszközt adott hozzá, amely lehetővé teszi a felhasználók számára, hogy átalakítsák a videóikat.
+🎯 Miért fontos? Az új eszköz az AI technológia fejlődését mutatja, és új lehetőségeket nyújt a felhasználók számára a videószerkesztésben.
+🔗 Tovább: https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/
 
 
 🚀 Űripar
 
-📰 SpaceX launches Transporter-17 amid concerns about rideshare program’s future
-📌 A SpaceX elindította a Transporter-17 küldetést, ami aggodalmat kelt a rideshare program jövőjével kapcsolatban. 
-🎯 Ez az esemény fontos, mert a rideshare program fontos szerepet játszik a űriparban.
+📰 New Singapore space agency seeks to build up the country’s space industry
+📌 Röviden: Szingapúr új űrügynökséget hozott létre, amelynek célja az ország űriparának fejlesztése.
+🎯 Miért fontos? Az új űrügynökség az ázsiai űripar fejlődését mutatja, és új lehetőségeket nyújt a szingapúri űripari vállalatok számára.
+🔗 Tovább: https://spacenews.com/new-singapore-space-agency-seeks-to-build-up-the-countrys-space-industry/
 
-📰 NASA’s New Horizons Spacecraft Wakes from Hibernation in Good Health
-📌 A NASA New Horizons űrszondája felébredt a hibernációból és jó állapotban van. 
-🎯 Ez az esemény fontos, mert a New Horizons űrszonda fontos információkat gyűjt a Naprendszerünkről.
+📰 SpaceX launches Transporter-17 amid concerns about rideshare program’s future
+📌 Röviden: A SpaceX elindította a Transporter-17 küldetést, de aggodalmak merültek fel a rideshare program jövőjével kapcsolatban.
+🎯 Miért fontos? A rideshare program az űriparban fontos szerepet játszik, és a SpaceX döntése hatással lehet az egész iparágra.
+🔗 Tovább: https://spacenews.com/spacex-launches-transporter-17-amid-concerns-about-rideshare-programs-future/
 
 
 🔬 Tudomány
 
 📰 Observation of Floquet rotational super-radiance
-📌 A tudósok megfigyelték a Floquet rotációs szuper-radianciát. 
-🎯 Ez az esemény fontos, mert a Floquet rotációs szuper-radiancia új lehetőségeket nyújt a tudományban.
+📌 Röviden: A kutatók megfigyelték a Floquet rotációs szuper-radianciát, amely egy új jelenség a fizika területén.
+🎯 Miért fontos? A felfedezés új lehetőségeket nyújt a fizika és az anyagtudomány területén.
+🔗 Tovább: https://www.nature.com/articles/s41586-026-10725-y
+
+📰 In vivo feasibility study of humanoid robots in surgery
+📌 Röviden: A kutatók tanulmányozták a humanoid robotok alkalmazhatóságát a sebészetben.
+🎯 Miért fontos? A humanoid robotok használata a sebészetben új lehetőségeket nyújt a betegek kezelésében.
+🔗 Tovább: https://www.nature.com/articles/s41586-026-10796-x
 
 📰 Single-phase gradient-solvation-electrolyte-stabilized Li metal batteries
-📌 A tudósok kifejlesztették az egyfázisú gradiens-oldó-elektrolit-stabilizált Li fém akkumulátort. 
-🎯 Ez az esemény fontos, mert az új akkumulátortípus jobb teljesítményt nyújt.
-
-📰 Ancient feeding-related neuropeptides regulate alloparenting in ants
-📌 A tudósok felfedezték, hogy az ősi táplálkozással kapcsolatos neuropeptidek szabályozzák az alloparentinget a hangyákban. 
-🎯 Ez az esemény fontos, mert a felfedezés új információkat nyújt a hangyák viselkedéséről.
+📌 Röviden: A kutatók kidolgoztak egy új típusú lítium-ion akkumulátort, amely stabilabb és hatékonyabb.
+🎯 Miért fontos? Az új akkumulátor típus hatással lehet az energiatárolás és a mobilitás területén.
+🔗 Tovább: https://www.nature.com/articles/s41586-026-10732-z
 
 
 🌍 Világpolitika
 
 📰 US seeks cheaper hunter-killer drones after Iran destroys $1B worth of Reapers
-📌 Az Egyesült Államok olcsóbb vadász-drónokat keres, miután Irán elpusztított 1 milliárd dollár értékű Reaper drónokat. 
-🎯 Ez az esemény fontos, mert a drónok fontos szerepet játszanak a modern hadviselésben.
+📌 Röviden: Az Egyesült Államok olcsóbb vadászrepülőgépeket keres, miután Irán megsemmisített 1 milliárd dollár értékű Reaper drónt.
+🎯 Miért fontos? A döntés hatással lehet a globális biztonsági helyzetre és az Egyesült Államok katonai stratégiájára.
+🔗 Tovább: https://arstechnica.com/gadgets/2026/07/us-seeks-cheaper-hunter-killer-drones-after-iran-destroys-1b-worth-of-reapers/
 
-📰 Attacks on Kyiv ahead of NATO summit: What is Putin's goal?
-📌 Támadások Kijev ellen a NATO-csúcs előtt: Mi Putyin célja? 
-🎯 Ez az esemény fontos, mert a támadások hatással lesznek a nemzetközi politikára.
+📰 Aussie gov't tells volunteers to throw out thousands of functioning test routers
+📌 Röviden: Az ausztrál kormány elrendelte, hogy a önkéntesek dobjanak ki több ezer működő teszt routert.
+🎯 Miért fontos? A döntés hatással lehet az ausztrál kormányzat és a technológiai ipar kapcsolatára.
+🔗 Tovább: https://arstechnica.com/gadgets/2026/07/thousands-of-routers-bricked-after-government-program-concludes-in-australia/
 
 
 📌 Mai trendek
 
-* A technológia fejlődése és a társadalom változása
-* A környezetvédelem és a fenntarthatóság fontossága
-* A nemzetközi politika és a globális események hatása a mindennapi életre
-* A tudományos felfedezések és az innováció fontossága a jövőnk alakításában
-* A gazdasági és pénzügyi események hatása a társadalomra
+* Az AI és a technológia fejlődése új lehetőségeket nyújt a felhasználók számára, de felveti az adatvédelem és a magánélet kérdését is.
+* Az űripar fejlődése az ázsiai régióban új lehetőségeket nyújt a szingapúri űripari vállalatok számára.
+* A tudományos felfedezések új lehetőségeket nyújtanak a fizika, az anyagtudomány és a sebészet területén.
+* A globális biztonsági helyzet és a katonai stratégia hatással lehet az Egyesült Államok és más országok döntéseire.
