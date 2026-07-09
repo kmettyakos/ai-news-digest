@@ -1,151 +1,210 @@
 import feedparser
 import json
-import re
+from datetime import datetime, timedelta
+from urllib.parse import urlparse
 
 
-def detect_language(category, title):
-    """
-    Egyszerű nyelvfelismerés.
-    Magyar forrásokat automatikusan hu-nak vesz.
-    """
-
-    if category == "HUNGARY":
-        return "hu"
-
-    # gyakori magyar karakterek
-    hungarian_chars = "áéíóöőúüűÁÉÍÓÖŐÚÜŰ"
-
-    if any(char in title for char in hungarian_chars):
-        return "hu"
-
-    return "en"
-
-
-def get_source_name(url):
-    """
-    Forrásnév kinyerése URL-ből
-    """
-
-    clean = url.replace("https://", "").replace("http://", "")
-    domain = clean.split("/")[0]
-
-    return domain.replace("www.", "")
-
-
-# -----------------------------
-# RSS források beolvasása
-# -----------------------------
-
-sources = []
-
-current_category = "Other"
+# RSS források betöltése
 
 with open("sources.txt", "r", encoding="utf-8") as file:
+    sources = [
+        line.strip()
+        for line in file.readlines()
+        if line.strip() and not line.startswith("#")
+    ]
 
-    for line in file:
-
-        line = line.strip()
-
-        if not line:
-            continue
-
-        # kategória sor
-        if line.startswith("[") and line.endswith("]"):
-            current_category = line[1:-1]
-            continue
-
-        # komment
-        if line.startswith("#"):
-            continue
-
-        sources.append({
-            "url": line,
-            "category": current_category
-        })
-
-
-# -----------------------------
-# Hírek gyűjtése
-# -----------------------------
 
 all_news = []
 
-seen_links = set()
+# csak az elmúlt 14 nap hírei
+date_limit = datetime.now() - timedelta(days=14)
 
 
-for source in sources:
+def detect_category(title, summary, source):
+    text = (title + " " + summary).lower()
 
-    url = source["url"]
-    category = source["category"]
+    # magyar politika
+    if any(x in text for x in [
+        "orbán", "kormány", "parlament", "választás",
+        "miniszter", "fidesz", "tisza", "ellenzék",
+        "politika"
+    ]):
+        return "Politics"
+
+    # magyar hírek
+    if any(x in source for x in [
+        "telex.hu",
+        "hvg.hu",
+        "24.hu",
+        "444.hu",
+        "index.hu",
+        "mandiner.hu",
+        "portfolio.hu",
+        "vg.hu"
+    ]):
+        return "Hungary"
+
+
+    # AI
+    if any(x in text for x in [
+        "ai",
+        "artificial intelligence",
+        "chatgpt",
+        "openai",
+        "anthropic",
+        "google ai",
+        "machine learning",
+        "llm",
+        "robot"
+    ]):
+        return "AI"
+
+
+    # űripar
+    if any(x in text for x in [
+        "nasa",
+        "spacex",
+        "rocket",
+        "satellite",
+        "moon",
+        "mars",
+        "orbit",
+        "space"
+    ]):
+        return "Space"
+
+
+    # tudomány
+    if any(x in text for x in [
+        "research",
+        "study",
+        "science",
+        "nature",
+        "physics",
+        "biology",
+        "medicine",
+        "quantum"
+    ]):
+        return "Science"
+
+
+    # világpolitika
+    if any(x in text for x in [
+        "war",
+        "president",
+        "china",
+        "russia",
+        "iran",
+        "usa",
+        "europe",
+        "government"
+    ]):
+        return "World"
+
+
+    return "Other Hungary"
+
+
+
+for url in sources:
 
     print("\nOlvasom:", url)
 
     try:
-
         feed = feedparser.parse(url)
 
-        source_name = get_source_name(url)
+        for entry in feed.entries[:30]:
+
+            title = entry.get("title", "")
+            link = entry.get("link", "")
+
+            summary = entry.get("summary", "")
+
+            # dátum ellenőrzés
+
+            published = entry.get("published_parsed")
+
+            if published:
+                article_date = datetime(*published[:6])
+
+                if article_date < date_limit:
+                    continue
 
 
-        for entry in feed.entries[:10]:
+            source = urlparse(link).netloc.replace("www.", "")
 
-            title = entry.get(
-                "title",
-                "Nincs cím"
+            category = detect_category(
+                title,
+                summary,
+                source
             )
 
-            link = entry.get(
-                "link",
-                ""
-            )
 
-
-            # duplikáció kiszűrés
-            if link in seen_links:
-                continue
-
-            seen_links.add(link)
-
-
-            language = detect_language(
-                category,
-                title
-            )
+            language = "hu" if any(x in source for x in [
+                "telex",
+                "hvg",
+                "24.hu",
+                "444",
+                "index",
+                "mandiner",
+                "portfolio",
+                "vg"
+            ]) else "en"
 
 
             all_news.append({
-
                 "title": title,
-
                 "link": link,
-
-                "source": source_name,
-
+                "source": source,
                 "category": category,
-
                 "language": language
-
             })
 
 
     except Exception as e:
-
-        print(
-            "Hiba:",
-            e
-        )
+        print("Hiba:", e)
 
 
-# -----------------------------
-# Mentés
-# -----------------------------
 
-with open(
-    "news.json",
-    "w",
-    encoding="utf-8"
-) as f:
+# duplikátumok törlése
 
+unique = {}
+
+for item in all_news:
+    key = item["title"].lower()
+
+    if key not in unique:
+        unique[key] = item
+
+
+all_news = list(unique.values())
+
+
+
+# ne legyen egy forrásból túl sok
+
+filtered = []
+
+source_count = {}
+
+for item in all_news:
+
+    source = item["source"]
+
+    if source_count.get(source, 0) >= 15:
+        continue
+
+    filtered.append(item)
+
+    source_count[source] = source_count.get(source, 0) + 1
+
+
+
+all_news = filtered
+
+
+
+with open("news.json", "w", encoding="utf-8") as f:
     json.dump(
         all_news,
         f,
@@ -154,8 +213,4 @@ with open(
     )
 
 
-print("\n----------------")
-print(
-    f"Kész: {len(all_news)} hír mentve"
-)
-print("----------------")
+print("\nMentve:", len(all_news), "hír")
