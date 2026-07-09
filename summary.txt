@@ -3,74 +3,75 @@
 
 🇭🇺 Magyarország
 
-Nincs elég információ a magyar hírekről.
+Nincs elég releváns hír.
 
 
 🏛️ Magyar politika
 
-Nincs elég információ a magyar politikai hírekről.
+Nincs elég releváns hír.
 
 
 🤖 AI & Technológia
 
 📰 Meta is reportedly working on smart glasses that would be recording all the time
-📌 Röviden: A Meta egy olyan okos szemüvegen dolgozik, amely folyamatosan rögzítené a környezetét.
-🎯 Miért fontos? Az okos szemüveg fejlesztése az AI és a technológia területén jelentős lépés lehet, de felveti az adatvédelem és a magánélet kérdését is.
-🔗 Tovább: https://www.theverge.com/tech/963138/meta-smart-glasses-recording-super-sensing-ai
+📌 A Meta egy olyan okos szemüvegen dolgozik, amely folyamatosan rögzítené a környezetet. Ez a technológia forradalmasíthatja a mindennapi életünket, de felveti a magánélet védelmének kérdését is.
+🎯 Fontos, mert az okos szemüvegek használata széles körben elterjedhet és jelentősen befolyásolhatja a társadalmat.
+🔗 https://www.theverge.com/tech/963138/meta-smart-glasses-recording-super-sensing-ai
 
 📰 Google Photos adds a new AI ‘Video Remix’ tool
-📌 Röviden: A Google Photos új AI-alapú "Video Remix" eszközt adott hozzá, amely lehetővé teszi a felhasználók számára, hogy átalakítsák a videóikat.
-🎯 Miért fontos? Az új eszköz az AI technológia fejlődését mutatja, és új lehetőségeket nyújt a felhasználók számára a videószerkesztésben.
-🔗 Tovább: https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/
+📌 A Google Photos egy új AI "Video Remix" eszközt adott hozzá, amely lehetővé teszi a felhasználók számára, hogy új és érdekes videókat hozzanak létre a meglévő videókból.
+🎯 Fontos, mert ez az eszköz új lehetőségeket nyit meg a videószerkesztésben és a tartalomlétrehozásban.
+🔗 https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool
 
 
 🚀 Űripar
 
 📰 New Singapore space agency seeks to build up the country’s space industry
-📌 Röviden: Szingapúr új űrügynökséget hozott létre, amelynek célja az ország űriparának fejlesztése.
-🎯 Miért fontos? Az új űrügynökség az ázsiai űripar fejlődését mutatja, és új lehetőségeket nyújt a szingapúri űripari vállalatok számára.
-🔗 Tovább: https://spacenews.com/new-singapore-space-agency-seeks-to-build-up-the-countrys-space-industry/
+📌 Szingapúr új űrügynökséget hozott létre, amelynek célja az ország űriparának fejlesztése.
+🎯 Fontos, mert Szingapúr űripara még fejletlen, de az új ügynökség segíthet a térségben való pozícionálásban.
+🔗 https://spacenews.com/new-singapore-space-agency-seeks-to-build-up-the-countrys-space-industry/
 
 📰 SpaceX launches Transporter-17 amid concerns about rideshare program’s future
-📌 Röviden: A SpaceX elindította a Transporter-17 küldetést, de aggodalmak merültek fel a rideshare program jövőjével kapcsolatban.
-🎯 Miért fontos? A rideshare program az űriparban fontos szerepet játszik, és a SpaceX döntése hatással lehet az egész iparágra.
-🔗 Tovább: https://spacenews.com/spacex-launches-transporter-17-amid-concerns-about-rideshare-programs-future/
+📌 A SpaceX elindította a Transporter-17 küldetést, amely aggodalmakat váltott ki a rideshare program jövőjével kapcsolatban.
+🎯 Fontos, mert a rideshare program fontos szerepet játszik a SpaceX tevékenységében és a jövőbeli tervekben.
+🔗 https://spacenews.com/spacex-launches-transporter-17-amid-concerns-about-rideshare-programs-future
 
 
 🔬 Tudomány
 
-📰 Observation of Floquet rotational super-radiance
-📌 Röviden: A kutatók megfigyelték a Floquet rotációs szuper-radianciát, amely egy új jelenség a fizika területén.
-🎯 Miért fontos? A felfedezés új lehetőségeket nyújt a fizika és az anyagtudomány területén.
-🔗 Tovább: https://www.nature.com/articles/s41586-026-10725-y
+📰 Study dampens hope that meningitis vaccine can also prevent gonorrhea
+📌 Egy tanulmány csökkenti a reményeket, hogy a meningitis elleni oltás megelőzheti a gonorrheát is.
+🎯 Fontos, mert a gonorrhea egy gyakori és súlyos betegség, és az oltás lehetősége fontos lenne a megelőzésben.
+🔗 https://www.science.org/content/article/study-dampens-hope-meningitis-vaccine-can-also-prevent-gonorrhea
 
-📰 In vivo feasibility study of humanoid robots in surgery
-📌 Röviden: A kutatók tanulmányozták a humanoid robotok alkalmazhatóságát a sebészetben.
-🎯 Miért fontos? A humanoid robotok használata a sebészetben új lehetőségeket nyújt a betegek kezelésében.
-🔗 Tovább: https://www.nature.com/articles/s41586-026-10796-x
+📰 Seeding clouds with seawater could prevent a super El Niño
+📌 A tengervízzel való felhőmagvasztás megelőzheti a szuper El Niño jelenséget.
+🎯 Fontos, mert az El Niño jelenség jelentős hatást gyakorol az időjárásra és a környezetre.
+🔗 https://www.newscientist.com/article/2533348-seeding-clouds-with-seawater-could-prevent-a-super-el-nino/
 
-📰 Single-phase gradient-solvation-electrolyte-stabilized Li metal batteries
-📌 Röviden: A kutatók kidolgoztak egy új típusú lítium-ion akkumulátort, amely stabilabb és hatékonyabb.
-🎯 Miért fontos? Az új akkumulátor típus hatással lehet az energiatárolás és a mobilitás területén.
-🔗 Tovább: https://www.nature.com/articles/s41586-026-10732-z
+📰 Lambs born via IVF using highly immature eggs in major breakthrough
+📌 Bárányok születtek IVF segítségével, nagyon éretlen tojásokból, egy jelentős áttörésben.
+🎯 Fontos, mert ez az áttörés új lehetőségeket nyit meg az állattenyésztésben és a reproduktív technológiákban.
+🔗 https://www.newscientist.com/article/2533441-lambs-born-via-ivf-using-highly-immature-eggs-in-major-breakthrough
 
 
 🌍 Világpolitika
 
 📰 US seeks cheaper hunter-killer drones after Iran destroys $1B worth of Reapers
-📌 Röviden: Az Egyesült Államok olcsóbb vadászrepülőgépeket keres, miután Irán megsemmisített 1 milliárd dollár értékű Reaper drónt.
-🎯 Miért fontos? A döntés hatással lehet a globális biztonsági helyzetre és az Egyesült Államok katonai stratégiájára.
-🔗 Tovább: https://arstechnica.com/gadgets/2026/07/us-seeks-cheaper-hunter-killer-drones-after-iran-destroys-1b-worth-of-reapers/
+📌 Az Egyesült Államok olcsóbb vadász-drónokat keres, miután Irán elpusztított 1 milliárd dollár értékű Reaper drónokat.
+🎯 Fontos, mert a drónok fontos szerepet játszanak a modern hadviselésben és a nemzetbiztonságban.
+🔗 https://arstechnica.com/gadgets/2026/07/us-seeks-cheaper-hunter-killer-drones-after-iran-destroys-1b-worth-of-reapers
 
 📰 Aussie gov't tells volunteers to throw out thousands of functioning test routers
-📌 Röviden: Az ausztrál kormány elrendelte, hogy a önkéntesek dobjanak ki több ezer működő teszt routert.
-🎯 Miért fontos? A döntés hatással lehet az ausztrál kormányzat és a technológiai ipar kapcsolatára.
-🔗 Tovább: https://arstechnica.com/gadgets/2026/07/thousands-of-routers-bricked-after-government-program-concludes-in-australia/
+📌 Az ausztrál kormány azt mondta az önkénteseknek, hogy dobják ki az ezreket működő teszt routereket.
+🎯 Fontos, mert ez a döntés felveti a kormányzati döntéshozatal és a technológiai fejlesztés kérdését.
+🔗 https://arstechnica.com/gadgets/2026/07/thousands-of-routers-bricked-after-government-program-concludes-in-australia
 
 
 📌 Mai trendek
 
-* Az AI és a technológia fejlődése új lehetőségeket nyújt a felhasználók számára, de felveti az adatvédelem és a magánélet kérdését is.
-* Az űripar fejlődése az ázsiai régióban új lehetőségeket nyújt a szingapúri űripari vállalatok számára.
-* A tudományos felfedezések új lehetőségeket nyújtanak a fizika, az anyagtudomány és a sebészet területén.
-* A globális biztonsági helyzet és a katonai stratégia hatással lehet az Egyesült Államok és más országok döntéseire.
+- A mesterséges intelligencia (AI) és a gépi tanulás (ML) egyre nagyobb szerepet játszanak a mindennapi életben és a technológiában.
+- Az űripar és a űrkutatás területén új fejlemények és áttörések történnek.
+- A tudományos kutatások és a technológiai fejlesztések egyre inkább összefonódnak.
+- A globális politikai és gazdasági trendek egyre inkább befolyásolják a technológiai fejlesztéseket és a társadalmat.
+- Az adatvédelem és a magánélet védelme egyre nagyobb hangsúlyt kap a technológiai fejlesztésekben és a társadalmi diskurzusban.
